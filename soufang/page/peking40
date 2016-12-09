@@ -1,0 +1,3007 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+<title>金地世家广场-楼盘详情-北京搜房网</title>
+<meta name="mobile-agent" content="format=html5;url=http://m.fang.com/xf/bj/1010786043.htm">
+<meta name="keywords" content="北京顺义金地世家广场，金地世家广场房价，金地世家广场信息，金地世家广场出租出售" />
+<meta name="description" content="搜房网(fang.com)提供金地世家广场房价走势、租金价格、开盘动态、地址、交通和周边配套等楼盘信息，最新出售出租房源、最权威投资指南，为您投资置业金地世家广场提供丰富参考，找金地世家广场信息尽在搜房网! " />
+<script type="text/javascript" src="http://js.soufunimg.com/newhouse/js/jquery-1.4.4.min.js"></script>
+<script language="javascript" type="text/javascript" src="http://js.soufunimg.com/newhouse/js/office/navigation.js"></script>
+<script type="text/javascript" src="http://img.soufun.com/house/detail_new/js/changad.js"></script>
+<script type="text/javascript" src="http://js.soufunimg.com/newhouse/js/searchbox.js"></script>
+<link href="http://js.soufunimg.com/newhouse/style/shop/cd_2014.css?v=20161125" rel="stylesheet" type="text/css" />
+<link href="http://js.soufunimg.com/zbs/newhouse/css/sfpc_base.css" type="text/css" rel="stylesheet" />
+<link href="http://newhouse.js.soufunimg.com/newhouse/style/detail_201510_ad.css?v=20160101" type="text/css" rel="stylesheet">
+<script type="text/javascript" src="http://newhouse.js.soufunimg.com/newhouse/js/MobileSendCode.js"></script>
+
+</head>
+				<body>
+<div>
+<script>var mark_three=0;var mark_time=0;var mark_duilian=0;var mark_huangguan=0;var is_ex_biantonglan = false;</script><!--顶部广告1 begin-->
+<div class="ad_photo01">
+    
+    <div class="clear"></div>
+</div>
+
+<!--顶部广告1 end-->
+<div>
+
+<style>
+.box{width:1200px;}
+.danmu_inbox{left:50%;top:0;z-index:1;}
+.danmu_inbox img{width:1200px;height:280px;float:left;}
+.danmu_inbox span:hover{text-decoration:underline;color:#fff;}
+</style>
+
+<!--newhouse search js start-->
+<script type="text/javascript" id="sfsearchjs" src="http://js.soufunimg.com/newhouse/js/SouFunSearch.js?v=20160120" data="housedetail"></script>
+
+<script type="text/javascript">
+var EB_BehaviorID = 'SFHB0006';
+$(function(){
+	SouFunSearch.city = "北京";
+});
+var $s_=function(id) {
+   return document.getElementById(id);
+}
+$('#searchinput_2').keypress(function(){
+	if(window.event.keyCode == 13) 
+	{ 
+		doSearchSubmitBJ(2);
+	} 
+});
+function getXmlHttpObject(){	
+	var xmlHttpRequest;
+	//不同的浏览器获取对象xmlhttprequest 对象方法不一样
+	if(window.ActiveXObject){		
+		xmlHttpRequest=new ActiveXObject("Microsoft.XMLHTTP");		
+	}else{
+		xmlHttpRequest=new XMLHttpRequest();
+	}
+		return xmlHttpRequest;
+}
+/*function doSearchSubmitBJ(t){
+    var nowKeywValue = $s_("searchinput_"+t).value;
+	$s_("searchinput_"+t).value = nowKeywValue;
+	if(nowKeywValue!="请输入关键字（楼盘名/地名/开发商等）" && nowKeywValue!=''){
+		myXmlHttpRequest=getXmlHttpObject();
+		if(myXmlHttpRequest){	
+		//创建ajax引擎成功
+		var url="/house/ajaxrequest/search_keyword_submit.php";
+		var data = 'city='+city+"&keyword="+nowKeywValue;
+		myXmlHttpRequest.open("post",url,false);
+		myXmlHttpRequest.setRequestHeader("Content-Type","application/x-www-form-urlencoded;charset=utf-8");
+		myXmlHttpRequest.onreadystatechange=function chuli(){
+			//接收数据json 
+			if(myXmlHttpRequest.readyState==4){
+				if(myXmlHttpRequest.status==200){
+					var result= myXmlHttpRequest.responseText;
+					var arr  = result.split("^");
+					if(arr[0]==100){
+						 window.open(arr[1]);
+						 return false;				
+					}else{
+					    $s_('strNamekeyword_'+t).value=nowKeywValue;
+						$s_("form_newhouse_"+t).submit();						
+					}
+				}	
+			 }
+		}
+		myXmlHttpRequest.send(data);
+        return false;		
+		}	
+	}else{
+	     $s_('strNamekeyword_'+t).value='';
+		 $s_("form_newhouse_"+t).submit();		
+	}
+	 return true;
+}*/
+
+var sign = false;
+function doSearchSubmitBJ(t){
+    var nowKeywValue = $s_("searchinput_"+t).value;
+    $s_("searchinput_"+t).value = nowKeywValue;
+    if(ad && nowKeywValue == ad_title && !sign){
+        window.open(ad_url);
+    }else{
+        if(nowKeywValue!="请输入关键字（楼盘名/地名/开发商等）" && nowKeywValue!='' && nowKeywValue!=ad_title){
+            myXmlHttpRequest=getXmlHttpObject();
+            if(myXmlHttpRequest){
+                //创建ajax引擎成功
+                var url="/house/ajaxrequest/search_keyword_submit.php";
+                var data = 'city='+city+"&keyword="+nowKeywValue;
+                myXmlHttpRequest.open("post",url,false);
+                myXmlHttpRequest.setRequestHeader("Content-Type","application/x-www-form-urlencoded;charset=utf-8");
+                myXmlHttpRequest.onreadystatechange=function chuli(){
+                    //接收数据json
+                    if(myXmlHttpRequest.readyState==4){
+                        if(myXmlHttpRequest.status==200){
+                            var result= myXmlHttpRequest.responseText;
+                            var arr  = result.split("^");
+                            if(arr[0]==100){
+                                window.open(arr[1]);
+                                return false;
+                            }else{
+                                $s_('strNamekeyword_'+t).value=nowKeywValue;
+                                $s_("form_newhouse_"+t).submit();
+                            }
+                        }
+                    }
+                }
+                myXmlHttpRequest.send(data);
+                return false;
+            }
+        }else{
+            $s_('strNamekeyword_'+t).value='';
+            $s_("form_newhouse_"+t).submit();
+        }
+    }
+    return true;
+}
+var value="请输入关键字（楼盘名/地名/开发商等）";
+var ad_url="";
+var ad_title="";
+var ad = false;
+function initSearchBox(){
+    $.ajax({
+        type:"post",
+        url:'/house/ajaxrequest/arealist.php?t='+Math.random(),
+        data:{type:"advert", pagename: "default_advert"},
+        dataType:'json',
+        success:function(d){
+            if(d){
+                ad_title = d.title;
+                ad_url = d.linkurl;
+                ad = true;
+                $("#searchinput_2").val(d.title);
+            }else {
+                $("#searchinput_2").val(value);
+            }
+        }
+    });
+}
+$().ready(function(){
+    initSearchBox();
+    $("#searchinput_2").blur(function(){
+        if($(this).val() == "" && ad)
+        {
+            setTimeout(function(){
+                sign = false;
+            },200);
+            $(this).val(ad_title);
+        }
+        $(this).css('color','rgb(153, 153, 153)');
+    });
+    $("#searchinput_2").focus(function() {
+        if(ad && $(this).val() == ad_title){
+            sign = true;
+        }
+
+    });
+});
+
+</script>
+
+		
+<!--newhouse search js end-->
+	<div style="background:#f3f3f3;width:1200px;margin:0px auto;">	
+		<!-- 广告轮换 start -->
+		<!-- 广告轮换-->
+	<!-- xml广告 -->
+	<div id="dsy_D02_16"><div class="bigbanner" id="xmlAd" style='overflow:hidden'></div></div>
+
+	
+	<script text="javasript">
+		var sign = '';
+		var newhouseDomain = 'http://newhouse.fang.com';
+		var newcode = '1010786043';
+		var adDmOpen = '1';
+		var jiaju_ad = '1';
+		var sem = '';
+		var jiaju_point = 0;
+		var barrage;
+		var ajaxUrl = "/house/ajaxrequest/adXml_get.php";
+	</script>
+	
+	<script src="http://newhouse.js.soufunimg.com/newhouse/js/v2/adXml.js"></script>
+	<script src="http://newhouse.js.soufunimg.com/homepage/new/fang905bj/new/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+	<script type="text/javascript" src="http://newhouse.js.soufunimg.com/homepage/new/fang905bj/newsV3/js/barrageV14.js"></script>	
+	<script text = "javascript" src="http://newhouse.js.soufunimg.com/homepage/new/fang905bj/newsV3/js/danmu_adaptive.js"></script>
+
+
+
+
+
+
+		<!-- 广告轮换 end -->
+					<link href="http://newhouse.js.soufunimg.com/newhouse/style/minav_201409.css" type="text/css" rel="stylesheet"><link href="//jsimg.fang.com/navigation/style/navigation20141112.css" rel="stylesheet" type="text/css" />
+<!-- 新导航0903 begin -->
+<div class="newnav20141104" id="">
+	<div class="newnav20141104nr">
+		<div class="s1"><a href="http://www.fang.com/"><img src="//jsimg.fang.com/navigation/images/navlogo.gif"></a></div>
+		<div class="s2"  onMouseOver="this.className='s2 on2014'" onMouseOut="this.className='s2'" id="">
+				<div class="s4Box"><a href="#">北京<img src="//jsimg.fang.com/navigation/images/navicon.gif" ></a></div>
+				<div  class="city20141104" >
+                  <!--city_list_start-->
+                <!--tab_header_start-->
+				<div class="city20141104hd">
+					<div class="city1" >热门城市</div>
+					<div class="city2">ABCDFGH</div>
+					<div class="city2" >JKLMNQST</div>
+					<div class="city2" >WXYZ</div>
+                    <!--more_tab-->
+			    </div>
+            	<!--tab_header_end-->
+				<div class="city20141104nr" >
+                
+				<a href="http://newhouse.fang.com/" target="_self">北京</a>
+				<a href="http://newhouse.sh.fang.com/" target="_self">上海</a>
+				<a href="http://newhouse.gz.fang.com/" target="_self">广州</a>
+				<a href="http://newhouse.sz.fang.com/" target="_self">深圳</a>
+				<a href="http://newhouse.cd.fang.com/" target="_self">成都</a>
+				<a href="http://newhouse.cq.fang.com/" target="_self">重庆</a>
+				<a href="http://newhouse.tj.fang.com/" target="_self">天津</a>
+				<a href="http://newhouse.wuhan.fang.com/" target="_self">武汉</a>
+				<a href="http://newhouse.hz.fang.com/" target="_self">杭州</a>
+				<a href="http://newhouse.nanjing.fang.com/" target="_self">南京</a>
+				<a href="http://newhouse.suzhou.fang.com/" target="_self">苏州</a>
+				<a href="http://newhouse.qd.fang.com/" target="_self">青岛</a>
+				<a href="http://newhouse.cs.fang.com/" target="_self">长沙</a>
+				<a href="http://newhouse.xian.fang.com/" target="_self">西安</a>
+				<a href="http://newhouse.sy.fang.com/" target="_self">沈阳</a>
+				<a href="http://newhouse.changchun.fang.com/" target="_self">长春</a>
+				<a href="http://newhouse.cz.fang.com/" target="_self">常州</a>
+				<a href="http://newhouse.dl.fang.com/" target="_self">大连</a>
+				<a href="http://newhouse.dg.fang.com/" target="_self">东莞</a>
+				<a href="http://newhouse.hn.fang.com/" target="_self">海南</a>
+				<a href="http://newhouse.jn.fang.com/" target="_self">济南</a>
+				<a href="http://newhouse.sanya.fang.com/" target="_self">三亚</a>
+				<a href="http://newhouse.sjz.fang.com/" target="_self">石家庄</a>
+				<a href="http://newhouse.wuxi.fang.com/" target="_self">无锡</a>
+				<a href="http://newhouse.zz.fang.com/" target="_self">郑州</a>
+				<a href="http://newhouse.nb.fang.com/" target="_self">宁波</a>
+				<a href="http://newhouse.nn.fang.com/" target="_self">南宁</a>
+				<a href="http://newhouse.km.fang.com/" target="_self">昆明</a>
+				<a href="http://newhouse.hf.fang.com/" target="_self">合肥</a>
+				<a href="http://www.hkproperty.com/"  target="_blank">香港</a>
+				<a href="http://world.fang.com/" target="_self">海外</a>
+				<a href="http://fang.com/SoufunFamily.htm"  target="_blank">更多城市</a>
+			<!--tab1_content_end-->
+                </div>
+				<div class="city20141104nr"   style="display:none">
+                
+				<a href="http://newhouse.anshan.fang.com/" target="_self">鞍山</a>
+				<a href="http://newhouse.fang.com/" target="_self">北京</a>
+				<a href="http://newhouse.bd.fang.com/" target="_self">保定</a>
+				<a href="http://newhouse.bt.fang.com/" target="_self">包头</a>
+				<a href="http://newhouse.bengbu.fang.com/" target="_self">蚌埠</a>
+				<a href="http://newhouse.bh.fang.com/" target="_self">北海</a>
+				<a href="http://newhouse.changchun.fang.com/" target="_self">长春</a>
+				<a href="http://newhouse.cd.fang.com/" target="_self">成都</a>
+				<a href="http://newhouse.cq.fang.com/" target="_self">重庆</a>
+				<a href="http://newhouse.cs.fang.com/" target="_self">长沙</a>
+				<a href="http://newhouse.cz.fang.com/" target="_self">常州</a>
+				<a href="http://newhouse.dl.fang.com/"  target="_self">大连</a>
+                <a href="http://newhouse.dg.fang.com/"  target="_self">东莞</a>
+				<a href="http://newhouse.daqing.fang.com/" target="_self">大庆</a>
+				<a href="http://newhouse.fs.fang.com/" target="_self">佛山</a>
+				<a href="http://newhouse.fz.fang.com/" target="_self">福州</a>
+				<a href="http://newhouse.gz.fang.com/" target="_self">广州</a>
+				<a href="http://newhouse.ganzhou.fang.com/" target="_self">赣州</a>
+				<a href="http://newhouse.gy.fang.com/" target="_self">贵阳</a>
+				<a href="http://newhouse.guilin.fang.com/" target="_self">桂林</a>
+				<a href="http://newhouse.hz.fang.com/" target="_self">杭州</a>
+				<a href="http://newhouse.hs.fang.com/" target="_self">衡水</a>
+				<a href="http://newhouse.nm.fang.com/" target="_self">呼和浩特</a>
+				<a href="http://newhouse.hrb.fang.com/" target="_self">哈尔滨</a>
+				<a href="http://newhouse.hd.fang.com/" target="_self">邯郸</a>
+				<a href="http://newhouse.huaian.fang.com/" target="_self">淮安</a>
+				<a href="http://newhouse.huzhou.fang.com/" target="_self">湖州</a>
+				<a href="http://newhouse.hf.fang.com/" target="_self">合肥</a>
+				<a href="http://newhouse.huizhou.fang.com/" target="_self">惠州</a>
+				<a href="http://newhouse.hengyang.fang.com/" target="_self">衡阳</a>
+                <a href="http://newhouse.hn.fang.com/"  target="_self">海南</a>			
+			<!--tab2_content_end-->
+                </div>
+                <div class="city20141104nr"  style="display:none">
+                
+				<a href="http://newhouse.jn.fang.com/" target="_self">济南</a>
+				<a href="http://newhouse.jining.fang.com/" target="_self">济宁</a>
+				<a href="http://newhouse.jl.fang.com/" target="_self">吉林</a>
+				<a href="http://newhouse.jy.fang.com/" target="_self">江阴</a>
+				<a href="http://newhouse.jx.fang.com/" target="_self">嘉兴</a>
+				<a href="http://newhouse.jm.fang.com/" target="_self">江门</a>
+				<a href="http://newhouse.jiujiang.fang.com/" target="_self">九江</a>
+			    <a href="http://newhouse.jh.fang.com/" target="_self">金华</a>
+				<a href="http://newhouse.ks.fang.com/" target="_self">昆山</a>
+				<a href="http://newhouse.km.fang.com/" target="_self">昆明</a>
+				<a href="http://newhouse.lc.fang.com/" target="_self">聊城</a>
+				<a href="http://newhouse.lf.fang.com/" target="_self">廊坊</a>
+				<a href="http://newhouse.linyi.fang.com/" target="_self">临沂</a>
+				<a href="http://newhouse.ly.fang.com/" target="_self">洛阳</a>
+				<a href="http://newhouse.lyg.fang.com/" target="_self">连云港</a>
+				<a href="http://newhouse.lz.fang.com/" target="_self">兰州</a>
+				<a href="http://newhouse.liuzhou.fang.com/" target="_self">柳州</a>
+				<a href="http://newhouse.leshan.fang.com/" target="_self">乐山</a>
+				<a href="http://newhouse.mas.fang.com/" target="_self">马鞍山</a>
+				<a href="http://newhouse.nanjing.fang.com/" target="_self">南京</a>
+				<a href="http://newhouse.nb.fang.com/" target="_self">宁波</a>
+				<a href="http://newhouse.nt.fang.com/" target="_self">南通</a>
+				<a href="http://newhouse.nc.fang.com/" target="_self">南昌</a>
+				<a href="http://newhouse.nn.fang.com/" target="_self">南宁</a>
+				<a href="http://newhouse.qd.fang.com/" target="_self" >青岛</a>
+				<a href="http://newhouse.qhd.fang.com/" target="_self">秦皇岛</a>
+				<a href="http://newhouse.qz.fang.com/" target="_self">泉州</a>
+				<a href="http://newhouse.sy.fang.com/" target="_self">沈阳</a>
+				<a href="http://newhouse.sjz.fang.com/" target="_self">石家庄</a>
+				<a href="http://newhouse.sh.fang.com/" target="_self">上海</a>
+				<a href="http://newhouse.sz.fang.com/" target="_self">深圳</a>
+				<a href="http://newhouse.suzhou.fang.com/" target="_self">苏州</a>
+				<a href="http://newhouse.sx.fang.com/" target="_self">绍兴</a>
+				<a href="http://newhouse.st.fang.com/" target="_self">汕头</a>
+				<a href="http://newhouse.sanya.fang.com/" target="_self">三亚</a>
+				<a href="http://newhouse.sq.fang.com/" target="_self">宿迁</a>
+				<a href="http://newhouse.tj.fang.com/" target="_self">天津</a>
+				<a href="http://newhouse.ts.fang.com/" target="_self">唐山</a>
+				<a href="http://newhouse.taiyuan.fang.com/" target="_self">太原</a>
+				<a href="http://newhouse.taizhou.fang.com/" target="_self">泰州</a>
+			<!--tab3_content_end-->
+                </div>
+                <div class="city20141104nr"  style="display:none">
+                
+				<a href="http://newhouse.wuhan.fang.com/" target="_self">武汉</a>
+				<a href="http://newhouse.wuxi.fang.com/" target="_self">无锡</a>
+				<a href="http://newhouse.wf.fang.com/" target="_self">潍坊</a>
+				<a href="http://newhouse.weihai.fang.com/" target="_self">威海</a>
+				<a href="http://newhouse.wuhu.fang.com/" target="_self">芜湖</a>
+				<a href="http://newhouse.xj.fang.com/" target="_self">乌鲁木齐</a>
+			    <a href="http://newhouse.wz.fang.com/" target="_self">温州</a>
+				<a href="http://newhouse.xian.fang.com/" target="_self">西安</a>
+				<a href="http://newhouse.xz.fang.com/" target="_self">徐州</a>
+				<a href="http://newhouse.xm.fang.com/" target="_self">厦门</a>
+				<a href="http://newhouse.xiangyang.fang.com/" target="_self">襄阳</a>
+				<a href="http://newhouse.xn.fang.com/" target="_self">西宁</a>
+				<a href="http://newhouse.xt.fang.com/" target="_self">湘潭</a>
+				<a href="http://newhouse.yt.fang.com/" target="_self">烟台</a>
+				<a href="http://newhouse.yz.fang.com/" target="_self">扬州</a>
+				<a href="http://newhouse.yancheng.fang.com/" target="_self">盐城</a>
+				<a href="http://newhouse.yc.fang.com/" target="_self">宜昌</a>
+				<a href="http://newhouse.yinchuan.fang.com/" target="_self">银川</a>
+				<a href="http://newhouse.yueyang.fang.com/" target="_self">岳阳</a>
+				<a href="http://newhouse.zz.fang.com/"  target="_self">郑州</a>
+				<a href="http://newhouse.zb.fang.com/" target="_self">淄博</a>
+				<a href="http://newhouse.zhenjiang.fang.com/" target="_self">镇江</a>
+				<a href="http://newhouse.zhoushan.fang.com/" target="_self">舟山</a>
+				<a href="http://newhouse.zhangzhou.fang.com/" target="_self">漳州</a>
+				<a href="http://newhouse.zh.fang.com/" target="_self">珠海</a>
+				<a href="http://newhouse.zs.fang.com/" target="_self">中山</a>
+				<a href="http://newhouse.zhuzhou.fang.com/" target="_self">株洲</a>
+			<!--tab4_content_end-->
+                </div>
+																
+																
+					<!--more_tab_content-->
+                <!--city_list_end-->
+				</div>
+			
+		</div>	
+			<div class="s5" track-id="www1" style="background-image:none" >
+        	<div class="s4Box"><a href="http://www.fang.com" target="_self">首页</a></div>
+           
+        </div>
+		<div class="s5" track-id="newhouse" >
+        	<div class="s4Box"><a href="http://newhouse.fang.com/house/s/" target="_self">新房</a></div>
+            <div class="listBox">
+            	<ul>
+                  
+                   <li><a target="_self" href="http://newhouse.fang.com/house/saledate/%b1%be%d4%c2.htm">本月开盘</a></li>
+                    <li><a target="_self" href="http://newhouse.fang.com/house/asp/trans/buynewhouse/default.htm">热门楼盘</a></li>
+                    <li><a target="_self" href="http://newhouse.fang.com/house/dianshang/?from=ziying">房天下自营</a></li>
+                    <li><a target="_self" href="http://newhouse.fang.com/house/s/b31/">打折楼盘</a></li>
+                    <li><a target="_self" href="http://newhouse.fang.com/house/asp/trans/buynewhouse/newfornotice.htm">最新楼盘</a></li>
+                    <li><a target="_self" href="http://newhouse.fang.com/house/daogou/index.htm">楼盘导购</a></li>
+	       <li><a style="color:#f00;" target="_self" href="http://newhouse.fang.com/house/s/d21/">知名学校</a></li>			
+	       <li><a target="_self" href="http://zhishi.fang.com/xf/">购房知识</a></li>
+	       <li><a target="_self" href="http://newhouse.fang.com/house/kanfangtuan.htm">看房团</a></li>
+	       <li style="margin-bottom:8px"><a href="http://newhouse.fang.com/entrust/" target="_self"><div class="butstyle20141104">帮你找房</div></a></li>
+                </ul>
+            </div>
+        </div>
+		<div class="s6" track-id="esf" >
+        	<div class="s4Box">	<a href="http://esf.fang.com/" target="_self">二手房</a></div>
+            <div class="listBox">
+            	<ul>
+                  <li><a target="_self" href="http://esf.fang.com/house/">在售房源</a></li>
+                  <li><a target="_self" href="http://esf.fang.com/house/a21/">房天下自营</a></li>
+                    <li><a target="_self" href="http://esf.fang.com/housing/">找小区</a></li>
+                    <li><a target="_self" href="http://esf.fang.com/school/">找学校</a></li>
+                    <li><a target="_self" href="http://esf.fang.com/agenthome/">找经纪人</a></li>
+                    <li><a target="_self" href="http://esf.fang.com/villa/">找别墅</a></li>
+                    <li><a target="_self" href="http://esf.fang.com/chengjiao/">查成交</a></li>
+                    <li><a target="_self" href="http://zhishi.fang.com/esf/">购房知识</a></li>
+                    <li><a target="_self" href="http://esf.fang.com/newsecond/news/">二手房导购</a></li>
+					<li style="margin-bottom:8px"><a href="http://esf.fang.com/newsecond/NonameSale/checkinhouse.aspx" target="_self"><div class="butstyle20141104">我要卖房</div></a></li>
+                </ul>
+            </div>
+        </div>	
+		<div class="s5" track-id="zu" >
+        	<div class="s4Box"><a href="http://zu.fang.com/" target="_self">租房</a></div>
+            <div class="listBox">
+            	<ul>
+                  	<li><a href="http://zu.fang.com/house/a27/" target="_self">房天下精选</a></li>
+                   <li><a href="http://zu.fang.com/house/a21/" target="_self">个人房源</a></li>
+                    <li><a href="http://zu.fang.com/house/n31/" target="_self">整租房源</a></li>
+                    <li><a href="http://zu.fang.com/hezu/" target="_self">合租房源</a></li>
+					 <li><a href="http://zu.fang.com/villa/" target="_self" rel="nofollow">别墅房源</a></li>
+						<li><a href="http://www.youtx.com/beijing/" target="_self">短租日租</a></li>
+					<li><a href="http://zhishi.fang.com/zf/" target="_self">租房知识</a></li>
+					 <li><a href="http://zu.fang.com/qiuzu/" target="_self" rel="nofollow">求租</a></li>
+                   <li style="margin-bottom:8px"><a href="http://zu.fang.com/rent/rent_info/Rent_Input_Front.aspx" target="_self" rel="nofollow"><div class="butstyle20141104">免费发布出租</div></a></li>
+                </ul>
+            </div>
+        </div>
+		<div class="s6" track-id="fangjia" style="background-image:none" >
+        	<div class="s4Box"><a href="http://fangjia.fang.com/" target="_self">查房价</a> </div>
+            
+        </div>	
+		<div class="s7" track-id="home" >
+        	<div class="s4Box"><a href="http://home.fang.com/" target="_self">装修家居</a></div>
+            <div class="listBox">
+            	<ul>
+                  <li><a href="http://home.fang.com/zxbj/#cityid=203&sourceurl=home.fang.com&postion=bj_shouye_1">免费装修报价</a></li>
+                  <li><a href="http://home.fang.com/riji/">装修日记</a></li>
+                  <li><a href="http://home.fang.com/album/bj/">装修效果图</a></li>
+                  <li><a href="http://zhishi.fang.com/jiaju/">装修攻略</a></li>
+                  <li><a href="http://home.fang.com/news/">家居资讯</a></li>
+                  <li style="margin-bottom:8px"><a href="http://home.fang.com/woyaozhuangxiu/?from=daohang/" target="_blank"><div class="butstyle20141104">帮你装修</div></a></li>
+                </ul>
+            </div>
+        </div>
+			<div class="s6" track-id="office" >
+        	<div class="s4Box"><a href="http://office.fang.com/" target="_self">写字楼</a></div>
+            <div class="listBox">
+            	<ul>
+                     <li><a href="http://office.fang.com/zu/house/" target="_self">写字楼出租</a></li>
+                    <li><a href="http://office.fang.com/shou/house/" target="_self">写字楼出售</a></li>
+                    <li><a href="http://newhouse.fang.com/house/s/list/a75/" target="_self">写字楼新盘</a></li>
+                </ul>
+            </div>
+        </div>					
+				<div class="s5" track-id="shop" >
+        	<div class="s4Box"><a href="http://shop.fang.com/" target="_self">商铺</a></div>
+            <div class="listBox">
+            	<ul>
+                    <li><a href="http://shop.fang.com/zu/house/" target="_self">商铺出租</a></li>
+                    <li><a href="http://shop.fang.com/shou/house/" target="_self">商铺出售</a></li>
+                    <li><a href="http://newhouse.fang.com/house/s/list/a72/" target="_self">商铺新盘</a></li>
+                </ul>
+            </div>
+        </div>
+						<div class="s7" track-id="8" >
+        	<div class="s4Box"><a href="http://dai.fangtx.com/" target="_self">金融贷款</a></div>
+            <div class="listBox">
+            	<ul> 
+                	
+                	<!--<li><a href="http://dai.txdai.com/new/MortGageInPut/MortGagePutView.html" target="_self">二手房按揭贷款</a></li>-->
+                    <li><a href="http://www.fangtx.com/" target="_self">投资理财</a></li>
+					
+                    <li><a href="http://newhouse.fang.com/house/tools.htm" target="_self">贷款计算器</a></li>
+                </ul>
+            </div>
+        </div>
+		<div class="s5" track-id="fdc" >
+        	<div class="s4Box"><a href="http://fdc.fang.com/" target="_self">产业</a></div>
+            <div class="listBox">
+            	<ul>
+					<li><a href="http://land.fang.com/">土地</a></li>
+                   <li><a href="http://fdc.fang.com/data/">地产数据</a></li>
+                    <li><a href="http://fdc.fang.com/wenku/">文库报告</a></li>
+                    <li><a href="http://fdc.fang.com/index/BaiChengIndex.html">百城价格指数</a></li>
+                    <li><a href="http://fdc.fang.com/top10/">房企研究</a></li>
+                    <li><a href="http://fdc.fang.com/hr/">地产招聘</a></li>
+                  
+                </ul>
+            </div>
+        </div>
+										<div class="s7" track-id="world" >
+        	<div class="s4Box"><a href="http://world.fang.com/" target="_self">海外房产</a></div>
+            <div class="listBox">
+            	<ul>
+                 <li><a href="http://us.fang.com/" target="_self">美国房产</a></li>
+                    <li><a href="http://au.fang.com/" target="_self">澳大利亚房产</a></li>
+					
+                    <li><a href="http://japan.fang.com/" target="_self">日本房产</a></li>
+
+					<li><a href="http://www.hkproperty.com/" target="_blank">香港房产</a></li>
+                </ul>
+            </div>
+        </div>
+		<div class="s7" track-id="bbs" >
+        	<div class="s4Box">	<a href="http://bbs.fang.com/" target="_self">业主论坛</a></div>
+            <div class="listBox">
+            	<ul>
+                  <li><a href="http://bbs.fang.com/index.php?_c=Managerindex&_m=EliteList" target="_self">精华帖</a></li>
+                  <li><a href="http://bbs.fang.com/board/buyer/" target="_self">购房圈</a></li>
+                  <li><a href="http://bbs.fang.com/asp/index/busiActivityMore.aspx" target="_self">业主活动</a></li>
+                  <li><a href="http://home.fang.com/bbs/board/bjzxlt/" target="_self">装修论坛</a></li>
+                </ul>
+            </div>
+        </div>
+		<div class="s7" track-id="news" >
+        <div class="s4Box"><a href="http://news.fang.com/" target="_self">房产快讯</a></div>
+            <div class="listBox">
+            	<ul>
+                   	<li><a href="http://news.fang.com/gdxw.html">最新快讯</a></li>
+                    <li><a href="http://news.fang.com/gqzt.html">高清组图</a></li>
+                    <li><a href="http://news.fang.com/rdzt.html">热点专题</a></li>
+                    <li><a href="http://news.fang.com/more/32/1.html">市场</a></li>
+					<li><a href="http://news.fang.com/more/35/1.html">政策</a></li>
+                    <li><a href="http://www.fang.com/ask/">房产问答</a></li>
+					<li><a href="http://zhishi.fang.com/">房产知识</a></li>
+					<li><a href="http://news.fang.com/more/330/1.html">金融</a></li>
+					<li><a href="http://news.fang.com/more/331/1.html">土地</a></li>
+                </ul>
+            </div>
+        </div>
+	<div id="topHeadNotLogin">
+	<div class="s4a" onMouseOver="this.className='s4a on2014'" onMouseOut="this.className='s4a'" style="background-image:none">
+        	<div class="s4Box"><a  rel="nofollow" href="#" target="_blank" id="sfHeadRegister">注册</a></div>
+        </div>
+	<div class="sline21041104"></div>
+	<div class="s4a" onMouseOver="this.className='s4a on2014'" onMouseOut="this.className='s4a'" style="background-image:none">
+        	<div class="s4Box"><a rel="nofollow" href="javascript:void(0)" onclick="showid('showlogindiv');$('#layer').css('z-index', '10002');$('#showlogindiv').css('z-index', '10005');">登录</a></div>
+        </div>
+	</div><div id="topHeadLogin">
+	<div class="s4a" onMouseOver="this.className='s4a on2014'" onMouseOut="this.className='s4a'" style="background-image:none">
+        	<div class="s4Box"><a rel="nofollow" href="#" id="sfHeadLogout">退出</a></div>
+        </div>
+	<div class="sline21041104"></div>
+	<div class="s4a" onMouseOver="this.className='s4a on2014'" onMouseOut="this.className='s4a'" style="background-image:none">
+        	<div class="s4Box"><a rel="nofollow" href="http://my.fang.com" target="_blank" id="sfHeadUsername"></a></div>
+        </div>
+	</div>
+		<div class="clear"></div>
+	</div>
+</div>
+<script src="//jsimg.fang.com/navigation/newnav20141111.js"></script>
+<!-- 新导航0903 end  --><!--2011-8-8 18:32:22 update : -->
+	<script>
+var sign_zx = '';
+var strtest = '';
+
+if(sign_zx == 'zx'){
+
+		isNorth = "Y";
+	uvcode  = ['UA-24140496-1','UA-24829808-1','UA-24830538-1','UA-24829808-2','UA-24830538-2'];
+	uv_bid  = '202002';
+	pageid = '';
+
+}else{
+
+		isNorth = "Y";
+	uvcode  = ['UA-24140496-1','UA-24829808-1','UA-24830538-1','UA-24829808-2','UA-24830538-2'];
+	uv_bid  = '202002';
+	pageid = '';
+
+}
+
+
+</script>
+
+<script type="text/javascript">
+var _dctc=_dctc || {};
+
+_dctc._account=_dctc._account || uvcode;
+_dctc.isNorth = _dctc.isNorth || isNorth;
+_dctc.bid = uv_bid;
+<!--ab娴嬭瘯浠ｇ爜-->
+if(strtest != ''){
+	_dctc.location = window.location.href.indexOf("?") > 0 ? window.location.href + "&testpagetype="+strtest+"page" : window.location.href + "?testpagetype="+strtest+"page";
+}
+
+if(typeof(liuliangKaohe) != 'undefined')
+{
+	_dctc.urlowner = liuliangKaohe;
+}
+_dctc.pageid=pageid;
+</script>
+
+
+
+
+<script type="text/javascript">
+(function() {
+    var script = document.createElement('script'); script.type = 'text/javascript'; script.async = true;
+    script.src = 'http://js.soufunimg.com/count/load.min.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(script, s);
+  })();
+</script>
+				<div id="showlogindiv" class="newhouse_login tf userdefinedbox jqmWindow jqmID4" style="z-index:3000;display: none;">
+					<a class="newhouse_login_close" onclick="hideid('showlogindiv')" title="关闭"><span></span></a> 
+					<p class="newhouse_login_tit">登录房天下账户<span style="font-size:12px;font-weight:bold;color:#ff0000;" class="noneBox" id="loginerror"></span></p>
+					
+					<iframe name="loginiframe" style="visibility:hidden;width:0px;height:0px;"  target="_parent"></iframe>
+					<form id="login" method="post" action="https://passport.fang.com/NormalLoginInterface/Login" name="login" target="loginiframe" enctype="multipart/form-data" onkeypress="return newhouse_keydown_submit()">
+						<input type="hidden" name="backurl" id="shHeadNewBackurl" value="" />
+						<script>
+						$("#shHeadNewBackurl").val("http://"+window.location.host+"/house/ajaxrequest/loginiframe.php");
+						</script>
+					    <input type="hidden" name="Service" value="newhouse-newhouse-web"/>
+						<ul class="newhouse_login_form">
+							<li>
+								<em class="nhlogin_nm"></em>
+								
+								<input type="text" value="手机号/邮箱/用户名" onblur="if(!this.value){this.value=this.defaultValue;this.style.color='#aaa'}" onfocus="if(this.value==this.defaultValue){this.value='';this.select();this.style.color='#666';}"  class="nhlogin_ipt fl"  id="strusername">
+								<input type="hidden" name="Uid" id="realusername">
+							</li>
+							<li>
+								<em class="nhlogin_pw fl"></em>
+								<input  type="text" value="请输入密码" class="nhlogin_ipt fl" id="nhlogin_tx" />
+								
+								<input type="password" value="" class="nhlogin_ipt fl" name="Pwd" id="strpassword" style="display:none;" onfocus="if(this.value==this.defaultValue){this.value='';this.select();this.style.color='#333'}">
+							</li>
+						</ul>
+					</form>
+					<div class="nhlogin_auto"><a class="forget_link" target="_self" href="http://passport.fang.com/getpass.aspx">忘记密码？</a></div>
+					<div class="nhlogin_btnbox"><input type="button" value="立即登录" class="nhlogin_btn tf" onclick="newhouse_login_submit()"></div>
+					<div class="nhlogin_auto rg">没有房天下通行证？ <a class="inp_link" target="_self" id="sfHeadRegister2" href="http://passport.fang.com/register.aspx">马上注册一个></a></div>
+				</div>
+			<script type="text/javascript" src="http://newhouse.js.soufunimg.com/newhouse/js/local.js"></script><script type="text/javascript" src="http://js.soufunimg.com/passport/js/RSA.min.js"></script>
+				
+				<script>
+			        document.domain="fang.com";
+			        function newhouse_keydown_submit(){
+			            if(event.keyCode == 13 ){
+			                newhouse_login_submit();
+			            }
+			        }
+					function newhouse_login_jump_page(msg) {
+						if(msg == "success") {
+						    var url_hash = window.location.href;
+							window.location.reload();
+							if(window.location.hash){
+							    SouFunSearch.windowOpen(url_hash,"_self");
+							}
+						}else {
+							alert("登录失败，用户名或密码错误");
+						}
+					}
+					function newhouse_login_submit() {
+						$("#realusername").val(encodeURIComponent($("#strusername").val()));
+						var key_to_encode = new RSAKeyPair("010001", "", "978C0A92D2173439707498F0944AA476B1B62595877DD6FA87F6E2AC6DCB3D0BF0B82857439C99B5091192BC134889DFF60C562EC54EFBA4FF2F9D55ADBCCEA4A2FBA80CB398ED501280A007C83AF30C3D1A142D6133C63012B90AB26AC60C898FB66EDC3192C3EC4FF66925A64003B72496099F4F09A9FB72A2CF9E4D770C41");
+                        var pwdnew=encryptedString(key_to_encode,$("#strpassword").val());
+
+						$.ajax({
+						    type:"get",
+						    dataType:"jsonp",
+						    url:"https://passport.fang.com/login.api",
+						    data:{Uid:$("#strusername").val(),service:"newhouse-newhouse-web",Pwd:pwdnew},
+						    success:function(res){
+                                if(res.Message == "Success"){
+                                    newhouse_login_jump_page("success");
+                                }else{
+                                    newhouse_login_jump_page("error");
+                                }
+
+						    }
+						})
+					}
+				</script>
+				
+			<script type="text/javascript" src="http://js.ub.fang.com/_ub.js?v=201407181100"></script>
+				
+				<script>
+					_ub.city = '北京';
+					_ub.biz = 'n';
+					_ub.location = 0;
+				</script>
+				
+			
+				
+				<script>
+				function loginUbcode(username, bindMobile)
+				{
+					if(username != null || bindMobile)
+					{
+						if (username != null && bindMobile != null){
+						    _ub.collect(9,{"vwn.username":username,"vwn.phone":bindMobile});
+						}
+					}
+				}
+				PublicNav.select("newhouse");
+				document.getElementById("topHeadLogin").style.display= "none";
+				var parent = document.getElementById("sfHeadUsername").parentNode;
+				parent.style.width = "90px";
+				parent.style.overflow = "hidden";
+				parent.style.textOverflow = "ellipsis";
+				parent.style.whiteSpace = "nowrap";
+				parent.style.floatStyle = "left";
+				parent.style.textAlign = "right";
+				parent.parentNode.style.width="100px";
+								
+				var tx = document.getElementById("nhlogin_tx"), pwd = document.getElementById("strpassword");
+				tx.onfocus = function(){
+					if(this.value != "请输入密码") return;
+					this.style.display = "none";
+					pwd.style.display = "";
+					pwd.value = "";
+					pwd.focus();
+				}
+				pwd.onblur = function(){
+					if(this.value != "") return;
+					this.style.display = "none";
+					tx.style.display = "";
+					tx.value = "请输入密码";
+				}
+				</script>
+				
+				<script language="javascript">
+				var ajaxHost = "";
+				var regservice = "newhouse-newhouse-web";
+				var reghost = "newhouse.soufun.com";
+				</script>
+				<script type="text/javascript" src="http://newhouse.js.soufunimg.com/newhouse/js/logindiv.js?v=004"></script>
+				<script src="http://newhouse.js.soufunimg.com/newhouse/js/jsold/house/detail_new/js/Root.Xml.js"></script>				
+			<script type="text/javascript" src="http://newhouse.js.soufunimg.com/newhouse/js/newhouse_login.js?v=004"></script>						<link rel="stylesheet" href="http://newhouse.js.soufunimg.com/newhouse/style/search_sy_201409.css">
+<div class="main_1200" id="" style="position:relative;z-index:1201;">
+	<div class="box clearfix">
+		<div class="s_box">
+		
+			<!-- search begin -->
+						<div class="clearfix pr" style=" padding-bottom:10px; z-index:99;" >
+							<div   id="xf_C01_01"   >
+				<div class="box_input fl" id="search_container"  style="position:relative;z-index:9998">
+					<form id="search_form" action="http://newhouse.fang.com/house/web/Search_Result.php" method='post'>
+												<input type="hidden" id="strCity0" name="strCity" value="北京"/>
+												<input type="hidden" id="strDistrict0" name="strDistrict" />
+												<input type="hidden" id="sParam0" name="sParam" />
+						<input type="hidden" id="strComarea0" name="strComarea" />
+												<input type="hidden" id="Railway0" name="Railway" />
+												<input type="hidden" id="Railway_station0" name="railway_station">
+												<input type="hidden" id="strRoundStation0" name="strRoundStation" />
+												<input type="hidden" id="strPurpose0" name="strPurpose" />
+												<input type="hidden" id="strStartDate0" name="strStartDate" />
+												<input type="hidden" id="strPrice0" name="strPrice" />
+												<input type="hidden" id="strHuxing0" name="strHuxing" />
+												<input type="hidden" id="strSaling0" name="saling" />
+						<input type="hidden" id="strBrand0" name="strBrand" />
+						<input type="hidden" id="strDeveloper0" name="strDeveloper" />
+												<input type="hidden" id="strNamekeyword0" name="strNamekeyword"/>
+						<input type="hidden" id="show_type0" name="show_type" />
+												<input type="hidden" id="strCharacter0" name="character"/>
+												<input type="hidden" id="strHousetag0" name="housetag">
+												<input type="text" style="display:none">
+											
+						<input type="text" class="search" value="" id="search_box" onkeyup="SouFunSearch.suggest(event)" onfocus="SouFunSearch.suggest(event)" onblur="SouFunSearch.onblur(event);" autocomplete="off" style="color: rgb(102, 102, 102);" />
+						
+					</form>
+					<input type="button" value="搜&nbsp;索" class="sear_btn"  onclick="SouFunSearch.submitClick();">
+					<img id="advImg" src="http://imgd3.soufunimg.com/2016/07/19/25k/5c7d1e9a085b40e783e5818af3af8b20.png" alt="" style="position:absolute;top:12px;right:94px;">
+				</div>
+				</div>
+				<div class="hot clearfix tf fl" style="width:480px;"  id="xfxq_B02_05" >
+					<ul> 
+												<li><a href="http://newhouse.fang.com/house/zt/201611/bjlskpygofdecember.html" target="">12月开盘预告</a></li> 
+												<li><a href="http://newhouse.fang.com/house/zt/201612/chunxinpanrushiyugaobj2017.html" target="">17年纯新盘入市预告</a></li> 
+												<li><a href="http://newhouse.fang.com/house/zt/201611/shier_01.html" target="">12.12提前购</a></li> 
+												<li><a href="http://newhouse.fang.com/house/zt/201611/ndqsj.html" target="">年底牵手季</a></li> 
+												<li><a href="http://newhouse.fang.com/house/zt/201611/1210kftyg_yfc.html" target="">12月10日看房团</a></li> 
+												<li><a href="http://newhouse.fang.com/house/s/" target="">热门楼盘</a></li> 
+												<li><a href="http://newhouse.fang.com/house/s/c423/" target="">自住型商品房</a></li> 
+												<li><a href="http://newhouse.fang.com/house/s/c454/" target="">地铁盘</a></li> 
+												<li><a href="http://newhouse.fang.com/house/s/b210000%2C15000-c412/" target="">小户型</a></li> 
+												<li><a href="http://newhouse.fang.com/house/zt/201605/toptenpc.html" target="">TOP10热销房源</a></li> 
+							
+					</ul> 
+				</div>
+			</div>
+			<!-- search end -->
+		</div>
+	</div>
+</div>
+<!--newhouse search js start-->
+<script type="text/javascript" id="sfsearchjs" src="http://newhouse.js.soufunimg.com/newhouse/js/SouFunSearch.js?v=20160524" data="searchlist"></script>
+
+<input type="hidden" id="sfsearchjs" data="searchlist">
+
+<script type="text/javascript">
+$(function(){
+	SouFunSearch.city = "北京";
+	SouFunSearch.newhouseDomain = "http://newhouse.fang.com";
+});
+</script>
+
+<!--newhouse search js end--> 	
+	</div>	
+	<div class="clear"></div>
+<!-- 201408楼盘首页公用头部 sta -->
+<link href="http://newhouse.js.soufunimg.com/newhouse/style/daohang_sy.css" rel="stylesheet" type="text/css" />
+<!--首页面包屑 begin -->
+<div class="breadcrumb" style="border-top: 0px dashed #DEDEDE;background: none repeat scroll 0 0 #FFFFFF;">
+    <div class="main_960" id="">
+        <div class="br_left fl">
+            <ul class="tf f12">
+		<li><a target="_blank"  href="http://www.fang.com/">房天下</a>&nbsp;&gt;&nbsp;</li>
+                <li><a target="_blank"  href="http://newhouse.fang.com/house/">北京新房</a>&nbsp;&gt;&nbsp;</li>
+                <li><a target="_blank" href="http://newhouse.fang.com/house/s/shunyi/" title="顺义新楼盘">顺义楼盘</a>&nbsp;&gt;&nbsp;</li>
+	                <li>金地世家广场</li>
+            </ul>
+        </div>
+        <div class="br_right fr pr">
+        	<ul class="tf f12">
+                <li>2016年12月08日更新&nbsp;&nbsp;</li>
+                <li><a href="javascript:void(0);" id="jiucuoLink" onclick="$('#jiucuoBox').toggle();">纠错</a> <!--我要纠错弹出层 sta-->
+                <div class="error_box" id="jiucuoBox" style="display:none;">
+                    <div class="error_nr">
+                        <p>金地世家广场信息纠错
+                            <span><a href="javascript:void(0);" class="error_close" onclick="$('#jiucuoBox').hide();">X</a></span>
+                        </p>
+<form name="errorForm" method="post" id="errorForm" action="" target="_blank">
+<input type="hidden" name="__VIEWSTATE" value="dDwtMTE5NzI3OTk1Mzt0PDtsPGk8MD47PjtsPHQ8O2w8aTwyPjtpPDQ+O2k8Nj47aTw4PjtpPDEwPjtpPDEyPjtpPDE0PjtpPDE2PjtpPDE4PjtpPDIwPjtpPDIyPjtpPDI0PjtpPDI3PjtpPDI4Pjs+O2w8dDxwPHA8bDxUZXh0Oz47bDzkvY/lroU7Pj47Pjs7Pjt0PHA8cDxsPFRleHQ7PjtsPOavm+Wdrzs+Pjs+Ozs+O3Q8cDxwPGw8VGV4dDs+O2w85p2/5qW8Oz4+Oz47Oz47dDxwPHA8bDxUZXh0Oz47bDzljJfkupTnjq8s6Led5Z+O6ZOBMTPlj7fnur/ljJfoi5Hnq5nlkJHljJc2MDDnsbMs6aG+5a625bqE5qGl5q2j5YyXMjYwMOexszs+Pjs+Ozs+O3Q8cDxwPGw8VGV4dDs+O2w8MjAwNzA3MTIxNTQxNTk7Pj47Pjs7Pjt0PHA8cDxsPFRleHQ7PjtsPDIwMDAw5YWDL+W5s+aWueexszs+Pjs+Ozs+O3Q8cDxwPGw8VGV4dDs+O2w85YWDL+W5s+aWueexszs+Pjs+Ozs+O3Q8cDxwPGw8VGV4dDs+O2w85YWDL+W5s+aWueexszs+Pjs+Ozs+O3Q8cDxwPGw8VGV4dDs+O2w8ODQ5NTk5ODg7Pj47Pjs7Pjt0PHA8cDxsPFRleHQ7PjtsPFxlOz4+Oz47Oz47dDxwPHA8bDxUZXh0Oz47bDwyMDEwOz4+Oz47Oz47dDxwPHA8bDxUZXh0Oz47bDxcZTs+Pjs+Ozs+O3Q8cDxwPGw8VGV4dDs+O2w8MTAxMDMyODkwMzs+Pjs+Ozs+O3Q8cDxwPGw8VGV4dDs+O2w85YyX5LqsOz4+Oz47Oz47Pj47Pj47Pl8HFn/ha1HhqIt8D3BmBTY+KbxL" />						
+                        <ul>
+                            <li>
+                                <label>我的昵称:</label>
+				<input name="txt_nickname" type="text"  class="Inp_qbk" id="txt_nickname" value="" />	
+                            </li>						
+                            <li>
+                                <label>最低价格:</label>
+				<input class="Inp_qbk" name="txt_minprice" type="text" id="txt_minprice" value="0元/平方米" />
+				<input name="hidden_minprice" type="hidden" id="hidden_minprice" value="0元/平方米" />				
+                            </li>
+                            <li>
+                                <label>均&nbsp;&nbsp;价:</label>
+                                    <input class="Inp_qbk" name="txt_aveprice" type="text" id="txt_aveprice" value="0元/平方米" />
+	<input name="hidden_aveprice" type="hidden" id="hidden_aveprice" value="0元/平方米" />
+                            </li>
+                            <li>
+                                <label>最高价格:</label>
+                                    <input class="Inp_qbk" name="txt_maxprice" type="text" id="txt_maxprice" value="0元/平方米" />
+	<input name="hidden_maxprice" type="hidden" id="hidden_maxprice" value="0元/平方米" />
+                            </li>
+                            <li>
+                                <label>售楼电话:</label>
+    <input class="Inp_qbk" name="txt_sale_rate" type="text" id="txt_sale_rate" value="待售" />
+	<input name="hidden_sale_rate" type="hidden" id="hidden_sale_rate" value="待售" />
+                            </li>
+                            <li>
+                                <label>销售状况:</label>
+    <input class="Inp_qbk" name="txt_sale_date" type="text" id="txt_sale_date" value="待定" />
+    <input name="hidden_sale_date" type="hidden" id="hidden_sale_date" value="待定" />
+                            </li>							
+                            <li>
+                                <label>开盘时间:</label>
+    <input class="Inp_qbk" name="txt_sale_date" type="text" id="txt_sale_date" value="待定" />
+    <input name="hidden_sale_date" type="hidden" id="hidden_sale_date" value="待定" />
+                            </li>
+                            <li>
+                                <label>装修状况:</label>
+    <input class="Inp_qbk" name="txt_fix_status" type="text" id="txt_fix_status" value="毛坯" />
+    <input name="hidden_fix_status" type="hidden" id="hidden_fix_status" value="毛坯" />
+                            </li>
+                            <li>
+                                <label>建筑类别:</label>
+    <input class="Inp_qbk" name="txt_build_category" type="text" id="txt_build_category" value="" />
+    <input name="hidden_build_category" type="hidden" id="hidden_build_category" value="" />
+                            </li>
+                            <li>
+                                <label>物业地址:</label>
+    <input class="Inp_qbk" name="txt_address" type="text" id="txt_address" value="中央别墅区后沙峪罗马环岛东沿火沙路1000米" />
+	<input name="hidden_address" type="hidden" id="hidden_address" value="中央别墅区后沙峪罗马环岛东沿火沙路1000米" />
+                            </li>
+                            <li>
+                                <label>开 发 商:</label>
+    <input class="Inp_qbk" name="txt_developer" type="text" id="txt_developer" value=" 金地地产 " />
+	<input name="hidden_developer" type="hidden" id="hidden_developer" value=" 金地地产 " />
+                            </li>							
+                            <li>
+                                <label>其&nbsp;&nbsp;他:</label>
+			<textarea class="Inp_qbk" name="txt_other" style="line-height:23px;" id="txt_other" cols="45" rows="5"></textarea>
+                            </li>
+                            <li class="tjqx">
+                                <input type="button" style="cursor: pointer;" class="btn_tj Inp_qbk" value="提 交" onclick="return error_recovery.postError();">
+                                <input type="button" style="cursor: pointer;" class="btn_qx Inp_qbk" value="取 消"  onclick="$('#jiucuoBox').hide();">
+                            </li>
+                        </ul>
+	</form>
+                    </div>
+                </div>
+                <!--我要纠错弹出层 end-->
+<script src="http://newhouse.js.soufunimg.com/newhouse/js/v2/error_recovery.js"></script></li>
+            </ul>	
+        </div>
+    </div>
+</div>
+<!--首页面包屑 end --><!-- 楼盘标题 begin-->
+<script type="text/javascript" src="http://js.soufunimg.com/zbs/newhouse/js/jquery.SuperSlide.2.1.1.js"></script>
+<div class="main_960" id="daohang">
+    <div class="sftitle">
+        <div class="lpname fl">
+            <dl>
+                <dt class="fl ewm"><img title="扫描到手机 楼盘随时看" alt="扫描到手机 楼盘随时看" src="http://u.soufun.cn/qrcode.php?url=http%3A%2F%2Fm.fang.com%2Fxf.d%3Fm%3Dredirect%26newcode%3D1010786043%26city%3D%25B1%25B1%25BE%25A9&type=newhouse&resize=75" width="70" height="70" border="0" /></dt>
+                <dd class="fl ml20">
+                    <div class="lpbt tf jq_nav">
+                        <h1><a class="ts_linear" id="" href="http://shijiaguangchangjd.fang.com/" title="金地世家广场" target="_blank">金地世家广场</a><!--隐藏V标20160628><--></h1>                          <!-- 备注物业类型下拉框 begin -->
+                                                
+                        <script type="text/javascript">
+                            jQuery(".jq_nav").slide({
+                            type:"menu", //效果类型
+                            titCell:".jq_m", // 鼠标触发对象
+                            targetCell:".jq_sub", // 效果对象，必须被titCell包含
+                            delayTime:0, // 效果时间
+                            triggerTime:0, //鼠标延迟触发时间
+                            defaultPlay:false,  //默认不执行
+                            returnDefault:true  //返回默认状态
+                            });
+                        </script>
+                        
+						<!-- 备注物业类型下拉框 end -->
+                    </div>
+                    <div class="lpicon tf"  id="">
+			<a  class="tag_li"href="http://newhouse.fang.com/house/s/shunyi/b1housetag-c48/" title="北京待售楼盘" target="_blank">待售</a><a  class="tal_li"href="http://newhouse.fang.com/house/s/shunyi/b1housetag-c443/" title="北京品牌地产楼盘" target="_blank">品牌地产</a><a  class="tal_li"href="http://newhouse.fang.com/house/s/shunyi/b1housetag-c4%B5%D8%CC%FA%D1%D8%CF%DF/" title="北京地铁沿线楼盘" target="_blank">地铁沿线</a><a  class="tal_li"href="http://newhouse.fang.com/house/s/shunyi/b1housetag-c4%CD%B6%D7%CA%B5%D8%B2%FA/" title="北京投资地产楼盘" target="_blank">投资地产</a>                    </div>
+                </dd>
+            </dl>
+        </div>
+		<link href="http://newhouse.js.soufunimg.com/newhouse/style/daohang_sy.css?v=20151229" rel="stylesheet" type="text/css" />
+		        <div class="pltg fr by_pltg" style="margin-top:36px;">
+            <ul>
+                <li><a rel="nofollow" target="_blank"  id="">0条帖子</a>&nbsp;&nbsp;</li>
+                <!--li><a rel="nofollow" target="_blank" href="http://shijiaguangchangjd.fang.com/tuangou/" id="">110人报名团购</a></li-->
+				<li>110人报名团购</li>
+            </ul>
+			<input type="button" onclick="window.open('http://open.fang.com/')" value="我是房企&nbsp;&nbsp;申请入驻" class="lv_b tf" id="xfxq_C02_24"> 
+        </div>
+		    </div>
+</div>
+<!--楼盘标题 end--><!--首页导航 begin-->
+<div class="main_960">
+    <div class="nav" id="header-wrap" >
+        <div class="navleft tf" id="orginalNaviBox">
+        <a href="http://shijiaguangchangjd.fang.com/" id="shopxq_B02_04" target="_self" class="nnlon">楼盘首页</a><a href="http://shijiaguangchangjd.fang.com/house/1010786043/housedetail.htm" id="shopxq_B02_06" target="_self">楼盘详情</a><a href="http://shijiaguangchangjd.fang.com/photo/1010786043.htm" id="shopxq_B02_07" target="_self">楼盘相册</a><a href="http://shijiaguangchangjd.fang.com/jiage/" id="shopxq_B02_08" target="_self">房价走势</a><a href="http://shijiaguangchangjd.fang.com/house/1010786043/dongtai.htm" id="shopxq_B02_09" target="_self">楼盘动态</a><a href="http://shijiaguangchangjd.fang.com/dianping/" id="" target="_self">楼盘点评</a><a href="http://shijiaguangchangjd.fang.com/zhiyeguwen/" id="" target="_self">置业顾问</a><a href="http://shijiaguangchangjd.fang.com/chushou/" id="shopxq_B02_10" target="_blank">二手房</a><a href="http://shijiaguangchangjd.fang.com/chuzu/" id="shopxq_B02_11" target="_blank">租房</a><a href="http://shijiaguangchangjd.fang.com/zhuangxiu/" id="" target="_self">装修效果图</a><a href="http://www.fang.com/ask/house/search.aspx?asktitle=%BD%F0%B5%D8%CA%C0%BC%D2%B9%E3%B3%A1" id="shopxq_B02_12" target="_blank" style="background-image:none;">在线问答</a>			
+        </div> 
+		        <!-- 秒杀 -->
+        <!--div id="xfxq_C02_16"><a id="msButton" class="navright_new" onclick="miaoshaProcess();" style="display:none;"></a></div-->
+		<div id="msButton" class="navright fr mr05 " style="display:none;">
+			<span class="nr_tu js_hoverpop tf">
+			<a onclick="miaoshaProcess();" href="javascript:void(0);">
+			秒杀报名
+			<i class="t_icon"></i>
+			</a>
+			</span>
+		</div>
+		<!-- 众筹 --> 
+		<div id="zhongchou_btn" class="navright fr mr05 " style="display:none;">
+			<span class="nr_tu js_hoverpop tf">
+			<a id="xfxq_C02_13" onclick="$('#zhongchou_total').toggle();" href="javascript:void(0);">
+			独家优惠
+			<i class="t_icon"></i>
+			</a>
+			</span>
+		</div>
+		<!-- 渠道电商 -->		 
+		<div id="qdds_btn" class="navright fr mr05 " style="display:none;">
+			<span class="nr_tu js_hoverpop tf">
+			<a id="sale_btn" onclick="$('#qdds_block').toggle();" href="javascript:void(0);">
+			网店特惠
+			<i class="t_icon"></i>
+			</a>
+			</span>
+		</div> 
+        <!-- 优惠券 -->             
+		<div id="yhq_btn" class="navright fr mr05 " style="display:none;">
+			<span class="nr_tu js_hoverpop tf">
+			<a id="yhqButton" onclick="yhqProcess();" href="javascript:void(0);">
+			独家优惠
+			<i class="t_icon"></i>
+			</a>
+			</span>
+		</div>
+        <!-- 团购优惠 -->
+		<div id="tgyh_btn" class="navright fr mr05 " style="display:none;">
+			<span class="nr_tu js_hoverpop tf">
+			<a onclick="$('#hqyh_btn').toggle();" href="javascript:void(0);">
+			独家优惠
+			<i class="t_icon"></i>
+			</a>
+			</span>
+		</div>
+		        <!-- 团购 -->            
+                <div class="navright fr mr05 " id="tuangouButton" style="display:none;">
+            <span class="nr_tu js_hoverpop tf" >
+                <a id="" href="javascript:void(0);" onclick="$('#tc_ds').toggle();">团购优惠<i class="t_icon"></i></a>
+            </span>
+            <div id="tc_ds" class="tccontent js_hovercon" style="display:none;z-index:1001;" >
+                <img class="hsanj pa" src="http://img1.soufun.com/house/detail_php/images/hsanjiao.jpg">
+                <div class="tcnav_nr">
+                    <div class="tcnav_nr_left fl tf">
+                        <p><strong>看房·团购</strong><br /><span class="f12">已有<a href="http://shijiaguangchangjd.fang.com/tuangou/" target="_blank"><font style="color:#f33">110</font></a>人报名</span></p>
+                        <ul class="mt20">
+                            <li class="dongtai">
+                                <i class="t_icon fl"></i>
+                                <span class="fl">楼盘动态<font style="color:#f88125">抢先掌握</font></span>
+                            </li>
+                            <li class="vip">
+                                <i class="t_icon fl"></i>
+                                <span class="fl">独享会员<font style="color:#f88125">团购优惠</font></span>
+                            </li>
+                            <li class="bus">
+                                <i class="t_icon fl"></i>
+                                <span class="fl"><font style="color:#f88125">看房活动</font>专车直达</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tcnav_nr_right fr">
+				
+			<ul id="navTgBmForm">
+				<li><input id="navi_tg_name" name="name" class="textstyletc tf  cl_999" type="text" ></li>
+				<li><input class="textstyletc tf  cl_999" type="text"   type="text" name="cell" id="navi_tg_cell"  ></li>
+				<li>
+				<input class="textstyletc tf mr10  cl_999" type="text" id="navi_tg_phonecode" name="phonecode"  style="width:78px;" />
+				<div id="dmoa3get"><input style="width:111px;" class="btn_acma tf" type="button"  id="tg_getValCode" value="获取验证码"/></div>
+				<!--60秒重新获取 sta-->
+				<div id="dmoa3hint" class="ndmoa3hint" style="display:none;" > 
+				<em></em> 
+				<span id="dmoa3hintval"><a href="javascript:void(0)">60秒后重新获取</a></span> 
+				</div> 
+				<!--60秒重新获取 end-->
+				</li>
+				<li><input id="tg_submit" class="textstylean tf mt05" type="button" value="立即报名"  ></li>
+			</ul>
+			
+            <div class="loadingsuc" id="navTgBmHasTel" style="display:none;"> 
+            <ul class="tf"> 
+            <li class="f14">您已绑定手机号：<span id="navTgTel">18614087955</span></li> 
+            <li><a href="javascript:void(0)" id="navTgChangeTel">更换报名号码</a></li> 
+            </ul> 
+            <div class="loadingan"> 
+            <input id="tg_submit1" class="Inpbm tf f16 cp" type="button" value="报&nbsp;名" name="" /> 
+            </div> 
+            </div> 
+            <!--团购成功 sta-->
+            <div class="signup" id="navTgBmSuccess" style="display:none;"> 
+                <img src="http://img1.soufun.com/house/detail_php/succe_dp.gif" /> 
+                <p class="tf">恭喜你，报名成功！</br><span class="f12 cl_333">您将在第一时间内获得本楼盘的信息</span></p>
+            </div>
+<!--团购成功 end-->	
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="http://newhouse.js.soufunimg.com/newhouse/js/2013/houseFavorite_viewHouse.js?v=2"></script>
+<script type="text/javascript">
+var projname='金地世家广场';
+var newcode = "1010786043";
+</script>
+	<!-- <script src="http://newhouse.js.soufunimg.com/newhouse/js/nav_tuangou.js?v=20130903" type="text/javascript"></script>	 -->
+    </div>
+   <script src="http://newhouse.js.soufunimg.com/newhouse/js/dianshangtotal.js?v=1" type="text/javascript"></script>
+</div>
+
+<script type="text/javascript">
+//remark
+$("select#remark_select").change(function(){
+	window.open($("#remark_select option:selected").val());
+})
+
+
+var msDefaultShow= "1";
+var houseurl = "http://shijiaguangchangjd.fang.com/";
+function miaoshaProcess(){
+    if(msDefaultShow==1){
+        $('#miaoshaBox').toggle();
+	}else{
+	    window.open(houseurl+"#daohang");
+	}
+}
+function yhqProcess(){
+    if(msDefaultShow==1){
+        $('#youhuiquanBox').toggle();
+	}else{
+	    window.open(houseurl+"#daohang");
+	}
+}
+</script>
+
+<link href="http://newhouse.js.soufunimg.com/newhouse/style/miaosha.css" rel="stylesheet" type="text/css">
+<script>var currNewcode = "1010786043";</script>
+<script>var citysuo = "bj";</script>
+<div class="miao" id="miaoshaBox" style="display:none;">
+	<div class="miao_left_btn" style="display:none;"></div>
+	<div class="miao_right_btn" style="display:none;"></div>
+	<a class="miao_del" id="xfxq_C02_18" onclick="$('#miaoshaBox').hide();"></a>
+	<div class="miao_hor_bar"></div>
+	<div class="miao_content" id="msWindow"></div>
+	<div class="miao_url">
+		<div class="miao_url_img"><img id="MS_erweima" src="http://img1.soufun.com/house/detail_php/images/miao_url.png"></div>
+		<div class="miao_url_des">扫描二维码参加秒杀</div>
+		<div class="miao_url_link"><a href="http://tao.fang.com/spike_rules/index.html" target="_blank">点击查看秒杀秘籍＞＞</a></div>
+	</div>
+	<a class="miao_nav" id="xfxq_C02_17">
+    	<div class="miao_list" id="ms_list"></div>		
+	</a>
+</div>
+  <script language="javascript" src="http://newhouse.js.soufunimg.com/newhouse/js/miaosha.js"></script>
+<link href="http://newhouse.js.soufunimg.com/newhouse/style/youhuiquan.css" type="text/css" rel="stylesheet">
+<script>var currNewcode = "1010786043";</script>
+<script>var citysuo = "bj";</script>
+<div class="main_960" id="youhuiquanBox" style="display:none;">
+</div>
+<!--电商优惠 end-->
+<script language="javascript" src="http://newhouse.js.soufunimg.com/newhouse/js/ds_youhuiquan.js"></script>
+<!--nav end-->
+<!--navmap/title/nav end-->
+
+<script type="text/javascript">
+$(document).click(function (e) {
+    var drag = $("#jiucuoBox"),
+        dragel = $("#jiucuoBox")[0],
+		linkl = $("#jiucuoLink")[0],
+        target = e.target;
+    if (linkl !== target && dragel !== target && !$.contains(dragel, target)) {
+        drag.hide();
+    }
+});
+
+
+
+var navi_tg_cell_default = '请输入手机号';
+var navi_tg_name_default = '请输入用户名';
+var navi_tg_phonecode_default = '验证码';
+
+var bind_phone = '';
+//=====判断是否是通行证+绑定手机号+绑定搜房卡用户
+$(document).ready(function() {
+	var ajaxUrl = "/house/ajaxrequest/isCorrectMobileUser.php?rand="+Math.random();
+	$.ajax({
+		type:'get',
+		dataType:'json',
+		url:ajaxUrl,
+		data:'',
+		complete:function(){},
+		error:function(){},
+		success:function(msg){
+			//如果用户已经登录
+			if(msg.uid) {
+				$("input#hide_cell").val(msg.bindMobile);
+				bind_phone = msg.bindMobile;
+
+				//初始化表框
+				signUpFormInit_2();
+
+				if (msg.bindMobile){
+					//隐藏获取手机号验证码的对话框
+					$("input#navi_tg_phonecode").parent("li").css("display","none");
+				}else {
+					//显示获取手机号验证码的对话框
+					$("input#navi_tg_phonecode").parent("li").css("display","block");
+				}
+				
+			}else {
+				//初始化表框
+				signUpFormInit_2();
+				
+			}
+		}
+	});
+})
+//给手机号输入框添加事件
+$("input#navi_tg_cell").keyup(function() {
+	//是否绑定手机号
+	if($("input#navi_tg_cell").val()==bind_phone&&bind_phone!=navi_tg_cell_default&&bind_phone!='') {
+		//隐藏获取手机号验证码的对话框
+		$("input#navi_tg_phonecode").parent("li").css("display","none");
+	}else {
+		//显示获取手机号验证码的对话框
+		$("input#navi_tg_phonecode").parent("li").css("display","block");
+	}
+})
+//===添加表框的动作事件
+$("input#navi_tg_cell").focus(function() {
+	//检查是否和默认值相同，如果相同，那么直接清空
+	if($("input#navi_tg_cell").val()==navi_tg_cell_default) {
+		$("input#navi_tg_cell").val('');
+	}
+})
+
+$("input#navi_tg_name").focus(function() {
+	//检查是否和默认值相同，如果相同，那么直接清空
+	if($("input#navi_tg_name").val()==navi_tg_name_default) {
+		$("input#navi_tg_name").val('');
+	}
+})
+$("input#navi_tg_phonecode").focus(function() {
+	//检查是否和默认值相同，如果相同，那么直接清空
+	if($("input#navi_tg_phonecode").val()==navi_tg_phonecode_default) {
+		$("input#navi_tg_phonecode").val('');
+	}
+})
+//失去焦点动作
+$("input#navi_tg_cell").blur(function() {
+	//检查是否为空，如果为空那么直接等于默认值
+	if($("input#navi_tg_cell").val()=='') {
+		$("input#navi_tg_cell").val(navi_tg_cell_default);
+	}
+})
+$("input#navi_tg_name").blur(function() {
+	//检查是否为空，如果为空那么直接等于默认值
+	if($("input#navi_tg_name").val()=='') {
+		$("input#navi_tg_name").val(navi_tg_name_default);
+	}
+})
+$("input#navi_tg_phonecode").blur(function() {
+	//检查是否为空，如果为空那么直接等于默认值
+	if($("input#navi_tg_phonecode").val()=='') {
+		$("input#navi_tg_phonecode").val(navi_tg_phonecode_default);
+	}
+})
+//===初始化表框
+function signUpFormInit_2() {
+    if(bind_phone!='') {
+        $("input#navi_tg_phonecode").parent("li").css("display","none");
+    }else {
+        $("input#navi_tg_phonecode").parent("li").css("display","block");
+    }
+	$("input#navi_tg_cell").val((bind_phone!='')?bind_phone:navi_tg_cell_default);
+	$("input#navi_tg_name").val(navi_tg_name_default);
+	$("input#navi_tg_phonecode").val(navi_tg_phonecode_default);
+}
+//===验证码发送函数
+var HintNum = 60;
+
+var ClockCodeHint;
+    // 手机验证码发送点击动作绑定
+    $("#tg_getValCode").click(function(){
+        //获取手机号码
+        var cellphone = $("#navi_tg_cell").val();
+        //如果手机号码为空或者为默认的手机号码那么要提示需要填写???????  kftDefaultMobile
+        if(!cellphone || cellphone == navi_tg_cell_default) {
+            alert("请填写手机号");
+            $("#navi_tg_cell").focus();
+            return false;
+        }
+        var cellnum = /^(13[0-9]|15[0-9]|18[0-9]|14[0-9])[0-9]{8}$/; 
+        if(cellphone.match(cellnum) == null||cellphone.length!=11) {
+            alert("请填写正确的手机号");
+            $("#navi_tg_cell").focus();
+            return false;
+        }
+        var ajaxUrl = "/house/web/mobilecode_send_ajax.php";
+        $("#tg_getValCode").attr("disabled", true);
+        $.ajax({
+            type:'get',
+            dataType:'json',
+            url:ajaxUrl,
+            data:{mobile:cellphone,httptype:'passport'},
+            complete:function(){},
+            error:function(){alert("验证码发送失败，请重试");$("#tg_getValCode").attr("disabled", false);},
+            success:function(msg){
+                if(msg.result == 1) {
+                    alert("发送成功，如果一分钟内没有收到校验短信，请重试");
+                    ValCodeHint();
+                } else {
+                    alert("验证码发送失败，"+msg.msg);
+                    $("#tg_getValCode").attr("disabled", false);
+                }
+            }
+        });
+    });
+
+
+function ValCodeHint() {
+    $("#tg_getValCode").val(HintNum+"秒后重新获取");
+    ClockCodeHint = setInterval(ClockCodeHintFun, 1000);
+}
+
+function ClockCodeHintFun() {
+    if(HintNum > 0) {
+        HintNum--;
+        $("#tg_getValCode").val(HintNum+"秒后重新获取");
+    } else {
+        clearInterval(ClockCodeHint);
+        $("#tg_getValCode").val("重新获取验证码");
+        $("#tg_getValCode").attr("disabled", false);
+        HintNum = 60;
+    }
+}
+
+//触发立即报名
+$("#tg_submit").click(function() {
+	var ajaxUrl = "/house/ajaxrequest/tuangou_baoming.php";
+	var cellphone = $("#navi_tg_cell").val();
+	var uname = $("#navi_tg_name").val();
+
+	var phonecode = $("#navi_tg_phonecode").val();//手机号验证码
+	phonecode = (phonecode==''||phonecode==navi_tg_phonecode_default)?'':$("#navi_tg_phonecode").val();
+	var strP=/^\d+$/; 
+	var reg = /^1(\d){10}$/; 
+	if(uname==''||uname==navi_tg_name_default){
+		alert("请输入姓名");
+		return false;	   
+	}
+	if(cellphone=='' && !reg.test(cellphone)||cellphone==navi_tg_cell_default){
+		alert("请输入正确的电话号码");
+		return false;	   
+	}		
+    var paramData = 'name='+urlencode(uname)+"&cell="+urlencode(cellphone)+"&phonecode="+urlencode(phonecode)+"&newcode="+newcode;
+    $.ajax({
+        type:'get',
+        dataType:'json',
+        url:ajaxUrl,
+        data:paramData,
+        complete:function(){},
+        error:function(){},
+        success:function(msg){
+            if(msg.result == "0") {
+            	bind_phone = msg.bind_mobile;
+                // 成功则隐藏当前，显示成功
+                $("#navTgBmForm").hide();
+                $("#navTgBmHasTel").hide();
+                $("#navTgBmSuccess").show();
+                
+				//埋码团购
+				_ub.collect(35,{'vwg.page':'nhshoppage','vwn.projectid':newcode,'vwn.name':encodeURIComponent(uname),'vwn.phone':cellphone});
+            } else if(msg.result == "102") {
+                alert(msg.message);
+                $("#navi_tg_phonecode").val("");
+            } else {
+                alert(msg.message);
+            }
+            
+            if(msg.captcha=='pass') {
+            	bind_phone = msg.bind_mobile;
+            	Xml.Request("/house/esf/getusernewhouse.php", null, doHeadloginuser);
+            }
+            signUpFormInit_2();
+        }
+    });
+})
+</script>   
+
+<!-- 首页导航 end --><!--跟随导航 begin-->
+<link href="http://newhouse.js.soufunimg.com/newhouse/style/fixnav.css" rel="stylesheet" type="text/css">
+<div  id="floatNaviBox" class="fixnav" style="display:none;">
+    <div class="main_960">
+        <div class="fixnav_tit"><h2 class="tf"><a id="xfxq_C04_01" class="ts_linear" href="http://shijiaguangchangjd.fang.com/">金地世家广场</a></h2><span class="fixnav_num ml15">400-890-0000</span>&nbsp;<span class="tf f14">转</span>&nbsp;<span class="fixnav_num" id="fixnav_tel400_last">813598</span></div>
+        <div class="tbsearch" id="xfxq_C04_02">
+		<form target="_blank" id="form_newhouse_2" name="form_newhouse" action="http://newhouse.fang.com/house/web/Search_Result.php" method="post" >
+			<input type="hidden" id="strDistrict_2" name="strDistrict" />
+			 <input type="hidden" id="strComarea_2" name="strComarea" />
+			 <input type="hidden" id="strNamekeyword_2" name="strNamekeyword" />
+		<ul>
+			<li class="pr">
+				<!--<input suggestion="y" suggestiontype="lp" AUTOCOMPLETE="OFF" suggestiondefval="请输入关键字（楼盘名/地名/开发商等）" name="searchinput_2" id="searchinput_2"  type="text" onblur="if(!this.value){this.value=this.defaultValue;this.style.color='#999'}" value="请输入关键字（楼盘名/地名/开发商等）" onfocus="keywordSuggest(2);if(this.value==this.defaultValue){this.value='';this.select();this.style.color='#000'}" style="color:#aaa;);padding-left:30px;" onchange="keywordSuggest(2);" class="tbsearchinput f14 tf" />-->
+                <input suggestion="y" suggestiontype="lp" autocomplete="OFF" suggestiondefval="请输入关键字（楼盘名/地名/开发商等）" name="searchinput_2" id="searchinput_2" type="text"  onfocus="keywordSuggest(2);if(this.value==this.defaultValue){this.value='';this.select();this.style.color='#000'}" style="color:#aaa;padding-left:10px;" onchange="keywordSuggest(2);" class="tbsearchinput f14 tf">
+                <!--<span class="tbinpbj" style="" id="searchgif"></span>-->
+				
+				<div class="suggest-div" style="width:322px;position:absolute;top:32px; left:0px;">
+				<table id="suggesttable_2" width="100%" border="0" cellpadding="0" cellspacing="0" style="display:none" class="tyka tf"><tr style="display:none;">
+				<td></td>
+				</tr></table>	
+				</div>
+			</li>
+			<li><input class="tbsearchbtns" type="button" name="" onclick="doSearchSubmitBJ(2);"></li>
+		</ul>
+		</form>
+        </div>
+    </div>
+</div>
+<!--跟随导航 end-->
+
+<script language="javascript">
+function adjustFloatNavPos()
+{
+    var oriNavOffset = $("#orginalNaviBox").offset();
+    var oriNavPosition = $("#orginalNaviBox").position();
+    var scrTop = $(window).scrollTop();
+    var docuTop = scrTop-oriNavOffset.top;  // 当docuTop>=0时，表示导航已不在视野
+    if(docuTop >= 0)
+    {
+		$("#floatNaviBox").show();
+    }
+    else
+    {
+		$("#floatNaviBox").hide();
+    }
+}
+$(window).resize(adjustFloatNavPos);
+$(window).scroll(adjustFloatNavPos);
+$(function() {
+   adjustFloatNavPos();
+   setInterval(adjustFloatNavPos, 100);
+});
+</script>
+
+
+<script type="text/javascript">
+function doKey(e){  
+	var currKey=0,e=e||event; 
+	currKey=e.keyCode||e.which||e.charCode;//支持IE、FF 
+	if (currKey == 13) {
+	    if($("#floatNaviBox").is(":visible")){
+		    doSearchSubmitBJ(2);
+		}else{
+		    doSearchSubmitBJ(1);
+		}
+		return false;  
+	}  
+}
+$("#searchinput_1").keydown(function(){doKey();});
+$("#strNamekeyword_2").keydown(function(){doKey();});
+</script>
+<!-- 201408楼盘首页公用头部 end --><!-- 20110601搜房网统一版头 end -->
+<!--正文 sta-->
+<div class="main_960">
+<link href="http://js.soufunimg.com/newhouse/style/dianshang.css" rel="stylesheet" type="text/css" />
+<div id="hqyh_btn" style="display:none;" class="tf">
+    	<div class="left_con fl">
+        	<div>
+        		<img src="http://img1.soufun.com/house/images/dianshang/logo.png" />
+            </div>
+            <div>
+            	<img src="http://img1.soufun.com/house/images/dianshang/djyh.png" />
+            </div>
+            <div class="f_info">
+            	<p>已参加：<span class="p_num" id="hqyh_groupcount"></span>人<br />优惠房源：<span class="t_num" id="hqyh_roomcount"></span>套</p>
+            </div>
+        </div>
+        <div class="center_con fl">
+        	<div class="in_top">
+            	<h3>搜房会员</h3>
+                <div class="h18">
+                	<span class="sp1 fl"></span>
+                    <span class="sp2 fl" id="hqyh_time"></span>
+                    <span class="sp3 fl"></span>
+                </div>
+            </div>
+            <ul class="dis_list" id="hqyh_discount">
+                <!--li>别墅优惠<span>5</span>万元</li>
+                <li>别墅优惠<span>5</span>万元</li>
+                <li>高层优惠最高<span>2</span>万元</li-->
+            </ul>
+            <div class="r_time">
+            	剩余时间：<span id="sy_day_num"></span>天<span id="sy_hour_num"></span>小时<span id="sy_minu_num"></span>分<span id="sy_sec_num"></span>秒
+            </div>
+        </div>
+        <div class="right_con fr">
+        	<a href="javascript:void(0);" id="hqyh_btu">
+            	<img src="http://img1.soufun.com/house/images/dianshang/bm2.png" />
+            </a>
+        </div>
+    </div>
+<!--kiya begin-->
+<!--kiya end-->
+<!--房产众筹-->
+<div class="mauto_960" id="fczc_total" style="display:none;"></div>
+<!--竞拍begin-->
+<div class="mauto_960" id="jingpai_total" style="display:none;"></div>
+<!--竞拍end-->
+<!--众筹-->
+<div class="ecommerce" id="zhongchou_total" style="display:none;"></div>
+<!--搜房红包-->
+<!--渠道电商-->
+<div class="main_960" id="qdds_total" style="display:none;"></div>
+<script type="text/javascript" src="http://js.soufunimg.com/newhouse/js/ds_huoquyouhui.js?v=1"></script>
+<script type="text/javascript" id="qdds_script" src="http://js.soufunimg.com/newhouse/js/qudao_dianshang.js?v=20160527"></script>
+<div class="clear10"></div>
+    <!--first left  sta-->
+    <div class="cd_first_left">
+        <!--幻灯 sta-->
+<div id="shopxq_B03_01"><style>.qk_f1 {position: absolute;top: 170px;left: 15px;}</style>
+<div id="imageShow" class="imagshow">
+	<!--大图 start-->
+    <ul class="imagebg" id="imageShowBig">
+	        <li class="bannerbg">
+            <div class="bannerbg_pos">
+                <div class="bannerbg_main">
+										<a href="http://shijiaguangchangjd.fang.com/photo/list_904_1010786043.htm" target="_blank" title="金地世家广场效果图"><img width="300" height="225" src="http://img.soufun.com/house/2015_03/11/bj/1426062836178_000.jpg" alt="金地世家广场效果图" /></a>
+														</div>
+            </div>
+        </li>
+	        <li class="bannerbg">
+            <div class="bannerbg_pos">
+                <div class="bannerbg_main">
+										<a href="http://shijiaguangchangjd.fang.com/photo/list_901_1010786043.htm" target="_blank" title="金地世家广场交通图"><img width="300" height="225" src="http://img.soufun.com/house/2015_03/11/bj/1426062607192_000.jpg" alt="金地世家广场交通图" /></a>
+														</div>
+            </div>
+        </li>
+	        <li class="bannerbg">
+            <div class="bannerbg_pos">
+                <div class="bannerbg_main">
+										<a href="http://shijiaguangchangjd.fang.com/photo/list_903_1010786043.htm" target="_blank" title="金地世家广场实景图"><img width="300" height="225" src="http://img.soufun.com/house/2015_03/11/bj/1426062743331_000.jpg" alt="金地世家广场实景图" /></a>
+														</div>
+            </div>
+        </li>
+	        <li class="bannerbg">
+            <div class="bannerbg_pos">
+                <div class="bannerbg_main">
+										<a href="http://shijiaguangchangjd.fang.com/photo/list_907_1010786043.htm" target="_blank" title="金地世家广场周边配套图"><img width="300" height="225" src="http://img6n.soufunimg.com/house/2016_10/20/M07/0C/12/wKgEUFgIgJWIBKFaAAH5n1-AEkYAAS3VwLNhX4AAfm3347.jpg" alt="金地世家广场周边配套图" /></a>
+														</div>
+            </div>
+        </li>
+	    </ul>
+    <!--大图 end-->
+    <!--小图 start-->
+    <div class="scrollbg">
+        <div class="scroll">
+            <a href="javascript:void(0);" class="s_pre" id="imageShowSmallPre"></a>
+            <div class="current" style="left:0px;" id="imageShowSmallAnchor"></div>
+            <div class="outScroll_pic">
+                <ul class="scroll_pic cls" id="imageShowSmall">
+		                    <li class="currently">
+                        <p class="scroll_tit"><a href="http://shijiaguangchangjd.fang.com/photo/list_904_1010786043.htm" title="效果图" target="_blank">效果图</a></p>
+                        <em></em>
+                        <img width="68" height="53" src="http://img.soufun.com/house/2015_03/11/bj/1426062836178_000.jpg" alt="效果图" />
+						
+                    </li>
+		                    <li >
+                        <p class="scroll_tit"><a href="http://shijiaguangchangjd.fang.com/photo/list_901_1010786043.htm" title="交通图" target="_blank">交通图</a></p>
+                        <em></em>
+                        <img width="68" height="53" src="http://img.soufun.com/house/2015_03/11/bj/1426062607192_000.jpg" alt="交通图" />
+						
+                    </li>
+		                    <li >
+                        <p class="scroll_tit"><a href="http://shijiaguangchangjd.fang.com/photo/list_903_1010786043.htm" title="实景图" target="_blank">实景图</a></p>
+                        <em></em>
+                        <img width="68" height="53" src="http://img.soufun.com/house/2015_03/11/bj/1426062743331_000.jpg" alt="实景图" />
+						
+                    </li>
+		                    <li >
+                        <p class="scroll_tit"><a href="http://shijiaguangchangjd.fang.com/photo/list_907_1010786043.htm" title="周边配套图" target="_blank">周边配套图</a></p>
+                        <em></em>
+                        <img width="68" height="53" src="http://img6n.soufunimg.com/house/2016_10/20/M07/0C/12/wKgEUFgIgJWIBKFaAAH5n1-AEkYAAS3VwLNhX4AAfm3347.jpg" alt="周边配套图" />
+						
+                    </li>
+		                </ul>
+            </div>
+            <a href="javascript:void(0);" class="s_next" id="imageShowSmallNext"></a>
+        </div>
+    </div>
+    <!--小图 end-->
+</div>
+
+<script language="javascript">
+var lbToPos = 0; // 当前第几个顶在最前面
+var currentPosi = 0;
+var anchorPosi = 0;
+var lbTotalNum = $("#imageShowSmall li").length;
+var anchorNum = 4;
+$("#imageShowBig li")[0].style.display = "block";
+function SmallImgSliderTo(ind) {
+    // 判断imageShowSmall的第几个顶到第一个的位置上
+    ind = (ind < 0) ? 0 : ind;
+    ind = (ind > lbTotalNum-1) ? (lbTotalNum-1) : ind;
+    if(ind >= lbToPos && ind < lbToPos + anchorNum) {  // 当前显示范围内挪动，则不动
+        toPos = lbToPos;
+    } else if (ind < lbToPos) {
+        toPos = ind;
+    } else {
+        var maxInd = lbTotalNum - anchorNum;
+        if(ind > maxInd) {
+            toPos = maxInd;
+        } else {
+            toPos = ind;
+        }
+    }
+    if(ind !== currentPosi) {
+        setLbBigImgShow(ind);
+    }
+    currentPosi = ind;
+    lbToPos = toPos;
+    SmallImgSliderMoveto(toPos);
+	$("#imageShow ul.imagepoint a").each(function(ind1, Ele1){
+		if(ind == ind1) {
+			$(this).addClass("hover");
+		} else {
+			$(this).removeClass("hover");
+		}
+	});
+}
+function setLbBigImgShow(ind) {
+    $("#imageShowBig li").each(function(index, ele){
+        if(ind == index) {
+            $(this).show().css("display", "block");
+        } else {
+            $(this).hide();
+        }    
+    });
+}
+function SmallImgSliderMoveto(pos) {
+    var wid = parseInt($("#imageShowSmall li").css("width").replace("px", "")) + parseInt($("#imageShowSmall li").css("margin-right").replace("px", ""));
+    var toleft = 0 - wid * pos;
+    $("#imageShowSmall").animate({left:toleft+'px'}, 200);
+    // 设置anchor的位置
+    var chazhi = currentPosi - lbToPos;
+    var toleft = wid * chazhi;
+    $("#imageShowSmallAnchor").animate({left:toleft+'px'}, 200);
+}
+$("#imageShow ul.imagepoint a").each(function(ind, Ele){
+    $(this).click(function(){
+        SmallImgSliderTo(ind);
+    });
+});
+$("#imageShowSmall li img").each(function(ind, Ele){
+    $(this).click(function(){
+        SmallImgSliderTo(ind);
+    });
+});
+$("#imageShowSmallNext").click(function(){
+    SmallImgSliderTo(currentPosi+1);
+});
+$("#imageShowSmallPre").click(function(){
+    SmallImgSliderTo(currentPosi-1);
+});
+</script>
+</div>
+        <!--幻灯 end-->
+<!--sf_leftbox 投资指南 sta-->
+        <div class="sf_leftbox w300" style="margin-top: 9px; ">
+            <ul class="sf_lbtitle">
+                <li class="hover" onmouseover="setTab('abt',1,2)" id="abt1" ><a id="shopxq_B03_08" href="http://www.fang.com/ask/41/a_41_1__1__-1.html" target="_blank">投资咨询</a></li>
+                           </ul>
+            <div id="con_abt_1" class="mt5" style=" position:relative;" >
+                <div class="cd_nhbox">
+                      <ul class="asklist mtop10" style="margin-left:10px;" id="shopxq_B03_11">
+			 									                        <li class="cd_wt" >
+                            <i class="cd_t_icon fl"></i>
+                           <a class="fl ml05 ys555" href="http://www.fang.com/ask/ask_19306089.html" title="提前还贷注意什么谁比较清楚" target="_blank">提前还贷注意什么谁比较清楚</a>
+                            <span class="fr ys555"><a class="ysc00" href="http://www.fang.com/ask/ask_19306089.html" target="_blank">1</a>回复</span>
+                        </li>
+                        <div style="clear:both;"></div>
+									 			                        <li class="cd_wt" >
+                            <i class="cd_t_icon fl"></i>
+                           <a class="fl ml05 ys555" href="http://www.fang.com/ask/ask_19311955.html" title="合同已签,付定金了,但买方贷款迟迟下不来,合同没约定交款时间,卖方该如何处理?" target="_blank">合同已签,付定金了,但买方贷款迟迟下</a>
+                            <span class="fr ys555"><a class="ysc00" href="http://www.fang.com/ask/ask_19311955.html" target="_blank">2</a>回复</span>
+                        </li>
+                        <div style="clear:both;"></div>
+									 			                        <li class="cd_wt" >
+                            <i class="cd_t_icon fl"></i>
+                           <a class="fl ml05 ys555" href="http://www.fang.com/ask/ask_19311857.html" title="中介扣押我的房产证,合法吗?" target="_blank">中介扣押我的房产证,合法吗?</a>
+                            <span class="fr ys555"><a class="ysc00" href="http://www.fang.com/ask/ask_19311857.html" target="_blank">2</a>回复</span>
+                        </li>
+                        <div style="clear:both;"></div>
+									 			                        <li class="cd_wt" >
+                            <i class="cd_t_icon fl"></i>
+                           <a class="fl ml05 ys555" href="http://www.fang.com/ask/ask_19019043.html" title="未经老公同意，我有权卖掉我们的房子吗？" target="_blank">未经老公同意，我有权卖掉我们的房子</a>
+                            <span class="fr ys555"><a class="ysc00" href="http://www.fang.com/ask/ask_19019043.html" target="_blank">70</a>回复</span>
+                        </li>
+                        <div style="clear:both;"></div>
+									 			                        <li class="cd_wt" >
+                            <i class="cd_t_icon fl"></i>
+                           <a class="fl ml05 ys555" href="http://www.fang.com/ask/ask_18827989.html" title="现在交新房需要交暖气和天然气的开户费吗？" target="_blank">现在交新房需要交暖气和天然气的开户</a>
+                            <span class="fr ys555"><a class="ysc00" href="http://www.fang.com/ask/ask_18827989.html" target="_blank">1</a>回复</span>
+                        </li>
+                        <div style="clear:both;"></div>
+									 					
+                     </ul>
+                     <div class="ask_scbox mtop10 mbottom15">
+                        <form id="frm_search" name="frm_search" target="_blank" method="get" style="margin:0; padding:0;" action="http://www.fang.com/ask/search.aspx">
+			<div id="shopxq_B03_10">
+				<input id="asktitle" name="asktitle" class="ask_sc_tx Inp_qbk" type="text" value="置业顾问将快速解答您的疑问" onfocus="if (this.value==this.defaultValue) this.value = '';" onblur="if(this.value=='') this.value=this.defaultValue" />
+				<div class="ask_scbox_bt">
+				<input class="ask_sc_btn ts_linear rbox2 mr10" type="button" value="搜索" onclick="$('#frm_search').submit();">
+				<input class="ask_sc_ask ts_linear rbox2" type="button" value="提问" onclick="window.open('http://www.fang.com/ask/Ask_StepTwo.aspx?asktitle=%BD%F0%B5%D8%CA%C0%BC%D2%B9%E3%B3%A1&newcode=1010786043')">
+				<input value="1" name="city"  type="hidden"/>
+				</div>
+			</div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+		        </div>      
+<!--sf_leftbox 投资指南 end-->
+<!--sf_leftbox 相关资讯 start-->
+<div class="sf_leftbox w300" >
+	<ul class="sf_lbtitle">
+        <li class="hover"><a id="shopxq_B03_15" href="http://search.fang.com/search?dir=news&q=%BD%F0%B5%D8%CA%C0%BC%D2%B9%E3%B3%A1" target="_blank">相关资讯</a></li>    
+    </ul>
+	 <div id="con_abt_1" class="mt5" style=" position:relative;" >
+        <div class="cd_nhbox">
+            <ul class="asklist mtop10" style="margin-left:10px;" >
+							<li><a href="http://newhouse.fang.com/house/2016-07-16/22043344.htm" title="北京金地世家广场MINI墅怎么样 均价多少?户型好不好?" target="_blank">北京金地世家广场MINI墅怎么样 均</a><span>2016-07-16</span></li>             
+             				<li><a href="http://news.fang.com/2015-07-24/16715348.htm" title="开盘即热销 谁家Loft在逆袭" target="_blank">开盘即热销 谁家Loft在逆袭</a><span>2015-07-24</span></li>             
+             				<li><a href="http://news.fang.com/2015-06-17/16293106.htm" title="相约六月,金地世家广场MINI墅即将盛大开盘" target="_blank">相约六月,金地世家广场MINI墅即将</a><span>2015-06-17</span></li>             
+             				<li><a href="http://news.fang.com/2015-06-09/16205938.htm" title="金地世家广场MINI墅世家会成立啦!" target="_blank">金地世家广场MINI墅世家会成立啦</a><span>2015-06-09</span></li>             
+             			</ul>
+		</div>
+	</div>
+    
+</div>
+<!--sf_leftbox 相关资讯 end-->
+<!--房价走势 sta-->
+    <div class="sf_leftbox w300" style="margin-top:17px;">
+            <ul class="sf_lbtitle">
+                <li class="" onmouseover="setTab('aabt',1,2)" id="aabt1"><a id="shopxq_B03_16" href="http://shijiaguangchangjd.fang.com/jiage/" target="_blank">房价走势</a></li>
+                <li onmouseover="setTab('aabt',2,2)" id="aabt2" class="hover"><a id="shopxq_B03_17" href="http://shijiaguangchangjd.fang.com/jiage/" target="_blank">租金走势</a></li>
+            </ul>
+            <div id="con_aabt_1" class="mt5" style="display: none; position:relative;" >
+                <div class="cd_nhbox">
+                    <img src="http://priceimgn.soufun.com/priceimage/CreatePriceImageSydc.php?n=1010786043&type=&saletype=1" alt="" />
+                </div>
+            </div>
+            <div id="con_aabt_2" class="mt5" style="display: block;">
+                <div class="cd_nhbox">
+                     <img src="http://priceimgn.soufun.com/priceimage/CreatePriceImageSydc.php?n=1010786043&type=&saletype=0" alt="" />
+                </div>
+            </div>
+        </div>      
+<!--房价走势 end-->
+<!--周边写字楼 sya-->
+      <div class="sf_leftbox w300" style="margin-top:15px;">
+            <ul class="sf_lbtitle">
+                <li class="" onmouseover="setTab('_aabt',1,2)" id="_aabt1">最新商铺</li>
+                <li onmouseover="setTab('_aabt',2,2)" id="_aabt2" class="hover">最热商铺</li>
+            </ul>
+            <div id="con__aabt_1" class="mt5" style="display: none; position:relative;" >
+                <div class="cd_nhbox">
+                    <table width="280" align="center" cellpadding="0" cellspacing="0" style="font-size:12px;margin:10px auto;" >
+			<tr height="25">
+				<td width="120">楼盘</td>
+				<td>区县</td>
+				<td>点击</td>
+				<td>对比</td>
+			</tr>
+							
+			 <tr bgcolor="#f1f1f1" height="25">
+				<td><a href="http://xintianditrzgtj.fang.com/" target="_blank">中国铁建·通瑞新天地</a></td>
+				<td><a href="http://newhouse.fang.com/house/%B1%B1%BE%A9_____%CD%A8%D6%DD_%C9%CC%C6%CC___________1___.htm" target="_blank">通州</a></td>
+				<td class="ysc00">7118</td>
+				<td><a href="http://shop.fang.com/contrast/1010786043_1010122823/duibi.htm" target="_blank">对比</a></td>
+			</tr>
+							
+			 <tr  height="25">
+				<td><a href="http://xichenguangchanglh.fang.com/" target="_blank">龙湖·西宸广场</a></td>
+				<td><a href="http://newhouse.fang.com/house/%B1%B1%BE%A9_____%B7%E1%CC%A8_%C9%CC%C6%CC___________1___.htm" target="_blank">丰台</a></td>
+				<td class="ysc00">6826</td>
+				<td><a href="http://shop.fang.com/contrast/1010786043_1010122773/duibi.htm" target="_blank">对比</a></td>
+			</tr>
+							
+			 <tr bgcolor="#f1f1f1" height="25">
+				<td><a href="http://chaojifengchao.fang.com/shop/" target="_blank">房山超级蜂巢商铺</a></td>
+				<td><a href="http://newhouse.fang.com/house/%B1%B1%BE%A9_____%B7%BF%C9%BD_%C9%CC%C6%CC___________1___.htm" target="_blank">房山</a></td>
+				<td class="ysc00">6816</td>
+				<td><a href="http://shop.fang.com/contrast/1010786043_1010122717/duibi.htm" target="_blank">对比</a></td>
+			</tr>
+							
+			 <tr  height="25">
+				<td><a href="http://yuechengguangchangwktz.fang.com/" target="_blank">万科天竺·悦城广场</a></td>
+				<td><a href="http://newhouse.fang.com/house/%B1%B1%BE%A9_____%CB%B3%D2%E5_%C9%CC%C6%CC___________1___.htm" target="_blank">顺义</a></td>
+				<td class="ysc00">10174</td>
+				<td><a href="http://shop.fang.com/contrast/1010786043_1010122669/duibi.htm" target="_blank">对比</a></td>
+			</tr>
+							
+			 <tr bgcolor="#f1f1f1" height="25">
+				<td><a href="http://hijinglingfeng2010.fang.com/" target="_blank">合景领峰</a></td>
+				<td><a href="http://newhouse.fang.com/house/%B1%B1%BE%A9_____%B7%BF%C9%BD_%C9%CC%C6%CC___________1___.htm" target="_blank">房山</a></td>
+				<td class="ysc00">19333</td>
+				<td><a href="http://shop.fang.com/contrast/1010786043_1010122117/duibi.htm" target="_blank">对比</a></td>
+			</tr>
+							
+			 <tr  height="25">
+				<td><a href="http://huayuanjie010.fang.com/" target="_blank">花园街</a></td>
+				<td><a href="http://newhouse.fang.com/house/%B1%B1%BE%A9_____%B3%AF%D1%F4_%C9%CC%C6%CC___________1___.htm" target="_blank">朝阳</a></td>
+				<td class="ysc00">23484</td>
+				<td><a href="http://shop.fang.com/contrast/1010786043_1010833307/duibi.htm" target="_blank">对比</a></td>
+			</tr>
+							
+			 <tr bgcolor="#f1f1f1" height="25">
+				<td><a href="http://haiyuewangjiao.fang.com/" target="_blank">海悦旺角</a></td>
+				<td><a href="http://newhouse.fang.com/house/%B1%B1%BE%A9_____%B4%F3%D0%CB_%C9%CC%C6%CC___________1___.htm" target="_blank">大兴</a></td>
+				<td class="ysc00">16375</td>
+				<td><a href="http://shop.fang.com/contrast/1010786043_1010831361/duibi.htm" target="_blank">对比</a></td>
+			</tr>
+							
+                       </table> 
+                </div>
+            </div>
+            <div id="con__aabt_2" class="mt5" style="display: block;">
+                <div class="cd_nhbox">
+                      <table width="280" align="center" cellpadding="0" cellspacing="0" style="font-size:12px;margin:10px auto;" >
+			<tr height="25">
+				<td width="120">楼盘</td>
+				<td>区县</td>
+				<td>点击</td>
+				<td>对比</td>
+			</tr>
+						 <tr bgcolor="#f1f1f1" height="25">
+				<td><a href="http://jinzuanjiezh.fang.com/" target="_blank">中海金钻街</a></td>
+				<td><a href="http://newhouse.fang.com/house/%B1%B1%BE%A9_____%CA%AF%BE%B0%C9%BD_%C9%CC%C6%CC___________1___.htm" target="_blank">石景山</a></td>
+				<td class="ysc00">43089</td>
+				<td><a href="http://shop.fang.com/contrast/1010786043_1010823223/duibi.htm" target="_blank">对比</a></td>
+			</tr>
+						 <tr  height="25">
+				<td><a href="http://guofengmeitangsk.fang.com/shop/" target="_blank">首开国风美唐</a></td>
+				<td><a href="http://newhouse.fang.com/house/%B1%B1%BE%A9_____%B2%FD%C6%BD_%C9%CC%C6%CC___________1___.htm" target="_blank">昌平</a></td>
+				<td class="ysc00">4329</td>
+				<td><a href="http://shop.fang.com/contrast/1010786043_1010705843/duibi.htm" target="_blank">对比</a></td>
+			</tr>
+						 <tr bgcolor="#f1f1f1" height="25">
+				<td><a href="http://kafaguoji.fang.com/shop/" target="_blank">卡法国际商铺</a></td>
+				<td><a href="http://newhouse.fang.com/house/%B1%B1%BE%A9_____%CB%B3%D2%E5_%C9%CC%C6%CC___________1___.htm" target="_blank">顺义</a></td>
+				<td class="ysc00">3237</td>
+				<td><a href="http://shop.fang.com/contrast/1010786043_1010822377/duibi.htm" target="_blank">对比</a></td>
+			</tr>
+						 <tr  height="25">
+				<td><a href="http://huilanxingguangdadaofl.fang.com/" target="_blank">富力·惠兰星光大道</a></td>
+				<td><a href="http://newhouse.fang.com/house/%B1%B1%BE%A9_____%CD%A8%D6%DD_%C9%CC%C6%CC___________1___.htm" target="_blank">通州</a></td>
+				<td class="ysc00">2793</td>
+				<td><a href="http://shop.fang.com/contrast/1010786043_1010820741/duibi.htm" target="_blank">对比</a></td>
+			</tr>
+						 <tr bgcolor="#f1f1f1" height="25">
+				<td><a href="http://haiyuewangjiao.fang.com/" target="_blank">海悦旺角</a></td>
+				<td><a href="http://newhouse.fang.com/house/%B1%B1%BE%A9_____%B4%F3%D0%CB_%C9%CC%C6%CC___________1___.htm" target="_blank">大兴</a></td>
+				<td class="ysc00">2682</td>
+				<td><a href="http://shop.fang.com/contrast/1010786043_1010831361/duibi.htm" target="_blank">对比</a></td>
+			</tr>
+						 <tr  height="25">
+				<td><a href="http://changqingtengsk.fang.com/shop/" target="_blank">首开·常青藤</a></td>
+				<td><a href="http://newhouse.fang.com/house/%B1%B1%BE%A9_____%B3%AF%D1%F4_%C9%CC%C6%CC___________1___.htm" target="_blank">朝阳</a></td>
+				<td class="ysc00">2508</td>
+				<td><a href="http://shop.fang.com/contrast/1010786043_1010496707/duibi.htm" target="_blank">对比</a></td>
+			</tr>
+						 <tr bgcolor="#f1f1f1" height="25">
+				<td><a href="http://wandaguangchangtz010.fang.com/shop/" target="_blank">通州万达广场</a></td>
+				<td><a href="http://newhouse.fang.com/house/%B1%B1%BE%A9_____%CD%A8%D6%DD_%C9%CC%C6%CC___________1___.htm" target="_blank">通州</a></td>
+				<td class="ysc00">2373</td>
+				<td><a href="http://shop.fang.com/contrast/1010786043_1010740481/duibi.htm" target="_blank">对比</a></td>
+			</tr>
+			                       </table> 
+                </div>
+            </div>
+        </div>  
+<!--周边写字楼 end-->
+    </div>
+    <!--first left  end-->
+    <!--first right  sta-->
+    <div class="cd_first_right">
+        <div class="cd_right_nr1">
+        <!--房贷计算器 sta-->
+            <div class="cd_right_nr1_Ua">
+                <ul style="position:relative;">
+                    <li class="zt_ct yc07">11月21日房价</li>
+                                     <li><span style="font-family:Arial,微软雅黑;" class="zt22 zt_ct ysc00">待定</span></li>			 
+		                    <li style="color:#999;">[<a id="shopxq_B03_02" target="_blank" href="http://newhouse.fang.com/house/%B1%B1%BE%A9_____%CB%B3%D2%E5_%C9%CC%C6%CC___________1___.htm" class="ys99">查看周边价格</a>]</li>
+                    <li style="color:#999;_ margin-top:4px;" class="cd_jsq">
+                        <i class="cd_t_icon"></i>
+                        <a class="ys99" id="shopxq_B03_03" href="http://newhouse.fang.com/house/tools.htm" target="_blank">房贷计算器</a>
+                    </li>
+				</ul>
+			</div>	
+<div style="clear:both"></div>			
+            <!--详细内容 sta-->
+            <div class="cd_right_nr1_Ub">
+                <div class="cd_fir_xx_a FL">
+                    <ul>
+                        <li><span class="zt_ct">租售状态</span> 待售</li>
+                        <li><span class="zt_ct">商铺类型</span> 市场类商铺</li>
+                        <li><span class="zt_ct">开间面积</span> 暂无资料</li>
+                        <li><span class="zt_ct">电梯配置</span> 暂无资料</li>
+                        <li><span class="zt_ct">物 业 费</span> 暂无资料</li>
+                        <li id="shopxq_B03_05"><span class="zt_ct">开 发 商</span>  <a href="http://newhouse.fang.com/house/company/1010786043_20070927153512.htm" target="_blank">金地地产</a></li>
+                                                <li class="cd_dt" title="顺义中央别墅区后沙峪罗马环岛东沿火沙路1000米"><span class="zt_ct" >物业地址</span> 顺义中央别墅区后沙峪罗马环岛东                            <i class="cd_t_icon"></i>
+                            <a class="ys99" id="shopxq_B03_06" href="http://map.fang.com/house/bj/?newcode=1010786043" target="_blank">查看地图</a>
+                        </li>
+                        <li><a id="shopxq_B03_07" href="http://shijiaguangchangjd.fang.com/house/1010786043/housedetail.htm"  style="color:#c00;" target="_blank">查看金地世家广场详细信息>></a></li>
+                    </ul>
+                </div>
+                <div class="cd_fir_xx_b FL">
+                    <ul>
+                        <li><span class="zt_ct">开盘时间</span> 待定</li>
+                        <li><span class="zt_ct">建筑面积</span> 16000平方米</li>
+                        <li><span class="zt_ct">标准层面积</span> 暂无资料</li>
+                        <li><span class="zt_ct">停 车 位</span> 暂无资料</li>
+                        <li id="shopxq_B03_04"><span class="zt_ct">物业公司</span> <a href="http://newhouse.fang.com/house/company/1010786043_20050905133559.htm" target="_blank">金地物业公司</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!--详细内容 end-->
+            <div style="clear:both"></div>
+            <!--免费电话 sta-->
+    
+<!--售楼电话20130916 begin-->
+	<!-- <script src="http://js.soufunimg.com/upload/webim/newim/scripts/im.js" charset="UTF-8"></script> -->
+	<script type="text/javascript" id="fangimnode" src="http://js.soufunimg.com/upload/webim/im2/scripts/im2.0.5.js" charset="utf-8"></script>
+		<script type="text/javascript">
+			var isqddslp = '';/*
+			var ishuodongqddslp = '';
+			var currNewcode = <?php $proj_info.Newcode ?>;*/
+			var city = '上海';/*<?php $proj_info.City ?>;*//*
+			var projname = <?php $proj_info.ProjName ?>;
+			var operastion = 'R';
+			var chatDomain = "chat.newhouse.soufun.com";
+			var is_icon_show = "show";*/
+		</script>
+<script src="http://newhouse.js.soufunimg.com/newhouse/js/newhouse_im.js?v=20161128"></script>
+
+<div style="width:384px; height:72px;"><!----此处的width:648px; 数值根据页面需求调整---->
+	<div class="wr_01">
+		<div class="wr_02">
+		   <div class="df_01">
+				<div id="talkZygwDiv" style="display:none;">
+				  <div class="fod_02"><img src="http://img1.soufun.com/house/detail_php/tel400talk/dh_20.gif" /></div> 
+				  <div class="fod_01">
+				  <dl id="talkZygwLi">
+				  </dl>
+				  <span></span>
+				  </div>
+				</div>
+			  <dl>
+				<dt><img src="http://img1.soufun.com/house/detail_php/tel400talk/dh_1.gif" /></dt>
+								<dd><strong>400-890-0000</strong></dd>
+				<dt><img id="chatimg" src="http://img1.soufun.com/house/detail_php/tel400talk/dh_12.gif" /></dt>
+							  </dl>
+		  </div>
+		  			<table border="0" cellpadding="0" cellspacing="0" class="df_02" id="chat_400_table">
+			<tr>
+			  <td><strong>813598</strong> 找 售楼处</td>
+			</tr>
+			</table>
+		  		  <table border="0" cellpadding="0" cellspacing="0" class="df_02">
+			<tr>
+				<td>
+				<p id="mfth1" style="display:none;"><span class="df_04"><a id="" href="javascript:void(0);" onclick="showid('callbox');"></a></span></p>                
+				<p id="zxgt" style="display:block;"><span id="xfxq_B04_21" class="df_05"><a href='javascript:void(0);' onClick='NewhouseIm.openIm()' id="talkZygwIcon-1"></a></span></p>
+				<span class="df_06" id="mfth2"><a id="" href="javascript:void(0);" onclick="showid('callbox');"></a></span>
+				</td>
+			</tr>
+		  </table>
+		</div>
+			</div>
+</div>
+<iframe id="callbox" style="display:none;position:absolute;  top:280px; z-index:9999;" name="callbox" src="/house/web/callfree_post.php?newcode=1010786043&showid=1&city=北京" width="354" height="193" frameborder="0" scrolling="no" marginwidth="0" marginheight="0"></iframe>
+<!--售楼电话20130916 end-->
+
+
+<script>
+var currNewcode = '1010786043';
+$(function(){
+    $.ajax({
+        type:'get',
+        dataType:'jsonp',
+        <!-- url:"http://shijiaguangchangjd.fang.com/house/newhousechat/zygwTel400.php", -->
+        url:newhousedomain+"/house/newhousechat/zygwTel400.php",
+        data:{newcode:currNewcode},
+        complete:function(){},
+        error:function(){},
+        success:function(msgRes){
+            // 动态修改页面内容
+			var trHtml = '';
+            var rows = msgRes.length;
+            for(var i=0; i<rows; i++) {
+                trHtml += "<tr><td><strong>" +msgRes[i]['tel400']+"</strong> 找 <a title='"+msgRes[i]['realname']+"' href='http://www.fang.com/xinfangbang/u/"+msgRes[i]['user_id']+".htm' target='_blank'>"+msgRes[i]['realname'].substring(0, 3)+"</a></td></tr>";
+            }	
+            
+			$("#chat_400_table").append(trHtml);
+			if(rows>0){
+			    $("#chatimg").attr('src','http://img1.soufun.com/house/detail_php/tel400talk/dh_2.gif');
+			}else{
+			    $("#chatimg").attr('src','http://img1.soufun.com/house/detail_php/tel400talk/dh_12.gif');
+			}
+        }
+    });
+});
+</script>
+	
+            <!---免费电话 end-->
+            <div class="right_2_nr right_mtop27">
+                <div class="title_style tf">
+                <h3 class="fl title_span">
+                <a href="http://shijiaguangchangjd.fang.com/house/1010786043/dongtai.htm" target="_blank" title="金地世家广场楼盘问答">金地世家广场最新动态</a>
+                </h3> 
+                <a class="fr" href="http://shijiaguangchangjd.fang.com/house/1010786043/dongtai.htm" target="_blank" rel="nofollow">更多&gt;&gt;</a> 
+                </div>
+                <div style="clear:both"></div>
+                <div class="right_box">
+                    <div class="right_2_nr1 right_left12 right_mtop10" id="shopxq_B03_14">
+                       <a href="http://shijiaguangchangjd.fang.com/house/1010786043/dongtai/1476787.htm" target="_blank"> <img src="http://img.soufun.com/house/2015_03/11/bj/1426062836619_000.jpg" width="50" height="50" /></a>
+                        <p><a title=" 金地世家广场商业建筑面积16000平米，商铺共108套，开盘时间、交房时间待定，价格待定。项目总占地面积23618.70万平米，总建筑面积65501.5万平米，距离地铁15号线的后沙峪站、花梨坎站行车距离约3公里。   金地世家广场周边商业购物配套成熟，坐享七大购物生活广场——欧陆广场、荣祥广场、荣和广场、温榆广场、天韵广场、香江广场。 " href="http://shijiaguangchangjd.fang.com/house/1010786043/dongtai.htm" target="_blank">金地世家广场商业建筑面积16000平米，商铺共108套，开盘时间、交房时间待定，价格待定。项目总占地面积23618.70万平米，总建筑面积65501.5万平米，距离...</a></p>
+                    </div>
+                </div>
+            </div>
+			<!-- 楼盘详情start --> 
+		<div class="right_2_nr right_mtop27"> 
+			<div class="title_style tf"> 
+				<h3 class="fl title_span"><a id=""  href="http://shijiaguangchangjd.fang.com/dianping/" target="_blank">金地世家广场楼盘点评(共<span style='color:#bf0e0e;'>3</span>条)</a></h3> 
+				<a class="fr commentBtn" href="javascript:void(0);"  onclick="goToAddDianping();" ><img src="http://img1.soufun.com/house/images/dplist201501/comLo.gif" style="margin-left: 5px; float: left"><span class="fl mgl10">写点评</span></a> 
+			</div> 
+			<div style="clear:both"></div> 
+			<div class='right_box'>
+				<div class="Comprehensive_score"> 
+				
+					<span class="star_Pos fl mgl13">
+					<a id="" href="http://shijiaguangchangjd.fang.com/dianping/" target="_blank">
+						<img src="http://img1.soufun.com/house/images/dplist201501/lightStar.gif" width="15" height="15">
+						<img src="http://img1.soufun.com/house/images/dplist201501/lightStar.gif" width="15" height="15">
+						<img src="http://img1.soufun.com/house/images/dplist201501/lightStar.gif" width="15" height="15">
+						<img src="http://img1.soufun.com/house/images/dplist201501/harfStar.gif" width="15" height="15">
+						<img src="http://img1.soufun.com/house/images/dplist201501/grayStar.gif" width="15" height="15">
+					</a>
+					</span>
+					<a href="http://shijiaguangchangjd.fang.com/dianping/" target="_blank">
+					<span class="fbold22 fl mgl13 mgt_2">3</span>
+					<span class="fbold14 fl">.93分</span> 
+					</a>
+										<span id="biaoqian">
+										<span class="font_gray fl mgl26"><a href="http://shijiaguangchangjd.fang.com/dianping/?shtag=0" rel="nofollow">价格(3)</a></span>
+										<span class="font_gray fl mgl26"><a href="http://shijiaguangchangjd.fang.com/dianping/?shtag=1" rel="nofollow">交通(2)</a></span>
+										<span class="font_gray fl mgl26"><a href="http://shijiaguangchangjd.fang.com/dianping/?shtag=2" rel="nofollow">配套(2)</a></span>
+										</span>
+									</div> 
+								<div id="dpContent" >
+													<div class="comm_list">
+						<div class="left_tx fl"> 
+							<a href="http://space.soufun.com/53586396/index/" target="_blank" id="" rel="nofollow">
+															<img src="http://js.soufunimg.com/space/images/space_img_01.jpg" width="34" height="34" class="vm" style="margin-left:12px">
+														</a>
+						</div>
+						<div class="comm_list_nr fl"  style="position:relative;"> 
+							<div class="comm_list_header" >
+								<a href="http://space.soufun.com/53586396/index/" target="_blank" rel="nofollow">soufun-w211970								</a>
+																<span class="lvStyle">LV2</span>
+															</div>
+																																				<div class="comm_list_score"> 
+								<div class="fl"> 
+									<ul class="fl"> 
+										<li><img src="http://img1.soufun.com/house/images/dplist201501/lightStardp.gif" width="12" height="12"></li>
+										<li><img src="http://img1.soufun.com/house/images/dplist201501/lightStardp.gif" width="12" height="12"></li>
+										<li><img src="http://img1.soufun.com/house/images/dplist201501/lightStardp.gif" width="12" height="12"></li>
+										<li><img src="http://img1.soufun.com/house/images/dplist201501/lightStardp.gif" width="12" height="12"></li>
+										<li><img src="http://img1.soufun.com/house/images/dplist201501/harfStardp.gif" width="12" height="12"></li>
+									</ul>
+								</div>
+							</div>
+														<div class="clear"></div>
+							<div class="comm_list_con" style="position:relative"> 
+								<p style="">
+									<a href="http://shijiaguangchangjd.fang.com/dianping/#o0_t2529975" target="_blank">周围有好多国际学校和高端商业街，虽然现在还不知道价格，但我预感不会低，离京承高速和机场北线告诉不太远，开车很方便。</a>
+								</p> <!-- 评论信息超过3行时显示出更多，默认隐藏 --> 
+							</div> 
+							<p class="look_hou">
+								<em><span style="color: rgb(153, 153, 153);">2015-09-10 14:07:13&nbsp;&nbsp;</span>来自 来自 Wap</em> 
+								<a class="fr ml05" target="_blank" href="http://shijiaguangchangjd.fang.com/dianping/#o0_t2529975">回复（0）</a>
+								<span class="zanA fr pr" id="zanbox_2529975">
+									<a class="mr05" id="agree_2529975" href="javascript:void(0);" title="赞" onclick="addAgree(2529975);">
+									<img class="best" src="http://img1.soufun.com/house/detail_php/images/alf.gif" width="12" height="12">
+									</a>(0)
+								</span>
+							</p>
+						</div>
+						<div class="clear"></div>
+					</div>
+																	<div class="comm_list">
+						<div class="left_tx fl"> 
+							<a href="http://space.soufun.com/53586401/index/" target="_blank" id="" rel="nofollow">
+															<img src="http://js.soufunimg.com/space/images/space_img_01.jpg" width="34" height="34" class="vm" style="margin-left:12px">
+														</a>
+						</div>
+						<div class="comm_list_nr fl"  style="position:relative;"> 
+							<div class="comm_list_header" >
+								<a href="http://space.soufun.com/53586401/index/" target="_blank" rel="nofollow">soufun-w211318245								</a>
+																<span class="lvStyle">LV2</span>
+															</div>
+																																				<div class="comm_list_score"> 
+								<div class="fl"> 
+									<ul class="fl"> 
+										<li><img src="http://img1.soufun.com/house/images/dplist201501/lightStardp.gif" width="12" height="12"></li>
+										<li><img src="http://img1.soufun.com/house/images/dplist201501/lightStardp.gif" width="12" height="12"></li>
+										<li><img src="http://img1.soufun.com/house/images/dplist201501/lightStardp.gif" width="12" height="12"></li>
+										<li><img src="http://img1.soufun.com/house/images/dplist201501/harfStardp.gif" width="12" height="12"></li>
+										<li><img src="http://img1.soufun.com/house/images/dplist201501/grayStardp.gif" width="12" height="12"></li>
+									</ul>
+								</div>
+							</div>
+														<div class="clear"></div>
+							<div class="comm_list_con" style="position:relative"> 
+								<p style="">
+									<a href="http://shijiaguangchangjd.fang.com/dianping/#o0_t2506329" target="_blank">目前价格还没定，但是顺义现在发展的越来越有国际范儿了。周围全是国际学校，自驾的话离机场高速近一点。还有各种公园、高尔夫球场，公交地铁都能到，住在北边的可以考虑。</a>
+								</p> <!-- 评论信息超过3行时显示出更多，默认隐藏 --> 
+							</div> 
+							<p class="look_hou">
+								<em><span style="color: rgb(153, 153, 153);">2015-08-25 13:52:05&nbsp;&nbsp;</span>来自 来自 Wap</em> 
+								<a class="fr ml05" target="_blank" href="http://shijiaguangchangjd.fang.com/dianping/#o0_t2506329">回复（0）</a>
+								<span class="zanA fr pr" id="zanbox_2506329">
+									<a class="mr05" id="agree_2506329" href="javascript:void(0);" title="赞" onclick="addAgree(2506329);">
+									<img class="best" src="http://img1.soufun.com/house/detail_php/images/alf.gif" width="12" height="12">
+									</a>(0)
+								</span>
+							</p>
+						</div>
+						<div class="clear"></div>
+					</div>
+												</div>
+			</div>
+			
+		</div> 
+	
+		<!-- 楼盘详情end --> 
+
+            <!--内容2 end-->
+           <div class="right_3_nr right_mtop15">
+		
+
+                <div class="right_3_nr_left right_mtop4">
+                   <div class="title_style tf">
+                    <h3 class="fl title_span">
+                    <a href="http://beijingyuanzith.fang.com/ask/" target="_blank" title="金地世家广场楼盘问答">金地世家广场周边物业配比</a></h3>
+                    </div>
+                    <div class="right_box" style="height:125px;" >
+                        <table class="mleft8" width="290" align="center" cellpadding="0" cellspacing="0" style="font-size:12px;text-align:center;  margin-top:10px; float:left; " >
+                            <tr height="25">
+			<td>物业类型</td>
+			<td>数量</td>
+			<td>建筑面积(㎡)</td>
+			</tr>
+			<tr bgcolor="#f1f1f1" height="25">
+			<td><a id="shopxq_B03_18" href="http://shijiaguangchangjd.fang.com/house/zb/1010786043_R.htm" title="查看新盘住宅" target="_blank">住宅</a></td>
+			<td>41</td>
+			<td>6483583</td>
+			</tr>
+			<tr height="25">
+			<td><a id="shopxq_B03_19" href="http://shijiaguangchangjd.fang.com/house/zb/1010786043_S.htm" title="查看新盘商铺" target="_blank">商铺</a></td>
+			<td>4</td>
+			<td>609908</td>
+			</tr>
+			<tr bgcolor="#f1f1f1" height="25">
+			<td><a id="shopxq_B03_20" href="http://shijiaguangchangjd.fang.com/house/zb/1010786043_O.htm" title="查看新盘写字楼" target="_blank">写字楼</a></td>
+			<td>8</td>
+			<td>1132091</td>
+			</tr>
+                       </table> 
+                    </div>
+                </div>
+                <div class="right_3_nr_right">
+                    <div class="sf_leftbox w310">
+                        <ul class="sf_lbtitle">
+                            <li class="" onmouseover="setTab('_abt',1,2)" id="_abt1">数量配比</li>
+                            <li onmouseover="setTab('_abt',2,2)" id="_abt2" class="hover">面积配比</li>
+                        </ul>
+                        <div id="con__abt_1" class="mt5" style="display: none; position:relative;" >
+                            <div class="cd_nhbox" style="width:308px;">  
+                              <img src="http://priceimgn.soufun.com/priceimage/SydcAroundBar.php?n=1010786043" alt="">
+                            </div>
+                        </div>
+                        <div id="con__abt_2" class="mt5" style="display: block;">
+                            <div class="cd_nhbox" style="width:308px;">
+                              <img src="http://priceimgn.soufun.com/priceimage/SydcAroundPie3D.php?n=1010786043" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+				           </div>
+           <!--内容3 end-->
+           <!--内容4 sta-->
+           <div class="right_4_nr right_mtop15">
+                <div class="title_style tf">
+                    <span class="fl title_span"><a href="http://shijiaguangchangjd.fang.com/house/1010786043/housedetail.htm" target="_blank">金地世家广场详细信息</a></span>
+                    <div class="fr">
+<a rel="nofollow" href="http://shijiaguangchangjd.fang.com/house/1010786043/housedetail.htm#xq_xmjs" class="title_more" target="_blank">项目介绍</a>
+<a rel="nofollow" href="http://shijiaguangchangjd.fang.com/house/1010786043/housedetail.htm#xq_xmpt" class="title_more" target="_blank">项目配套</a>
+<a rel="nofollow" href="http://shijiaguangchangjd.fang.com/house/1010786043/housedetail.htm#xq_jtzk" class="title_more" target="_blank">交通状况</a>
+<a rel="nofollow" href="http://shijiaguangchangjd.fang.com/house/1010786043/housedetail.htm#xq_jczx" class="title_more" target="_blank">内部设施</a>
+<a rel="nofollow" href="http://shijiaguangchangjd.fang.com/house/1010786043/housedetail.htm#xq_lczk" class="title_more" target="_blank">楼层状况</a>
+<a rel="nofollow" href="http://shijiaguangchangjd.fang.com/house/1010786043/housedetail.htm#xq_cwxx" class="title_more" target="_blank">车位信息</a>
+<a rel="nofollow" href="http://shijiaguangchangjd.fang.com/house/1010786043/housedetail.htm#xq_xgxx" class="title_more" target="_blank">相关信息</a>
+                    </div>
+                </div>
+                <div class="right_box" style="height:225px;">
+                    <div class="cd_right_nr1_Ub"style="margin:0px auto; padding-top:10px;" >
+                        <div class="cd_fir_xx_a FL" >
+                            <ul>
+																																																							
+                                <li><span class="zt_ct">所属商圈</span> 暂无资料</li>
+                                <li><span class="zt_ct">产权年限</span> 40年</li>
+                                <li><span class="zt_ct">总楼层数</span> 3层</li>
+                                <li><span class="zt_ct">标准层高</span> 4.50米</li>
+                                <li><span class="zt_ct">周边配套</span> 暂无资料</li>
+                                <li><span class="zt_ct">目标业态</span> <a title="百货,超市,服装/服饰,鞋/皮具/箱包,饰品/化妆品,餐饮,文化,娱乐/休闲" id="shopxq_B03_24" rel="nofollow" target="_blank" href="http://shijiaguangchangjd.fang.com/house/1010786043/housedetail.htm#xq_xgxx">百货,超市,服装/服饰,鞋/皮具/箱包,饰品/化</a></li>
+																				
+																							
+                                <li ><span class="zt_ct">交通状况</span> <a id="shopxq_B03_25" rel="nofollow" href="http://shijiaguangchangjd.fang.com/house/1010786043/housedetail.htm#xq_jtzk" target="_blank" title="项目南侧距离北五环直线距离约10公里，西侧距离京承高速约4.5公里，北侧距机场北线高速约2.3公里，东侧距六环约7.2公里，道路交通发达。距离地铁15号线后沙峪站、花梨坎站行车距离约3公里，有公交车可以到达。周边公交：855路、933路、顺22路、顺42路后沙峪站。">项目南侧距离北五环直线距离约10公里，西侧...</a></li>
+                                <li title=""><span class="zt_ct">楼栋状况</span> 暂无资料</li>
+                            </ul>
+                        </div>
+                        <div class="cd_fir_xx_b FL">
+                            <ul>
+                                <li><span class="zt_ct">项目特色</span> 品牌地产,地铁沿线,投资地产</li>
+                                <li><span class="zt_ct">标准层面积</span> 暂无资料</li>
+                                <li><span class="zt_ct">装修状况</span> 毛坯</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+           </div>
+           <!--内容4 end-->
+        </div>
+    </div>
+    <!--first right  end-->
+    <!--地图搜索 sta-->
+   <div class="clear10"></div>
+   <div class="box" style="margin-top:7px;">
+                <div id="shopxq_B03_27"><iframe id="iframe_map" src="http://ditu.fang.com/?c=channel&a=xiaoquMap&newcode=1010786043&city=bj&width=960&height=343&resizePage=/house/web/map_resize.html" width="960px" height="343px" frameborder="0" scrolling="no" marginwidth="0" marginheight="0"></iframe></div>
+    </div> 
+    <!--地图搜索 end-->
+    <div class="clear10"></div>
+    <!--周边 sta-->
+    <div class="content_nr5">
+        <div class="cd_first_left" >
+            <div class="sf_leftbox w300">
+            <ul class="sf_lbtitle">
+                <li class="" onmouseover="setTab('agabt',1,3)" id="agabt1">周边住宅</li>
+                <li onmouseover="setTab('agabt',2,3)" id="agabt2" class="hover">写字楼</li>
+                <li onmouseover="setTab('agabt',3,3)" id="agabt3" >综合体</li>
+            </ul>
+            <div id="con_agabt_1" class="mt5" style="display: none; position:relative;" >
+                <div class="cd_nhbox">
+                    <table width="280" align="center" cellpadding="0" cellspacing="0" style="text-align:center;font-size:12px;margin:10px auto;" >
+		   <tr height="25">
+				<td width="120">楼盘名称</td>
+				<td width="70">价格(元/㎡)</td>
+				<td  width="90">论坛</td>
+			</tr>
+						 <tr bgcolor="#f1f1f1" height="25">
+				<td><a href="http://beijingyuanzith.fang.com/" target="_blank">泰禾·北京院子</a></td>
+				<td class="ysc00" >3200</td>
+				<td><a title="泰禾·北京院子业主论坛" href="http://beijingyuanzith.fang.com/bbs/" target="_blank">BBS</a></td>
+			</tr>
+						 <tr  height="25">
+				<td><a href="http://jinglinyuanzhu.fang.com/" target="_blank">景粼原著</a></td>
+				<td class="ysc00" >1800</td>
+				<td><a title="景粼原著业主论坛" href="" target="_blank">BBS</a></td>
+			</tr>
+						 <tr bgcolor="#f1f1f1" height="25">
+				<td><a href="http://guomenzhihuicheng.fang.com/" target="_blank">国门智慧城</a></td>
+				<td class="ysc00" >36000</td>
+				<td><a title="国门智慧城业主论坛" href="http://guomenzhihuicheng.fang.com/bbs/" target="_blank">BBS</a></td>
+			</tr>
+						 <tr  height="25">
+				<td><a href="http://aidicheng.fang.com/" target="_blank">ID CITY艾迪城</a></td>
+				<td class="ysc00" >--</td>
+				<td><a title="ID CITY艾迪城业主论坛" href="http://aidicheng.fang.com/bbs/" target="_blank">BBS</a></td>
+			</tr>
+						 <tr bgcolor="#f1f1f1" height="25">
+				<td><a href="http://youshanmeidid.fang.com/" target="_blank">优山美地D区</a></td>
+				<td class="ysc00" >4400</td>
+				<td><a title="优山美地D区业主论坛" href="" target="_blank">BBS</a></td>
+			</tr>
+						 <tr  height="25">
+				<td><a href="http://huizhanyujing.fang.com/" target="_blank">会展誉景</a></td>
+				<td class="ysc00" >45000</td>
+				<td><a title="会展誉景业主论坛" href="http://huizhanyujing.fang.com/bbs/" target="_blank">BBS</a></td>
+			</tr>
+						 <tr bgcolor="#f1f1f1" height="25">
+				<td><a href="http://guanchengbieshu.fang.com/" target="_blank">观承别墅</a></td>
+				<td class="ysc00" >--</td>
+				<td><a title="观承别墅业主论坛" href="http://guanchengbieshu.fang.com/bbs/" target="_blank">BBS</a></td>
+			</tr>
+			                       </table>
+                </div>
+            </div>
+            <div id="con_agabt_2" class="mt5" style="display: block;">
+                <div class="cd_nhbox">
+                     <table width="280" align="center" cellpadding="0" cellspacing="0" style="text-align:center;font-size:12px;margin:10px auto;" >
+		   <tr height="25">
+				<td width="120">楼盘名称</td>
+				<td width="70">价格(元/㎡)</td>
+				<td  width="90">论坛</td>
+			</tr>
+						 <tr bgcolor="#f1f1f1" height="25">
+				<td><a href="http://ziyougangld.fang.com/" target="_blank">云创中心</a></td>
+				<td class="ysc00" >23000</td>
+				<td><a title="云创中心业主论坛" href="" target="_blank">BBS</a></td>
+			</tr>
+						 <tr  height="25">
+				<td><a href="http://taidakejiyuan.fang.com/" target="_blank">泰达科技园</a></td>
+				<td class="ysc00" >19800</td>
+				<td><a title="泰达科技园业主论坛" href="http://taidakejiyuan.fang.com/bbs/" target="_blank">BBS</a></td>
+			</tr>
+						 <tr bgcolor="#f1f1f1" height="25">
+				<td><a href="http://xiangyunchuangyiguangchangzl.fang.com/" target="_blank">中粮·祥云创意广场</a></td>
+				<td class="ysc00" >25000</td>
+				<td><a title="中粮·祥云创意广场业主论坛" href="http://xiangyunchuangyiguangchangzl.fang.com/bbs/" target="_blank">BBS</a></td>
+			</tr>
+						 <tr  height="25">
+				<td><a href="http://xiyuegongguanwt.fang.com/" target="_blank">万通天竺新新公馆</a></td>
+				<td class="ysc00" >--</td>
+				<td><a title="万通天竺新新公馆业主论坛" href="" target="_blank">BBS</a></td>
+			</tr>
+			                       </table>
+                </div>
+            </div>
+            <div id="con_agabt_3" class="mt5" style="display: none; position:relative;" >
+                <div class="cd_nhbox">
+                     <table width="280" align="center" cellpadding="0" cellspacing="0" style="text-align:center;font-size:12px;margin:10px auto;" >
+		   <tr height="25">
+				<td width="120">楼盘名称</td>
+				<td width="70">价格(元/㎡)</td>
+				<td  width="90">论坛</td>
+			</tr>
+			                       </table>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="cd_first_right">
+            <div class="right_4_nr right_mtop5">
+                <div class="title_style tf">
+                    <h3 class="fl title_span"><a id="shopxq_B03_29" href="http://shop.fang.com/loupan/zu/house-xm1010786043/" target="_blank">金地世家广场房源推荐</a></h3>
+                </div>
+                <div class="boxright cd_nhbox" style="width:638px;">
+                     <ul class="fytjtit"style="width:590px; margin-left:8px;">
+                        <li class="crew17">房源</li>
+                        <li class="crew9" style="width:80px;text-align: center;">户型面积</li>
+                        <li class="crew15" style="width:110px;text-align: center;">价格</li>
+                        <li class="crew16" style="width:100px;">联系人</li>
+                    </ul>
+			<div id="shopxq_B03_30">
+            <ul class="fytjcom">
+										
+										<li><strong>暂时没有本楼盘更多在租房源，看看其他精品房源吧</strong></li>
+										<li>
+						<div class="sydcico crew18"><a rel="nofollow" href="http://shop.fang.com/zu/3_326927186.html" target="_blank">低价出租 随时带看房 2室1厅1卫 5500.0元</a></div>
+						<div class="crew9" style="width:80px;text-align: center;">52㎡</div>
+						<div class="crew15 red" style="width:110px;text-align: center;">5500元/月</div>
+						<div class="crew16" style="width:115px;"><a rel="nofollow" href="http://esf.fang.com/a/wiwj18301348210" target="_blank">我爱我家 单海朋</a></div>
+					</li>
+						
+										<li>
+						<div class="sydcico crew18"><a rel="nofollow" href="http://shop.fang.com/zu/3_326927170.html" target="_blank">要租房的来找我.智地香蜜湾 2室1厅2卫 5800.0元</a></div>
+						<div class="crew9" style="width:80px;text-align: center;">52㎡</div>
+						<div class="crew15 red" style="width:110px;text-align: center;">5800元/月</div>
+						<div class="crew16" style="width:115px;"><a rel="nofollow" href="http://esf.fang.com/a/wiwj18301348210" target="_blank">我爱我家 单海朋</a></div>
+					</li>
+														            </ul>
+            <ul class="fytjcom" style="border:0;">		
+																			<li><strong>暂时没有本楼盘更多在售房源，看看其他精品房源吧</strong></li>
+									
+					<li>
+						<div class="sydcico crew19"><a rel="nofollow" href="http://shop.fang.com/shou/3_325856467.html" target="_blank">首都国际机场临空辐射区,5.4米十字路口大把角现铺</a></div>
+						<div class="crew9" style="width:80px;text-align: center;">240㎡</div>
+						<div class="crew15 red" style="width:110px;text-align: center;">33333万</div>
+						<div class="crew16" style="width:115px;"><a rel="nofollow" href="http://esf.fang.com/a/h13161945312" target="_blank">商业地产 何莉</a></div>
+					</li>
+														
+					<li>
+						<div class="sydcico crew19"><a rel="nofollow" href="http://shop.fang.com/shou/3_327003267.html" target="_blank">隶属中关村国际孵化平台 纯一层临街临地铁 可明火</a></div>
+						<div class="crew9" style="width:80px;text-align: center;">88㎡</div>
+						<div class="crew15 red" style="width:110px;text-align: center;">30000万</div>
+						<div class="crew16" style="width:115px;"><a rel="nofollow" href="http://esf.fang.com/a/l15711192042" target="_blank">商业地产 李洋</a></div>
+					</li>
+											
+				            </ul>
+			</div>
+        </div>
+            </div>
+    </div>
+    <!--周边 end-->
+    <div style="clear:both"></div>
+	<!--用户行为分析开始-->
+			<!--旧版埋码160727弃用><script type="text/javascript" src="http://js.ub.fang.com/_ub.js?v=201407181100"></script><-->
+		
+		<script type="text/javascript">
+			_ub.city = '北京';
+			_ub.biz = 'n';
+			_ub.location = 0;
+		</script>
+		
+		<!--旧版埋码160727弃用>
+	
+	<script type="text/javascript">
+		function browseUbcode()
+		{
+			var b=0;
+			var p={'vwg.page':'nhshoppage','vwn.projectid':'1010786043','vwn.opentime':'%E5%BE%85%E5%AE%9A','vwn.status':'%E5%BE%85%E5%94%AE','vwn.price':'0.00%E5%85%83%2F%E5%B9%B3%E6%96%B9%E7%B1%B3','vwn.district':'%E9%A1%BA%E4%B9%89','vwn.comarea':'','vwn.area':'16000.00%E5%B9%B3%E6%96%B9%E7%B1%B3','vwn.openroomarea':'23618.70%E5%B9%B3%E6%96%B9%E7%B1%B3','vwn.elevator':'%E5%AE%A2%E6%A2%AF0%E9%83%A8%EF%BC%8C%E8%B4%A7%E6%A2%AF0%E9%83%A8'};
+			if(b !=null && p != null)
+			{
+				_ub.collect(b,p);
+			}
+		}
+		browseUbcode();
+	</script>
+	
+	<-->
+	<!--第七行 start-->
+<div id="divMaylikePosition"></div>
+<div id="divMaylike" style="display:none;">
+	<div id="">
+		<div class="title_style tf right_mtop10">
+			<h3 class="fl title_span">您可能感兴趣的楼盘</h3>
+		</div>
+		<div class="cd_nhbox" style="width:958px;" id="divMaylikeUl"></div>
+	</div>
+</div>
+
+<style>
+.imgbor span{display: none;}
+.imgbor:hover span{display:block;}
+</style>
+	
+<!--第七行 end-->
+	<!--用户行为信息获取开始-->
+<script type="text/javascript" src="http://img.soufun.com/house/detail_new/js/Root.Xml.js"></script>
+
+<script language="javascript">
+function getScrollingPosition( ) {
+    var position = [0,0];
+    if ( typeof window.pageYOffset != 'undefined') {
+       position = [ window.pageXOffset, window.pageYOffset];
+    } else if ( typeof document.documentElement.scrollTop != 'undefined' && document.documentElement.scrollTop > 0) {
+          position = [ document.documentElement.scrollLeft,document.documentElement.scrollTop];                       
+    } else if (typeof document.body.scrollTop != 'undefined') {
+          position = [ document.body.scrollLeft , document.body.scrollTop];
+    }
+    return position;
+}
+var citySuo = "bj";
+var cityurlencode = "%B1%B1%BE%A9";
+var beginUbRequest = false;
+function initUbRequest()
+{
+    _ub.request('vwn.key,vwn.position,vwn.subway,vwn.genre,vwn.unitprice,vwn.feature,vwn.salestatus,vwn.housetype,vwn.loopline,vwn.opentime', function(){
+			_ub.load(3);//取时间最近的数据
+			var ubKeyStr = _ub['vwn.key'].v+';'+_ub['vwn.key'].d+';'+_ub['vwn.key'].m;
+			var ubPositionStr = _ub['vwn.position'].v+';'+_ub['vwn.position'].d+';'+_ub['vwn.position'].m;
+			var ubSubwayStr = _ub['vwn.subway'].v+';'+_ub['vwn.subway'].d+';'+_ub['vwn.subway'].m;
+			var ubGenreStr = _ub['vwn.genre'].v+';'+_ub['vwn.genre'].d+';'+_ub['vwn.genre'].m;
+			var ubUnitpriceStr = _ub['vwn.unitprice'].v+';'+_ub['vwn.unitprice'].d+';'+_ub['vwn.unitprice'].m;
+			var ubFeatureStr = _ub['vwn.feature'].v+';'+_ub['vwn.feature'].d+';'+_ub['vwn.feature'].m;		
+			var ubSalestatusStr = _ub['vwn.salestatus'].v+';'+_ub['vwn.salestatus'].d+';'+_ub['vwn.salestatus'].m;
+			var ubHousetypeStr = _ub['vwn.housetype'].v+';'+_ub['vwn.housetype'].d+';'+_ub['vwn.housetype'].m;
+			var ubLooplineStr = _ub['vwn.loopline'].v+';'+_ub['vwn.loopline'].d+';'+_ub['vwn.loopline'].m;
+			var ubOpentimeStr = _ub['vwn.opentime'].v+';'+_ub['vwn.opentime'].d+';'+_ub['vwn.opentime'].m;
+			var ubAllCondition = ubKeyStr+'|'+ubPositionStr+'|'+ubSubwayStr+'|'+ubGenreStr+'|'+ubUnitpriceStr+'|'+ubFeatureStr+'|'+ubSalestatusStr+'|'+ubHousetypeStr+'|'+ubLooplineStr+'|'+ubOpentimeStr;
+        
+			var requestUrl = "/house/web/ubRequest.php?num=5&frompage=xfxq&from=xfxq&condition="+ubAllCondition+"&newcode="+newcode+"&time=" + new Date().getTime();
+			Xml.Request(requestUrl, null, callback_displayMaylike, null);
+			/*var openUrl1 = requestUrl+"&DEBUG=1";
+			window.open(openUrl1,'_black')*/
+		});
+    _ub.request('n');
+}
+function getN9District(num)
+{
+    var returnString = ""; var getNum = 0;
+    for(var i=0; i<20; i++)
+    {
+        var string = _ub.n9;
+        _ub.load(0);
+        var stringArr = string.split("^");
+        if(stringArr[2] == '1')
+        {
+            returnString += stringArr[0]+"|";
+            getNum++;
+            if(getNum == num)
+            {
+                return returnString;
+            }
+        }
+    }
+    return returnString;
+}
+function padLeft(str,len)
+{
+    str = str.toString();
+    if(str.length >= len)
+        return str;
+    else
+        return padLeft("0" +str,len);
+} 
+function callback_displayMaylike()
+{
+    var getData = this.responseText;
+    if(getData)
+    {
+        var obj = eval('(' + getData + ')');
+        var htmlContent = "";
+        for(var i=0; i<obj.length; i++)
+        {
+			var liContent = '';
+			liContent += '<ul class="Y_like" style="padding-bottom:10px;">';
+			liContent += '<li class="imgbor" style="position: relative;height: 117px;">';
+			liContent += '<a href="'+obj[i]['imgLink']+'" target="_blank">';
+			liContent += '<img class="imgts" src="'+obj[i]['picture_thumb']+'" alt="'+obj[i]['district']+' '+obj[i]['title']+'" width="177px" height="117px;">';
+			liContent += '</a>';
+			liContent += '<span style="left: 50%;top: 44px;position: absolute;height: 24px;text-align: center;line-height: 24px;color: #fff;font-weight: bold;transform: translate(-50%,0);margin: 0 auto;opacity: 1;background-color: rgba(0,0,0,0.6);padding: 0 10px;border-radius: 4px;">'+obj[i]['projtype']+'</span>';
+			if(obj[i]['pcadnewSign']){
+				liContent += '<img src="http://imgd2.soufunimg.com/2015/12/25/25k/71ea846c543c4065b86e95b5b3244712.png" style="position:absolute; top:0px; right:-2px; ">';
+			}
+			liContent += '</li>';
+			
+			liContent += '<li style="font-weight: bold;color: #333;width:160px;height: 24px;line-height: 24px;-ms-text-overflow: ellipsis;text-overflow: ellipsis;overflow: hidden;white-space:nowrap;">';
+			liContent += '<a href="'+obj[i]['houseurl']+'" target="_blank">'+obj[i]['district']+'-'+obj[i]['title']+'</a>';
+			liContent += '</li>';
+			
+			liContent += '<div style="clear:both"></div>';
+			liContent += '<li style="position: relative;">';
+			
+			if(obj[i]['price_unit'] == '元/平方米' || !obj[i]['price_unit']){
+					var price_unit = '元/㎡';
+			}else{
+				var price_unit = obj[i]['price_unit'];
+			}
+			liContent +='<span style="font-weight: bold;">均价：</span>';
+			if(obj[i]['price_num']){				
+				liContent +='<i style="font-style: normal;color: #c00;">'+obj[i]['price_num']+price_unit+'</i>';				
+			}else{
+				liContent +='<i style="font-style: normal;color: #c00;">价格待定</i>';				
+			}
+			if(obj[i]['squares']){
+				liContent +='<em style="color: #999;float: right;position:absolute;right:0;">'+obj[i]['squares']+'㎡</em>';
+			}
+			liContent +='</li>';
+			if(obj[i]['louPanYHInfoTag']){
+				liContent += '<li><em style="float: left;height: 22px;line-height: 22px;padding:0 10px;border:1px solid #dbdbdb;">'+obj[i]['louPanYHInfoTag']+'</em></li>';
+			}
+			liContent += '</ul>';
+			htmlContent += liContent;
+		}
+        document.getElementById('divMaylikeUl').innerHTML = htmlContent;
+    }
+    document.getElementById('divMaylike').style.display = '';
+}
+var maylikeTop = document.getElementById('divMaylikePosition').offsetTop;
+window.onscroll = function () {
+    var scrollPos = getScrollingPosition();
+    if(scrollPos[1] + window.screen.height > maylikeTop && beginUbRequest == false)
+    {
+        beginUbRequest = true;
+        initUbRequest();
+    }
+};
+</script>
+
+<!--用户行为信息获取结束-->	<!--用户行为分析结束-->
+    <!--热点推荐楼盘 sta-->
+    <div class="title_style tf right_mtop15" id="shopxq_B03_31">
+        <h3 class="fl title_span">热点推荐楼盘</h3>
+        <a  class="fr" href="http://www.fang.com/fangchan/bj/" target="_blank" rel="nofollow">更多&gt;&gt;</a>
+    </div>
+    <div class="cd_nhbox" style="width:958px;">
+        <ul class="hot-off">
+           <li><a href="http://newhouse.fang.com/house/proj_list_A.htm#letters" target="_blank">A</a></li><li><a href="http://newhouse.fang.com/house/proj_list_B.htm#letters" target="_blank">B</a></li><li><a href="http://newhouse.fang.com/house/proj_list_C.htm#letters" target="_blank">C</a></li><li><a href="http://newhouse.fang.com/house/proj_list_D.htm#letters" target="_blank">D</a></li><li><a href="http://newhouse.fang.com/house/proj_list_E.htm#letters" target="_blank">E</a></li><li><a href="http://newhouse.fang.com/house/proj_list_F.htm#letters" target="_blank">F</a></li><li><a href="http://newhouse.fang.com/house/proj_list_G.htm#letters" target="_blank">G</a></li><li><a href="http://newhouse.fang.com/house/proj_list_H.htm#letters" target="_blank">H</a></li><li><a href="http://newhouse.fang.com/house/proj_list_I.htm#letters" target="_blank">I</a></li><li><a href="http://newhouse.fang.com/house/proj_list_J.htm#letters" target="_blank">J</a></li><li><a href="http://newhouse.fang.com/house/proj_list_K.htm#letters" target="_blank">K</a></li><li><a href="http://newhouse.fang.com/house/proj_list_L.htm#letters" target="_blank">L</a></li><li><a href="http://newhouse.fang.com/house/proj_list_M.htm#letters" target="_blank">M</a></li><li><a href="http://newhouse.fang.com/house/proj_list_N.htm#letters" target="_blank">N</a></li><li><a href="http://newhouse.fang.com/house/proj_list_O.htm#letters" target="_blank">O</a></li><li><a href="http://newhouse.fang.com/house/proj_list_P.htm#letters" target="_blank">P</a></li><li><a href="http://newhouse.fang.com/house/proj_list_Q.htm#letters" target="_blank">Q</a></li><li><a href="http://newhouse.fang.com/house/proj_list_R.htm#letters" target="_blank">R</a></li><li><a href="http://newhouse.fang.com/house/proj_list_S.htm#letters" target="_blank">S</a></li><li><a href="http://newhouse.fang.com/house/proj_list_T.htm#letters" target="_blank">T</a></li><li><a href="http://newhouse.fang.com/house/proj_list_U.htm#letters" target="_blank">U</a></li><li><a href="http://newhouse.fang.com/house/proj_list_V.htm#letters" target="_blank">V</a></li><li><a href="http://newhouse.fang.com/house/proj_list_W.htm#letters" target="_blank">W</a></li><li><a href="http://newhouse.fang.com/house/proj_list_X.htm#letters" target="_blank">X</a></li><li><a href="http://newhouse.fang.com/house/proj_list_Y.htm#letters" target="_blank">Y</a></li><li><a href="http://newhouse.fang.com/house/proj_list_Z.htm#letters" target="_blank">Z</a></li>        </ul>
+        <ul class="hrcomment">
+		    <li><a href="http://xishanjiayihao.fang.com/" title="西山甲一号" target="_blank">西山甲一号</a></li><li><a href="http://shijiejith.fang.com/" title="天恒世界集" target="_blank">天恒世界集</a></li><li><a href="http://tuqiaoplus.fang.com/" title="土桥PLUS" target="_blank">土桥PLUS</a></li><li><a href="http://829379.fang.com/" title="北京城建海云家园" target="_blank">北京城建海云</a></li><li><a href="http://zhongjuntianchen.fang.com/" title="中骏德胜门项目" target="_blank">中骏德胜门项</a></li><li><a href="http://guoyufubjcj.fang.com/" title="北京城建·国誉府" target="_blank">北京城建·国</a></li><li><a href="http://823565.fang.com/" title="京南温泉小镇" target="_blank">京南温泉小镇</a></li><li><a href="http://zhongxinzonghetisc.fang.com/" title="首创中心综合体" target="_blank">首创中心综合</a></li><li><a href="http://hugongguanhh.fang.com/" title="恒华湖公馆" target="_blank">恒华湖公馆</a></li><li><a href="http://822573.fang.com/" title="荣盛·阿尔卡迪亚·香河花语城" target="_blank">荣盛·阿尔卡</a></li><li><a href="http://822235.fang.com/" title="荣盛·阿尔卡迪亚·永清花语城" target="_blank">荣盛·阿尔卡</a></li><li><a href="http://guangyangjunjiuhaown.fang.com/" title="万年广阳郡九号" target="_blank">万年广阳郡九</a></li><li><a href="http://fengkewandaguangchangbj.fang.com/" title="北京丰台万达广场" target="_blank">北京丰台万达</a></li><li><a href="http://guoyuejuskzz.fang.com/" title="国悦居" target="_blank">国悦居</a></li><li><a href="http://yueshanshuifdyy.fang.com/" title="悦山水" target="_blank">悦山水</a></li><li><a href="http://xingshengjiayuanzgtj.fang.com/" title="兴盛嘉苑" target="_blank">兴盛嘉苑</a></li><li><a href="http://tongruijiayuanzgtj.fang.com/" title="通瑞嘉苑" target="_blank">通瑞嘉苑</a></li><li><a href="http://yuemomaddbc.fang.com/" title="北辰悦MOMA" target="_blank">北辰悦MOMA</a></li><li><a href="http://changanyayuanzh.fang.com/" title="中海长安雅苑" target="_blank">中海长安雅苑</a></li><li><a href="http://791611.fang.com/" title="京汉东方名苑" target="_blank">京汉东方名苑</a></li><li><a href="http://752567.fang.com/" title="恒大名都" target="_blank">恒大名都</a></li><li><a href="http://dongjunhuisc.fang.com/" title="首城东郡汇" target="_blank">首城东郡汇</a></li><li><a href="http://feicuihuatingbjhd.fang.com/" title="恒大翡翠华庭" target="_blank">恒大翡翠华庭</a></li><li><a href="http://shangyuejucj.fang.com/" title="城建上悦居" target="_blank">城建上悦居</a></li><li><a href="http://xinlichengjtwk.fang.com/" title="京投万科新里程" target="_blank">京投万科新里</a></li><li><a href="http://753727.fang.com/" title="首创悦洳汇" target="_blank">首创悦洳汇</a></li><li><a href="http://xiangchengyihao010.fang.com/" title="香城壹号" target="_blank">香城壹号</a></li><li><a href="http://luolanxianggubl.fang.com/2/" title="保利紫荆香谷" target="_blank">保利紫荆香谷</a></li><li><a href="http://yilinjunsc.fang.com" title="首创伊林郡" target="_blank">首创伊林郡</a></li><li><a href="http://xiangxijunsk.fang.com/" title="首开香溪郡" target="_blank">首开香溪郡</a></li>       </ul>
+    </div>
+    <!--热点推荐楼盘 end-->
+</div>
+<!--正文 end-->
+<div class="clear10"></div>
+<!--20110322搜房网统一版尾begin--> 
+<link href="http://newhouse.js.soufunimg.com/newhouse/style/newhouse_footer.css?v=20160318" type="text/css" rel="stylesheet" />
+
+<!--20120411搜房网统一版尾begin-->
+<div class="sfunfooter20120411">
+    <div class="verdana">
+        <a href="http://www.fang.com/aboutus/index.asp" target="_blank">关于我们</a>‖
+        <a href="http://www.fang.com/hezuo_file/house/index.html" target="_blank">网站合作</a>‖
+        <a href="http://www.fang.com/aboutus/contactus.html" target="_blank">联系我们</a>‖
+        <a href="http://www.fang.com/zhaopin" target="_blank">招聘信息</a>‖
+      <span onmouseover="this.className='footershaixa activexiala'" onmouseout="this.className='footershaixa'" style="width:80px" class="footershaixa"><a href="http://www.fang.com/SoufunFamily.htm">房天下家族</a>‖<div class="footershaixb">
+          <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tbody><tr>
+                  <td width="16"><strong style="color:#c00;">B</strong></td>
+                  <td width="80"><a href="http://bj.fang.com/" target="_blank">北京房地产</a></td>
+                  <td width="16"><strong style="color:#c00;">D</strong></td>
+                  <td width="80"><a href="http://dg.fang.com/" target="_blank">东莞房地产</a></td>
+                  <td width="16">&nbsp;</td>
+                  <td width="80"><a href="http://hn.fang.com/" target="_blank">海南房地产</a></td>
+                  <td width="16">&nbsp;</td>
+                  <td width="100"><a href="http://nn.fang.com/" target="_blank">南宁房地产</a></td>
+                  <td width="16">&nbsp;</td>
+                  <td width="80"><a href="http://sy.fang.com/" target="_blank">沈阳房地产</a></td>
+              </tr>
+              <tr>
+                  <td><strong style="color:#c00;">C</strong></td>
+                  <td><a href="http://cd.fang.com/" target="_blank">成都房地产</a></td>
+                  <td>&nbsp;</td>
+                  <td><a href="http://dl.fang.com/" target="_blank">大连房地产</a></td>
+                  <td>&nbsp;</td>
+                  <td><a href="http://hf.fang.com" target="_blank">合肥房地产</a></td>
+                  <td><strong style="color:#c00;">Q</strong></td>
+                  <td><a href="http://qd.fang.com/" target="_blank">青岛房地产</a></td>
+                  <td><strong style="color:#c00;">T</strong></td>
+                  <td><a href="http://tj.fang.com/" target="_blank">天津房地产</a></td>
+              </tr>
+              <tr>
+                  <td>&nbsp;</td>
+                  <td><a href="http://cq.fang.com/" target="_blank">重庆房地产</a></td>
+                  <td><strong style="color:#c00;">F</strong></td>
+                  <td><a href="http://fz.fang.com/" target="_blank">福州房地产</a></td>
+                  <td><strong style="color:#c00;">J</strong></td>
+                  <td><a href="http://jn.fang.com/" target="_blank">济南房地产</a></td>
+                  <td><strong style="color:#c00;">S</strong></td>
+                  <td><a href="http://sh.fang.com/" target="_blank">上海房地产</a></td>
+                  <td><strong style="color:#c00;">W</strong></td>
+                  <td><a href="http://wuhan.fang.com/" target="_blank">武汉房地产</a></td>
+              </tr>
+              <tr>
+                  <td>&nbsp;</td>
+                  <td><a href="http://cs.fang.com/" target="_blank">长沙房地产</a></td>
+                  <td><strong style="color:#c00;">G</strong></td>
+                  <td><a href="http://gz.fang.com/" target="_blank">广州房地产</a></td>
+                  <td><strong style="color:#c00;">N</strong></td>
+                  <td><a href="http://nanjing.fang.com/" target="_blank">南京房地产</a></td>
+                  <td>&nbsp;</td>
+                  <td><a href="http://sz.fang.com/" target="_blank">深圳房地产</a></td>
+                  <td>&nbsp;</td>
+                  <td><a href="http://wuxi.fang.com/" target="_blank">无锡房地产</a></td>
+              </tr>
+              <tr>
+                  <td>&nbsp;</td>
+                  <td><a href="http://changchun.fang.com/" target="_blank">长春房地产</a></td>
+                  <td>&nbsp;</td>
+                  <td><a href="http://gy.fang.com" target="_blank">贵阳房地产</a></td>
+                  <td>&nbsp;</td>
+                  <td><a href="http://nc.fang.com/" target="_blank">南昌房地产</a></td>
+                  <td>&nbsp;</td>
+                  <td><a href="http://suzhou.fang.com/" target="_blank">苏州房地产</a></td>
+                  <td><strong style="color:#c00;">X</strong></td>
+                  <td><a href="http://xian.fang.com/" target="_blank">西安房地产</a></td>
+              </tr>
+              <tr>
+                  <td>&nbsp;</td>
+                  <td><a href="http://cz.fang.com/" target="_blank">常州房地产</a></td>
+                  <td><strong style="color:#c00;">H</strong></td>
+                  <td><a href="http://hz.fang.com/" target="_blank">杭州房地产</a></td>
+                  <td>&nbsp;</td>
+                  <td><a href="http://nb.fang.com/" target="_blank">宁波房地产</a></td>
+                  <td>&nbsp;</td>
+                  <td><a href="http://sjz.fang.com/" target="_blank">石家庄房地产</a></td>
+
+                  <td><strong style="color:#c00;">Z</strong></td>
+                  <td><a href="http://zz.fang.com/" target="_blank">郑州房地产</a></td>
+              </tr>
+
+              </tbody></table>
+          <div style="text-align:right;padding:0px;"><a href="http://www.fang.com/SoufunFamily.htm" target="_blank">进入房天下家族&gt;&gt;</a></div>
+      </div></span>
+        <a href="http://www.fang.com/sitemap/sitemap.html" target="_blank">网站地图</a>‖
+        <a href="http://www.fang.com/service/feedback/LeaveMess.aspx/" target="_blank">意见反馈</a>‖
+        <a href="http://wap.fang.com/xc/mobile.html" target="_blank">手机房天下</a>‖
+        <a href="http://open.fang.com" target="_blank">开放平台</a>‖
+        <a href="http://www.fang.com/aboutus/copyright.html" target="_blank">服务声明</a>‖
+        <a href="http://www.fang.com/zt/201107/xbc.html" target="_blank">加盟房天下</a>
+    </div>
+
+    <div class="verdana">Copyright &copy; <script language="javascript">
+    //    window.onload=function(){
+    //        var oTS=document.getElementById('ts4search');
+    //        oTS.style.borderBottom="1px solid #ccc";
+    //    }
+        //var tishi = getElementsByClassName('tishi');
+       // tishi.style.border-bottom  = "thick dotted #ff0000";
+      //  document.getElementsByClassName("tishi").style.borderBottom="1px solid #000000";
+        var dt = new Date();
+        y = dt.getFullYear(); //获取年(四位)
+        document.write(y)</script> Shang Hai Jing Rong Xin Xi Ke Ji You Xian Gong Si</div>
+    <div class="song" style="line-height:23px;position:relative;z-index:1">上海旌荣信息科技有限公司 版权所有</div>
+    <div class="song">客服电话：<em> 400-850-8888</em> 违法和不良信息举报电话：010-56318764 举报邮箱：<a href="mailto:jubao@fang.com" rel="nofollow"><em>jubao@fang.com</em></a></div>
+
+</div>
+
+<script type="text/javascript" src="http://support.fang.com/resource/script/QianTai/support.dialogbox.js"></script>
+<!--jtx footer-->
+   
+<script type="text/javascript" src="http://js.soufunimg.com/homepage/js/ad/beitou.js"></script><script type="text/javascript" src="http://support.fang.com/resource/script/QianTai/support.dialogbox.js"></script>
+
+	
+<img height="1" src="http://click1n.soufun.com/newhouse_click_1010786043.gif" width="1">
+<div style="Z-INDEX: 999;DISPLAY: none; LEFT: 600px;POSITION: absolute; TOP: 550px; width:340px;height:300px;" id="newhouse_login">
+<iframe  allowtransparency="true" style="visibility:hidden;"  style="display:none" onload="this.height=iframe_selecthouse_login.document.body.scrollHeight" name='iframe_selecthouse_login' id="iframe_selecthouse_login" height="220PX" width="370px" frameborder="0" scrolling="no" marginwidth="0" marginheight="0"></iframe>
+</div><script>
+newcode='1010786043';
+projn = '金地世家广场';
+newhousedomaintail='house/';
+newhousedomain = 'http://newhouse.fang.com';
+address='顺义';
+vcity= '北京';
+ucity = '%B1%B1%BE%A9';
+price = '待定';
+pricetype = '元/平方米';
+priceright = '0';
+pricetyperight = '元/平方米';
+face = 'http://img.soufun.com/house/2015_03/11/bj/1426062836619_000.jpg';
+houseurl = 'http://shijiaguangchangjd.fang.com/';
+microID=0;
+bbsError ="0";
+bbs_id ="1010786043";
+</script>
+<script>
+function getEventObject(W3CEvent) {
+	return W3CEvent || window.event;
+}
+function getPointerPosition(e) {//兼容浏览器的鼠标x,y获得函数
+	e = e || getEventObject(e);
+	var x = e.pageX || (e.clientX + (document.documentElement.scrollLeft || document.body.scrollLeft));
+	var y = e.pageY || (e.clientY + (document.documentElement.scrollTop || document.body.scrollTop));
+	
+	return { 'x':x,'y':y };
+}
+/* 选房单 */
+function PostSelect(e)
+{
+    var pos = getPointerPosition(e);
+    var d = document.getElementById("newhouse_login");
+    var i = document.getElementById("iframe_selecthouse_login");
+    var vurl = "/house/web/dopost.php?msg="+escape('没有登陆')+"&newcode="+newcode+"&name="+projn+"&address="+address+"&city="+vcity+"&price="+priceright+"&pricetype="+pricetyperight+"&face="+face+"&houseurl="+houseurl+"&time="+new Date().getTime();
+    if(window.ActiveXObject){
+        if(i.contentWindow.document.readyState == "complete"){
+                document.getElementById("iframe_selecthouse_login").src = vurl;
+                document.getElementById("newhouse_login").style.display="block";
+                i.style.display="";
+                i.style.visibility="";
+                d.style.left = pos.x - 420 + 'px';
+                d.style.top = pos.y  + 'px';
+        }else{
+            i.style.display="none";
+            document.getElementById("newhouse_login").style.display="none";
+        } 
+    }else{
+        document.getElementById("iframe_selecthouse_login").src = vurl;
+        document.getElementById("newhouse_login").style.display="block";
+        i.style.display="";
+        i.style.visibility="";
+        d.style.left = pos.x - 420 + 'px';
+        d.style.top = pos.y  + 'px';
+    }
+}    
+</script>
+</div>
+</div>
+<!--20110322搜房网统一版尾end-->
+<script type="text/javascript">
+shopdomain = 'shop.fang.com';
+city = '北京';
+dianpingNewcode = '1010786043';
+LinkAdd = 'http://shijiaguangchangjd.fang.com/';
+Link ='http://shijiaguangchangjd.fang.com/';
+</script>
+
+<script type="text/javascript">
+     //seo跳转写点评
+	function goToAddDianping()
+	{
+		var tempwindow=window.open('_blank');
+		tempwindow.location=LinkAdd+"/house/web/dianping_add.php?newcode="+newcode+"&type=pc_h";
+	}
+
+	function telbox(n)
+	{
+		if(n==1)
+			document.getElementById("callbox").style.display="";
+		else
+			document.getElementById("callbox").style.display="none";
+	}
+	function cs_server(newcode)
+	{
+		if(newcode != ""){
+			Xml.Request("/house/shop/ajax_cookie_shop.php?newcode=" + newcode + "&time=" + new Date().getTime(), null, null, null);
+		}
+	}
+	cs_server(newcode);
+	function Show_Cookie(){
+        var tmp = new Array();
+        Xml.Request("/house/shop/ajax_shop.php?time=" + new Date().getTime(), null, call_back_cookie,tmp);
+	}
+	function call_back_cookie()
+	{
+		var coo_data = this.responseText;//获取cookie
+		if(coo_data)
+		{
+			var obj = eval('(' + coo_data + ')');
+			var used_=0;
+			if(obj.data.length>0)
+			{
+				var view_template="";
+				var show_num = obj.data.length > 9 ? 9 : obj.data.length;
+				for(i=0;i<show_num;i++)
+				{
+					var cookie_proj_code = obj.data[i].keyname;
+					var cookie_proj_info = obj.data[i].value.split("ζ");
+					var cookie_proj_name = cookie_proj_info[0];
+					var cookie_proj_price = cookie_proj_info[1];
+					if(cookie_proj_code != "" && cookie_proj_name != "")
+					{
+						view_template = view_template + "<div class='bybbkmiddlenr01'><input type='checkbox' value='" + cookie_proj_code + "' class='bybbkmiddleinput' /><strong><a href='http://"+ shopdomain + "/house/" + ucity + "_" + cookie_proj_code + ".htm' target='_blank'>" + cookie_proj_name + "</a></strong></div>";
+					}
+				}
+				document.getElementById('browse_mark4byb').innerHTML = view_template;
+				//$("#browse_mark4byb").html(view_template);
+				$("#browse_mark4byb").after("<div class='sydcico seebtns'><a href='javascript:void(0);' onclick='submit_byb();'></a></div>");
+			}
+		}
+	}
+	Show_Cookie();
+	function submit_byb(){
+		var url = '/house/shop/houseContrast.php?str_id=';
+		var inputs = document.getElementsByTagName("input");
+		var num = 0;
+		for(var i = 0; i < inputs.length; i++){
+			if(inputs[i].type == "checkbox"){
+				if(inputs[i].checked == true){
+					url += inputs[i].value + '|';
+					num++;
+				}
+			}
+		}
+		if(num < 2 || num > 4){
+			alert('请选择2-4个楼盘进行比较！');
+		}
+		else {
+		    window.open(url);    
+		}
+	}
+	function SetProjSubscriptionDisplay(state){
+		var tempDiv = document.getElementById("ProjSubscriptionDiv");
+		if(tempDiv){
+			if(state == 0){
+				tempDiv.style.display = 'block';
+			}else{
+				tempDiv.style.display = 'none';
+			}
+		}
+	}
+	function moreBoxto_n(num){
+		var tid = "moreBox" + num;
+		document.getElementById(tid).style.display = 'block';
+		if(document.getElementById('mobile').value != '' || document.getElementById('mobile').value != '请输入手机号码'){
+			document.getElementById('mobile').value = '请输入手机号码';
+		}
+		if(document.getElementById('yanzheng2').value != ''){
+			document.getElementById('yanzheng2').value = '';
+		}
+	}
+	function sendmsg(){
+		var code = document.getElementById('yanzheng2').value;
+		var mobile = document.getElementById('mobile').value;
+		exp = /^[0-9]{11}$/;
+		if(mobile != ''){
+			if(mobile.match(exp) == null){
+				alert('请输入正确的手机号码')
+				return false;
+			}
+		}else{
+			alert('请输入手机号码')
+			return false;	
+		}if(code == ''){
+			alert('请输入验证码');
+			return false;	
+		}else{
+			if(code.match(/^[0-9]{6}$/) == null){
+				alert('请正确输入验证码')
+				return false;
+			}
+		}
+		var content = encodeURIComponent(document.getElementById('mobilemsg').innerHTML);
+	    Xml.Request("/house/shop/houseDetail_send.php?code=" + code + "&mobile=" + mobile + "&newcode=1010786043&msg=" + content + "&projname=" + encodeURIComponent('金地世家广场') + "&time=" + new Date().getTime(), null, getRs, null);
+	}
+	function getcode(){
+		if(document.getElementById("sendinfo").style.display == "block"){
+	　　	document.getElementById("sendinfo").style.display = "none";
+		}else{
+			document.getElementById("sendinfo").style.display = "block";
+		}
+		document.getElementById('sendinfo').style.height = '240px';
+        document.getElementById('iframe_sendinfo').style.height = '240px';
+		document.getElementById("iframe_sendinfo").src = "/house/shop/mobilecode.htm?t=" + new Date().getTime();
+	}
+	function getRs(){
+		if(this.responseText == '楼盘点播成功'){
+			alert(this.responseText);
+			document.getElementById('moreBox37').style.display = "none";
+			document.getElementById('mobile').value = '请输入手机号';
+			document.getElementById('yanzheng2').value = '';
+		}
+		else if(this.responseText != "")
+			alert(this.responseText);
+		else
+			alert("楼盘点播失败")
+	}
+	function _post400action(newcode, type1, type2, value){
+		var type;
+		if(type1 == true){
+			type = "telephone";
+			exp = /^\s*[-\+]?\d+\s*$/;
+			if(value != ''){
+				if(value.match(exp) == null){
+					alert('请输入正确的手机号码')
+					return false;
+				}
+			}
+		}else if(type2 == true){
+			type = "email";
+			exp = /^[_a-z0-9]+@([_a-z0-9]+\.)+[a-z0-9]{2,3}$/;
+			if(value.match(exp) == null){
+				alert('请输入正确的邮箱')
+				return false;
+			}
+		}
+		if(type != "" && value != ""){
+			Xml.Request("/house/shop/post_400.php?newcode=" + newcode + "&type=" + type + "&content=" + value, null, alert('提交成功！'), null);
+		}
+	}
+	function search_ask(){
+		document.frm_search.target="_blank";
+		document.frm_search.submit();
+		} 
+function addAgree(tid){
+if(!isLogin){
+	var tmpArr = location.href.split("#");
+			$("#shHeadBackurl").val(urlencode(tmpArr[0]));
+			showid('showlogindiv');	
+}else{
+		if(parseInt(tid)<=0){
+			return false;
+		}
+			$.ajax({
+				type:'get',
+				dataType:'json',
+				url:"/house/ajaxrequest/dianping_agree1.php",
+				data:{"newcode":dianpingNewcode,"tid":tid},
+				complete:function(){},
+				error:function(){},
+				success:function(msgRes){
+					if(msgRes.code == 100) {
+					//alert(msgRes.agree_num);
+						var zanHtml = '';
+						zanHtml = '<span id="piao_'+tid+'" class="t04 tf">+1</span><a class="t03 mr05" id="agree_'+tid+'" href="javascript:void(0);" title="取消赞" onclick="delAgree('+tid+');"><img class="best" src="http://img1.soufun.com/house/detail_php/images/alf.gif" width="12" height="12" /></a>('+msgRes.agree_num+')';
+						$("#zanbox_"+tid).html(zanHtml);
+						$("#piao_"+tid).hide(2000);
+					}
+					else  {
+						alert(msgRes.msg);
+					}
+				}
+			});	
+	}
+}
+</script>
+
+
+<script language="javascript">
+	function changeAD(isOpen){
+		var lx_tl_name = "f_tl_";
+		var lx_tl_height = "70";
+		var lx_tl_width = "960";
+		var lx_tl_num = 2;
+		var lx_tl_ad = Array(1);
+		lx_tl_ad[0] = "";
+		lx_tl_ad[1] = "";
+		if(isOpen == true){
+			for(var i = 0; i < lx_tl_num; i++){
+				if(lx_tl_ad[i] == ""){
+					lx_tl_num = i;
+					break;
+				}
+			}
+			changeAd(lx_tl_name, 'shop_detail_tonglan', lx_tl_ad, lx_tl_num, lx_tl_height, lx_tl_width);
+		}else{
+			for(var i = 0; i < lx_tl_num; i++){
+				if(lx_tl_ad[i] != ""){
+					document.getElementById(lx_tl_name + (i + 1)).src = lx_tl_ad[i];
+					document.getElementById(lx_tl_name + (i + 1)).height = lx_tl_height;
+					document.getElementById(lx_tl_name + (i + 1)).width = lx_tl_width;
+				}
+			}
+		}
+	}
+changeAD(true);
+</script>
+
+</body>
+</html>
+<!--旧版埋码160727弃用>
+	<script type="text/javascript" src="http://js.ub.fang.com/_ub.js?v=201407181100"></script>
+	
+	<script language="javascript">
+	function browseUbcode(){
+		_ub.city = '';
+		_ub.biz = '';
+		_ub.location = ;
+		_ub.collect(0,{'nl':'1010786043'});
+	}
+	browseUbcode();
+	</script>
+	
+<-->
+<script type="text/javascript" src="http://js.soufunimg.com/newhouse/js/ds_zhongchou.js"></script>
+<script type="text/javascript" src="http://js.soufunimg.com/newhouse/js/raphael-min.js"></script>

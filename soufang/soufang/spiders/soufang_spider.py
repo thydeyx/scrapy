@@ -12,10 +12,12 @@ class SoufangSpider(CrawlSpider):
 
     name = 'soufang'
     allowed_domains = ['fang.com']
-    #start_urls = ["http://newhouse.fang.com/house/s/"]
-    start_urls = ["http://newhouse.fang.com/house/s/b92/"]
+    start_url_name = "http://newhouse.fang.com"
+    visited_url = {'/house/s/b91/':1}
+    start_urls = ["http://newhouse.fang.com/house/s/"]
+    #start_urls = ["http://newhouse.fang.com/house/s/b92/"]
     q = threading.Lock()
-    page_file_name_lock = threading.Lock()
+    url_lock = threading.Lock()
     page_file_name = 0
     page_num = 0
     #rules = [Rule(LinkExtractor(allow='http://[a-z]+\.fang\.com/?ctm=1'), 'parse_bj', follow=True)]
@@ -38,24 +40,34 @@ class SoufangSpider(CrawlSpider):
                 request = Request(url, callback=self.parse_detail)
                 self.q.acquire()
                 self.page_num += 1
-                request.meta['num'] = page_num
+                request.meta['num'] = self.page_num
                 self.q.release()
                 yield request
             except Exception as e:
                 log_text = "ERROR:" + url
 
-        try:
-            url = sel.xpath('//div[@class="page"]/ul/li[@class="fr"]/a/@href').extract()
-            print "$" * 30
-            print url
-            print "$" * 30
 
-            """
-            request = Request(url, callback=self.parse)
-            yield request
-            """
+        try:
+            url_page = sel.xpath('//div[@class="page"]/ul/li[@class="fr"]/a/@href').extract()
+            print "$" * 30
+            print url_page
+            print "$" * 30
+            for url in url_page:
+
+                self.url_lock.acquire()
+                if self.visited_url.has_key(url):
+                    self.url_lock.release()
+                    continue
+                else:
+                    self.visited_url[url] = 1
+                    url = self.start_url_name + url
+                    request = Request(url, callback=self.parse)
+                    self.url_lock.release()
+                    yield request
+
         except Exception as e:
             log_text = "ERROR:" + url
+            self.url_lock.release()
 
 
 
@@ -128,10 +140,9 @@ class SoufangSpider(CrawlSpider):
 
         soufang['residence'] = final_title
         print final_title
-        """
         with open(filename, "wb") as f:
             f.write(response.body)
-        """
+
 
     def parse_bj(self, response):
 

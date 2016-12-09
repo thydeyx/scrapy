@@ -38,7 +38,7 @@ var projType = '';
 DD_belatedPNG.fix('div,img,span,i,p,a,ul,li,h1,h2,h3,h4,h5,h6'); 
 </script> 
 <![endif]-->
-<script>var mark_three=0;var mark_time=0;var mark_duilian=0;var mark_huangguan=0;var is_ex_biantonglan = false;</script><!-- css compress begin --><link  type='text/css' rel='stylesheet' href='http://newhouse.js.soufunimg.com/??newhouse/style/zbs_sfpc_base.css?v=20160318,newhouse/style/detail_201410.css?v=20161117,newhouse/style/popup_201410.css,newhouse/style/detail_201510_ad.css?v=20160815,newhouse/style/fixnav_201410.css,newhouse/style/minav_201409.css,newhouse/style/search_sy_201409.css,newhouse/style/daohang_sy_201410.css,newhouse/style/miaosha.css,newhouse/style/youhuiquan.css,newhouse/style/detail_banner.css,newhouse/style/sfhongbao.css?v=20160407,newhouse/style/sfpc_base.css?v=20161009,newhouse/style/release.css,newhouse/style/style.css?v=2,newhouse/style/newhouse_footer.css?v=20160318'>
+<script>var mark_three=0;var mark_time=0;var mark_duilian=0;var mark_huangguan=0;var is_ex_biantonglan = false;</script><!-- css compress begin --><link  type='text/css' rel='stylesheet' href='http://newhouse.js.soufunimg.com/??newhouse/style/zbs_sfpc_base.css?v=20160318,newhouse/style/detail_201410.css?v=20161208,newhouse/style/popup_201410.css,newhouse/style/detail_201510_ad.css?v=20160815,newhouse/style/fixnav_201410.css,newhouse/style/minav_201409.css,newhouse/style/search_sy_201409.css,newhouse/style/daohang_sy_201410.css,newhouse/style/miaosha.css,newhouse/style/youhuiquan.css,newhouse/style/detail_banner.css,newhouse/style/sfhongbao.css?v=20160407,newhouse/style/sfpc_base.css?v=20161009,newhouse/style/release.css,newhouse/style/style.css?v=2,newhouse/style/newhouse_footer.css?v=20160318'>
 </head>
 <body>
 
@@ -877,7 +877,7 @@ var maima_page = 'nhpage';
 <div class="breadcrumb"  id="xfxq_C01_05">
 	<div class="br_right fr pr" id="xfptxq_B02_07">
 		<ul class="tf f12">
-			<li>2016年12月06日&nbsp;&nbsp;</li>
+			<li>2016年12月08日&nbsp;&nbsp;</li>
 			<li class="mr05"><a href="javascript:void(0);" id="jiucuoLink" onclick="$('#jiucuoBox').toggle();">纠错</a>
 				<!--我要纠错弹出层 sta-->
 				 <!--我要纠错弹出层 sta-->
@@ -1056,15 +1056,15 @@ var maima_page = 'nhpage';
 	<div id="">
 	<div id="">
 	<div class="navleft tf" id="orginalNaviBox">	
-								<a href="http://shizichengk20316.fang.com/" id="xfptxq_B03_06"  target="_self" class="nnlon">楼盘首页</a>
-								<a href="http://hjcdbxj.fang.com/bbs/" id="xfptxq_B03_07"  target="_self">业主论坛</a>
-								<a href="http://shizichengk20316.fang.com/house/1319731595/housedetail.htm" id="xfptxq_B03_08"  target="_self">楼盘详情</a>
-								<a href="http://shizichengk20316.fang.com/house/yh_1319731595_0.htm" id="xfptxq_B03_09"  target="_self">房源详情</a>
-								<a href="http://shizichengk20316.fang.com/photo/1319731595.htm" id="xfptxq_B03_16"  target="_self">楼盘相册</a>
-								<a href="http://shizichengk20316.fang.com/photo/list_900_1319731595.htm" id="xfptxq_B03_10"  target="_self">户型图</a>
-								<a href="http://shizichengk20316.fang.com/house/1319731595/fangjia.htm" id="xfptxq_B03_11"  target="_self">房价走势</a>
-								<a href="http://shizichengk20316.fang.com/house/1319731595/dongtai.htm" id="xfptxq_B03_12"  target="_self">楼盘动态</a>
-								<a href="http://shizichengk20316.fang.com/dianping/" id="xfptxq_B03_17"  target="_self" style="background-image:none;">楼盘点评</a>
+								<a href="http://shizichengk20316.fang.com/" id="xfxq_B03_06"  target="_self" class="nnlon">楼盘首页</a>
+								<a href="http://hjcdbxj.fang.com/bbs/" id="xfxq_B03_07"  target="_self">业主论坛</a>
+								<a href="http://shizichengk20316.fang.com/house/1319731595/housedetail.htm" id="xfxq_B03_08"  target="_self">楼盘详情</a>
+								<a href="http://shizichengk20316.fang.com/house/yh_1319731595_0.htm" id="xfxq_B03_09"  target="_self">房源详情</a>
+								<a href="http://shizichengk20316.fang.com/photo/1319731595.htm" id="xfxq_B03_16"  target="_self">楼盘相册</a>
+								<a href="http://shizichengk20316.fang.com/photo/list_900_1319731595.htm" id="xfxq_B03_10"  target="_self">户型图</a>
+								<a href="http://shizichengk20316.fang.com/house/1319731595/fangjia.htm" id="xfxq_B03_11"  target="_self">房价走势</a>
+								<a href="http://shizichengk20316.fang.com/house/1319731595/dongtai.htm" id="xfxq_B03_12"  target="_self">楼盘动态</a>
+								<a href="http://shizichengk20316.fang.com/dianping/" id="xfxq_B03_17"  target="_self" style="background-image:none;">楼盘点评</a>
 				
 		</div>
 	</div>
@@ -1123,7 +1123,7 @@ var maima_page = 'nhpage';
             <img class="hsanj pa" src="http://img1.soufun.com/house/detail_php/images/hsanjiao.jpg">
             <div class="tcnav_nr">
 				<div class="tcnav_nr_left fl tf">
-					<p><strong>看房·团购</strong><br /><span class="f12">已有<a href="http://shizichengk20316.fang.com/tuangou/" target="_blank"><font style="color:#f33">6552</font></a>人报名</span></p>
+					<p><strong>看房·团购</strong><br /><span class="f12">已有<a href="http://shizichengk20316.fang.com/tuangou/" target="_blank"><font style="color:#f33">6556</font></a>人报名</span></p>
 					<ul class="mt20">
 						<li class="dongtai">
 							<i class="t_icon fl"></i>
@@ -1553,7 +1553,8 @@ var source="web_newhousedetail";
 		})	
 	</script>
 		<!-- 楼盘主体 start -->
-    
+    <!-- 楼盘详情页_o_首屏（左侧）start -->
+
 <script>
 	if(typeof(_ub) == "undefined"){
 		document.write("<script src='http://js.ub.fang.com/_ub.js?v=201407181100'><\/script>");
@@ -1568,63 +1569,63 @@ var source="web_newhousedetail";
         <!--大图 start-->
         <div id="xfxq_C03_02">
             <ul class="imagebg" id="imageShowBig">
-                                <li class="bannerbg" style="display:block;">
-                <div class="bannerbg_pos">
-                    <div class="bannerbg_main"style = "text-align:center;background-color:white;">
-                                                <a href="http://shizichengk20316.fang.com/photo/list_904_1319731595.htm" target="_blank" title="K2·京南狮子城效果图"><img src="http://img.soufun.com/viewimage/house/2012_11/22/langfang/1353572695457_000/480x320.jpg" alt="K2·京南狮子城效果图" /></a>
-                                                                                                
-                    </div>
-                </div>
-                </li>
-                                <li class="bannerbg">
-                <div class="bannerbg_pos">
-                    <div class="bannerbg_main"style = "text-align:center;background-color:white;">
-                                                <a href="http://shizichengk20316.fang.com/photo/list_901_1319731595.htm" target="_blank" title="K2·京南狮子城交通图"><img src="http://imgs.soufun.com/viewimage/house/2016_09/07/langfang/1473240767922_000/480x320.jpg" alt="K2·京南狮子城交通图" /></a>
-                                                                                                
-                    </div>
-                </div>
-                </li>
-                                <li class="bannerbg">
-                <div class="bannerbg_pos">
-                    <div class="bannerbg_main"style = "text-align:center;background-color:white;">
-                                                <a href="http://shizichengk20316.fang.com/photo/list_903_1319731595.htm" target="_blank" title="K2·京南狮子城实景图"><img src="http://img6n.soufunimg.com/viewimage/house/2016_10/27/M09/0C/5E/wKgEUFgRx4aIFYPOAAKgmIMgFBQAATU4gG3f34AAqCw821/480x320.jpg" alt="K2·京南狮子城实景图" /></a>
-                                                                                                
-                    </div>
-                </div>
-                </li>
-                                <li class="bannerbg">
-                <div class="bannerbg_pos">
-                    <div class="bannerbg_main"style = "text-align:center;background-color:white;">
-                                                <a href="http://shizichengk20316.fang.com/photo/list_905_1319731595.htm" target="_blank" title="K2·京南狮子城样板间"><img src="http://imgs.soufun.com/viewimage/house/2015_10/23/langfang/1445569302626_000/480x320.jpg" alt="K2·京南狮子城样板间" /></a>
-                                                                                                
-                    </div>
-                </div>
-                </li>
-                                <li class="bannerbg">
-                <div class="bannerbg_pos">
-                    <div class="bannerbg_main"style = "text-align:center;background-color:white;">
-                                                <a href="http://shizichengk20316.fang.com/photo/list_906_1319731595.htm" target="_blank" title="K2·京南狮子城活动现场"><img src="http://imgs.soufun.com/viewimage/house/2016_07/15/langfang/1468571690455_000/480x320.jpg" alt="K2·京南狮子城活动现场" /></a>
-                                                                                                
-                    </div>
-                </div>
-                </li>
-                                <li class="bannerbg">
-                <div class="bannerbg_pos">
-                    <div class="bannerbg_main"style = "text-align:center;background-color:white;">
-                                                <a href="http://shizichengk20316.fang.com/photo/list_907_1319731595.htm" target="_blank" title="K2·京南狮子城周边配套图"><img src="http://imgs.soufun.com/viewimage/house/2016_06/13/langfang/1465787308514_000/480x320.jpg" alt="K2·京南狮子城周边配套图" /></a>
-                                                                                                
-                    </div>
-                </div>
-                </li>
-                                <li class="bannerbg">
-                <div class="bannerbg_pos">
-                    <div class="bannerbg_main"style = "text-align:center;background-color:white;">
-                                                <a href="http://shizichengk20316.fang.com/photo/list_900_1319731595.htm" target="_blank" title="K2·京南狮子城户型图"><img src="http://imgs.soufun.com/viewimage/house/2016_03/30/langfang/1459308841828_000/480x320.jpg" alt="K2·京南狮子城户型图" /></a>
-                                                                                                
-                    </div>
-                </div>
-                </li>
-                            </ul>
+										<li class="bannerbg" style="display:block;">
+					<div class="bannerbg_pos">
+						<div class="bannerbg_main"style = "text-align:center;background-color:white;">
+														<a href="http://shizichengk20316.fang.com/photo/list_904_1319731595.htm" target="_blank" title="K2·京南狮子城效果图"><img src="http://img.soufun.com/viewimage/house/2012_11/22/langfang/1353572695457_000/480x320.jpg" alt="K2·京南狮子城效果图" /></a>							
+																					
+						</div>
+					</div>
+					</li>
+										<li class="bannerbg">
+					<div class="bannerbg_pos">
+						<div class="bannerbg_main"style = "text-align:center;background-color:white;">
+														<a href="http://shizichengk20316.fang.com/photo/list_901_1319731595.htm" target="_blank" title="K2·京南狮子城交通图"><img src="http://imgs.soufun.com/viewimage/house/2016_09/07/langfang/1473240767922_000/480x320.jpg" alt="K2·京南狮子城交通图" /></a>							
+																					
+						</div>
+					</div>
+					</li>
+										<li class="bannerbg">
+					<div class="bannerbg_pos">
+						<div class="bannerbg_main"style = "text-align:center;background-color:white;">
+														<a href="http://shizichengk20316.fang.com/photo/list_903_1319731595.htm" target="_blank" title="K2·京南狮子城实景图"><img src="http://img6n.soufunimg.com/viewimage/house/2016_10/27/M09/0C/5E/wKgEUFgRx4aIFYPOAAKgmIMgFBQAATU4gG3f34AAqCw821/480x320.jpg" alt="K2·京南狮子城实景图" /></a>							
+																					
+						</div>
+					</div>
+					</li>
+										<li class="bannerbg">
+					<div class="bannerbg_pos">
+						<div class="bannerbg_main"style = "text-align:center;background-color:white;">
+														<a href="http://shizichengk20316.fang.com/photo/list_900_1319731595.htm" target="_blank" title="K2·京南狮子城户型图"><img src="http://imgs.soufun.com/viewimage/house/2016_03/30/langfang/1459308841828_000/480x320.jpg" alt="K2·京南狮子城户型图" /></a>							
+																					
+						</div>
+					</div>
+					</li>
+										<li class="bannerbg">
+					<div class="bannerbg_pos">
+						<div class="bannerbg_main"style = "text-align:center;background-color:white;">
+														<a href="http://shizichengk20316.fang.com/photo/list_905_1319731595.htm" target="_blank" title="K2·京南狮子城样板间"><img src="http://imgs.soufun.com/viewimage/house/2015_10/23/langfang/1445569302626_000/480x320.jpg" alt="K2·京南狮子城样板间" /></a>							
+																					
+						</div>
+					</div>
+					</li>
+										<li class="bannerbg">
+					<div class="bannerbg_pos">
+						<div class="bannerbg_main"style = "text-align:center;background-color:white;">
+														<a href="http://shizichengk20316.fang.com/photo/list_907_1319731595.htm" target="_blank" title="K2·京南狮子城周边配套图"><img src="http://imgs.soufun.com/viewimage/house/2016_06/13/langfang/1465787308514_000/480x320.jpg" alt="K2·京南狮子城周边配套图" /></a>							
+																					
+						</div>
+					</div>
+					</li>
+										<li class="bannerbg">
+					<div class="bannerbg_pos">
+						<div class="bannerbg_main"style = "text-align:center;background-color:white;">
+														<a href="http://shizichengk20316.fang.com/photo/list_906_1319731595.htm" target="_blank" title="K2·京南狮子城活动现场"><img src="http://imgs.soufun.com/viewimage/house/2016_07/15/langfang/1468571690455_000/480x320.jpg" alt="K2·京南狮子城活动现场" /></a>							
+																					
+						</div>
+					</div>
+					</li>
+					            </ul>
         </div>
         <!--大图 end-->
         <!--小图 start-->
@@ -1634,42 +1635,42 @@ var source="web_newhousedetail";
                 <div class="current" id="imageShowSmallAnchor"></div>
                 <div class="outScroll_pic" style = "text-align:center;">
                     <ul class="scroll_pic cls" id="imageShowSmall">
-                                                                                                                        <li class="currently" style="background-color:#fff">
-                            <p class="scroll_tit" ><a href="http://shizichengk20316.fang.com/photo/list_904_1319731595.htm" title="效果图" target="_blank">效果图</a></p>
-                            <em style="left:0px;"></em>
-                            <img class="imgts" src="http://img.soufun.com/viewimage/house/2012_11/22/langfang/1353572695457_000/90x60.jpg" alt="效果图">
-                        </li>
-                                                                                                                        <li  style="background-color:#fff">
-                            <p class="scroll_tit" ><a href="http://shizichengk20316.fang.com/photo/list_901_1319731595.htm" title="交通图" target="_blank">交通图</a></p>
-                            <em style="left:0px;"></em>
-                            <img class="imgts" src="http://imgs.soufun.com/viewimage/house/2016_09/07/langfang/1473240767922_000/90x60.jpg" alt="交通图">
-                        </li>
-                                                                                                                        <li  style="background-color:#fff">
-                            <p class="scroll_tit" ><a href="http://shizichengk20316.fang.com/photo/list_903_1319731595.htm" title="实景图" target="_blank">实景图</a></p>
-                            <em style="left:0px;"></em>
-                            <img class="imgts" src="http://img6n.soufunimg.com/viewimage/house/2016_10/27/M09/0C/5E/wKgEUFgRx4aIFYPOAAKgmIMgFBQAATU4gG3f34AAqCw821/90x60.jpg" alt="实景图">
-                        </li>
-                                                                                                                        <li  style="background-color:#fff">
-                            <p class="scroll_tit" ><a href="http://shizichengk20316.fang.com/photo/list_905_1319731595.htm" title="样板间" target="_blank">样板间</a></p>
-                            <em style="left:0px;"></em>
-                            <img class="imgts" src="http://imgs.soufun.com/viewimage/house/2015_10/23/langfang/1445569302626_000/90x60.jpg" alt="样板间">
-                        </li>
-                                                                                                                        <li  style="background-color:#fff">
-                            <p class="scroll_tit" ><a href="http://shizichengk20316.fang.com/photo/list_906_1319731595.htm" title="活动现场" target="_blank">活动现场</a></p>
-                            <em style="left:0px;"></em>
-                            <img class="imgts" src="http://imgs.soufun.com/viewimage/house/2016_07/15/langfang/1468571690455_000/90x60.jpg" alt="活动现场">
-                        </li>
-                                                                                                                        <li  style="background-color:#fff">
-                            <p class="scroll_tit" ><a href="http://shizichengk20316.fang.com/photo/list_907_1319731595.htm" title="周边配套图" target="_blank">周边配套图</a></p>
-                            <em style="left:0px;"></em>
-                            <img class="imgts" src="http://imgs.soufun.com/viewimage/house/2016_06/13/langfang/1465787308514_000/90x60.jpg" alt="周边配套图">
-                        </li>
-                                                                                                                        <li  style="background-color:#fff">
-                            <p class="scroll_tit" ><a href="http://shizichengk20316.fang.com/photo/list_900_1319731595.htm" title="户型图" target="_blank">户型图</a></p>
-                            <em style="left:0px;"></em>
-                            <img class="imgts" src="http://imgs.soufun.com/viewimage/house/2016_03/30/langfang/1459308841828_000/90x60.jpg" alt="户型图">
-                        </li>
-                                            </ul>
+																														<li class="currently" style="background-color:#fff">
+							<p class="scroll_tit" ><a href="http://shizichengk20316.fang.com/photo/list_904_1319731595.htm" title="效果图" target="_blank">效果图</a></p>
+							<em style="left:0px;"></em>
+							<img class="imgts" src="http://img.soufun.com/viewimage/house/2012_11/22/langfang/1353572695457_000/90x60.jpg" alt="效果图">
+						</li>
+																														<li  style="background-color:#fff">
+							<p class="scroll_tit" ><a href="http://shizichengk20316.fang.com/photo/list_901_1319731595.htm" title="交通图" target="_blank">交通图</a></p>
+							<em style="left:0px;"></em>
+							<img class="imgts" src="http://imgs.soufun.com/viewimage/house/2016_09/07/langfang/1473240767922_000/90x60.jpg" alt="交通图">
+						</li>
+																														<li  style="background-color:#fff">
+							<p class="scroll_tit" ><a href="http://shizichengk20316.fang.com/photo/list_903_1319731595.htm" title="实景图" target="_blank">实景图</a></p>
+							<em style="left:0px;"></em>
+							<img class="imgts" src="http://img6n.soufunimg.com/viewimage/house/2016_10/27/M09/0C/5E/wKgEUFgRx4aIFYPOAAKgmIMgFBQAATU4gG3f34AAqCw821/90x60.jpg" alt="实景图">
+						</li>
+																														<li  style="background-color:#fff">
+							<p class="scroll_tit" ><a href="http://shizichengk20316.fang.com/photo/list_900_1319731595.htm" title="户型图" target="_blank">户型图</a></p>
+							<em style="left:0px;"></em>
+							<img class="imgts" src="http://imgs.soufun.com/viewimage/house/2016_03/30/langfang/1459308841828_000/90x60.jpg" alt="户型图">
+						</li>
+																														<li  style="background-color:#fff">
+							<p class="scroll_tit" ><a href="http://shizichengk20316.fang.com/photo/list_905_1319731595.htm" title="样板间" target="_blank">样板间</a></p>
+							<em style="left:0px;"></em>
+							<img class="imgts" src="http://imgs.soufun.com/viewimage/house/2015_10/23/langfang/1445569302626_000/90x60.jpg" alt="样板间">
+						</li>
+																														<li  style="background-color:#fff">
+							<p class="scroll_tit" ><a href="http://shizichengk20316.fang.com/photo/list_907_1319731595.htm" title="周边配套图" target="_blank">周边配套图</a></p>
+							<em style="left:0px;"></em>
+							<img class="imgts" src="http://imgs.soufun.com/viewimage/house/2016_06/13/langfang/1465787308514_000/90x60.jpg" alt="周边配套图">
+						</li>
+																														<li  style="background-color:#fff">
+							<p class="scroll_tit" ><a href="http://shizichengk20316.fang.com/photo/list_906_1319731595.htm" title="活动现场" target="_blank">活动现场</a></p>
+							<em style="left:0px;"></em>
+							<img class="imgts" src="http://imgs.soufun.com/viewimage/house/2016_07/15/langfang/1468571690455_000/90x60.jpg" alt="活动现场">
+						</li>
+						                    </ul>
                 </div>
                 <a href="javascript:void(0);" class="s_next" id="imageShowSmallNext"></a>
             </div>
@@ -1679,7 +1680,8 @@ var source="web_newhousedetail";
 </div>
     <!--左侧焦点图end-->
     <!--右侧楼盘信息begin-->
-    <div class="firstright fl ml20">
+    <!-- 楼盘详情页_o_首屏（右侧）start -->
+<div class="firstright fl ml20">
 						
 																										       	<!--信息说明 begin-->
         	<div class="information">
@@ -1690,9 +1692,20 @@ var source="web_newhousedetail";
 																				</p>
                     </div>
 											       
-										<div class="inf_right fl pr"  id='width_r'>                    	
+										<div class="inf_right fl pr"  id='width_r' style='margin-left:3px;'>                    			
+						<a style="margin-top:6px;" class="pra01 fl " href="javascript:void(0);">
+                            <i class="lpt_icon1 fl" onmouseover="$('.fnzoushi01').show();" onmouseout="$('.fnzoushi01').hide();"></i><span onmouseover="$('.fnzoushi01').show();" onmouseout="$('.fnzoushi01').hide();">价格说明</span>
+                            <!--价格说明 sta-->
+                            <div class="fnzoushi01" style="display: none;">
+                                <div class="sh"></div>							
+                                <p style="word-break: break-all;">海棠苑楼均价20000元/平方米，百合园剩余大面积房源均价19000元/平方米，公寓均价14000元/平方米</p>																<p>报价时间：2016-12-06 价格有效期：14天</p>
+														   </div>
+
+                            <!--房价说明 end-->
+                        </a>
+						
 												<a id="xfptxq_B04_03" style="margin-top:6px;" class="pra fl "  href="http://shizichengk20316.fang.com/house/1319731595/fangjia.htm" onmouseover="detail_body.tcBoxHidden();$('#tc_zoushitu').show();"  onmouseout="$('#tc_zoushitu').hide();" target="_blank">
-							<i class="lpt_icon fl"></i>查看价格走势
+							<i class="lpt_icon fl"></i>价格走势
 						<!--房价走势图 sta-->
 						<div id="tc_zoushitu" class="fnzoushi">
 <div id="container" style="height:225px; width:300px;"></div>
@@ -1705,10 +1718,10 @@ var source="web_newhousedetail";
 						<!--房价走势图 end-->				
 						</a>
 																		<a id="xfptxq_B04_04" class="com fl" href="javascript:void(0);" style="margin-top:6px;" onclick="detail_body.tcBoxHidden();detail_body.maima_newcode();$('#tc_jisuanqi').show();" >
-							<i class="lpt_icon fl"></i>贷款计算器
+							<i class="lpt_icon fl"></i>贷款计算
 						</a>			
 												<!-- 降价通知我 -->
-						<a id="xfptxq_B04_05" class="down_pri fl" style="margin-top:6px;" href="javascript:void(0);"onclick="detail_bodyright.cutPriceNotice(1);"> <i class="lpt_icon fl"></i>降价通知我 </a>
+						<a id="xfptxq_B04_05" class="down_pri fl" style="margin-top:6px;padding-right:0" href="javascript:void(0);"onclick="detail_bodyright.cutPriceNotice(1);"> <i class="lpt_icon fl"></i>降价通知</a>
 						<!-- 降价通知我 -->
                         							<script type="text/javascript">
 							lilv_array = new Array; 
@@ -2272,6 +2285,7 @@ Array	 -->
 			<a id="sq_close" class="sq_close" title="关闭" ><span></span></a>
 		</div>
 		
+<!-- 楼盘详情页_o_首屏（右侧）end -->
     <!--右侧楼盘信息end-->
        <!-- firstbox end -->
        <div class="clear"></div>
@@ -2303,7 +2317,7 @@ newhouseDomain = 'http://newhouse.lf.fang.com';
 var purpose = "住宅";
 </script>
 
-    <!-- 楼盘主体 end -->
+<!-- 楼盘详情页_o_首屏（左侧）end -->    <!-- 楼盘主体 end -->
 	   	<!-- 各种楼盘信息 sta -->
 	<div class="lp_information_box clearfix"> 
 	<!-- 楼盘动态 sta -->
@@ -2336,56 +2350,56 @@ var purpose = "住宅";
 												<li>
 					<div class="tz_info fl">
 						<a href="http://hjcdbxj.fang.com/bbs/1319731595~-1/179261522_179261522.htm " title="狮子城百合园1#、2#、3#、4#、5#、6#、7#、8#、9#预售公示 " target="_blank" class="t_name">狮子城百合园1#、2#、3#、4#、5#、6#、7#、8#、9#预售公示 </a>
-						<span>( 12回复/11548点击 )</span> 
+						<span>( 12回复/11634点击 )</span> 
 						<i class="jh_ico"></i>						<i class="ht_ico"></i>											</div>
 					<span class="fl"><a href="http://space.fang.com/48360349/index/" target="_blank" class="author">廊坊bbs资讯报道  </a></span> <span class="d_time">2016-08-02</span>
 				</li>
 																<li>
 					<div class="tz_info fl">
 						<a href="http://hjcdbxj.fang.com/bbs/1319731595~-1/179253433_179253433.htm " title="k2狮子城的公寓产权到期该怎么办呢? " target="_blank" class="t_name">k2狮子城的公寓产权到期该怎么办呢? </a>
-						<span>( 11回复/10859点击 )</span> 
+						<span>( 11回复/10881点击 )</span> 
 						<i class="jh_ico"></i>						<i class="ht_ico"></i>						<i class="pic_ico"></i>					</div>
 					<span class="fl"><a href="http://space.fang.com/76938139/index/" target="_blank" class="author">小松松的松紧带  </a></span> <span class="d_time">2016-04-10</span>
 				</li>
 																<li>
 					<div class="tz_info fl">
 						<a href="http://hjcdbxj.fang.com/bbs/1319731595~-1/179252325_179252325.htm " title="这么多人来K2狮子城是干什么的呢？ " target="_blank" class="t_name">这么多人来K2狮子城是干什么的呢？ </a>
-						<span>( 11回复/13183点击 )</span> 
+						<span>( 11回复/13229点击 )</span> 
 						<i class="jh_ico"></i>						<i class="ht_ico"></i>						<i class="pic_ico"></i>					</div>
 					<span class="fl"><a href="http://space.fang.com/41927264/index/" target="_blank" class="author">诗之美  </a></span> <span class="d_time">2016-03-28</span>
 				</li>
 																<li>
 					<div class="tz_info fl">
 						<a href="http://hjcdbxj.fang.com/bbs/1319731595~-1/179251675_179251675.htm " title="明天又要分时段停水了！大家提前准备点水啊！ " target="_blank" class="t_name">明天又要分时段停水了！大家提前准备点水啊！ </a>
-						<span>( 11回复/6586点击 )</span> 
+						<span>( 11回复/6601点击 )</span> 
 						<i class="jh_ico"></i>						<i class="ht_ico"></i>											</div>
 					<span class="fl"><a href="http://space.fang.com/76752216/index/" target="_blank" class="author">小小冉sweet  </a></span> <span class="d_time">2016-03-21</span>
 				</li>
 																<li>
 					<div class="tz_info fl">
 						<a href="http://hjcdbxj.fang.com/bbs/1319731595~-1/179251139_179251139.htm " title="银河新城中小学到底建不建？什么时候建？ " target="_blank" class="t_name">银河新城中小学到底建不建？什么时候建？ </a>
-						<span>( 11回复/0点击 )</span> 
-						<i class="jh_ico"></i>																	</div>
+						<span>( 11回复/8115点击 )</span> 
+						<i class="jh_ico"></i>						<i class="ht_ico"></i>											</div>
 					<span class="fl"><a href="http://space.fang.com/76565694/index/" target="_blank" class="author">格洛米小正  </a></span> <span class="d_time">2016-03-15</span>
 				</li>
 																<li>
 					<div class="tz_info fl">
 						<a href="http://hjcdbxj.fang.com/bbs/1319731595~-1/179269468_179269468.htm " title="1.4万起，买三环内央企品牌中海精装房，不限购 " target="_blank" class="t_name">1.4万起，买三环内央企品牌中海精装房，不限购 </a>
-						<span>( 0回复/64点击 )</span> 
+						<span>( 0回复/72点击 )</span> 
 																							</div>
 					<span class="fl"><a href="http://space.fang.com/90216534/index/" target="_blank" class="author">barbky  </a></span> <span class="d_time">2016-12-06</span>
 				</li>
 																<li>
 					<div class="tz_info fl">
 						<a href="http://hjcdbxj.fang.com/bbs/1319731595~-1/179253528_179253528.htm " title="请问前辈们，廊坊狮子城百合园业主微信群或者QQ群告诉我吧 " target="_blank" class="t_name">请问前辈们，廊坊狮子城百合园业主微信群或者QQ群告诉我吧 </a>
-						<span>( 8回复/2279点击 )</span> 
+						<span>( 8回复/2297点击 )</span> 
 												<i class="ht_ico"></i>											</div>
 					<span class="fl"><a href="http://space.fang.com/53109632/index/" target="_blank" class="author">soufun-s114466785  </a></span> <span class="d_time">2016-04-11</span>
 				</li>
 																<li>
 					<div class="tz_info fl">
 						<a href="http://hjcdbxj.fang.com/bbs/1319731595~-1/179252364_179252364.htm " title="狮子城的公寓100多平米值不值得买？ " target="_blank" class="t_name">狮子城的公寓100多平米值不值得买？ </a>
-						<span>( 3回复/2573点击 )</span> 
+						<span>( 3回复/2582点击 )</span> 
 												<i class="ht_ico"></i>											</div>
 					<span class="fl"><a href="http://space.fang.com/76600168/index/" target="_blank" class="author">像一个少年啦飞驰  </a></span> <span class="d_time">2016-03-28</span>
 				</li>
@@ -2420,7 +2434,7 @@ var purpose = "住宅";
 																																						
 					
 																			
-						<li><a href="http://zhishi.fang.com/xf/lf_132773.html"  title="楼层越高噪音越小么？买房必知隔音降噪常识" target="_blank">楼层越高噪音越小么？买房必知隔音降噪常识</a></li>							
+						<li><a href="http://zhishi.fang.com/xf/lf_205990.html"  title="廊坊二套房公积金贷款额度是多少？与一套房有何区别" target="_blank">廊坊二套房公积金贷款额度是多少？与一套房有何</a></li>							
 																														
 						<div>
 							<a class="hou_btn fl cp tf rbox4" style="margin-right:16px" href="http://zhishi.fang.com/xf/8/"  title="贷款办理" target="_blank">贷款办理</a>
@@ -2442,20 +2456,20 @@ var purpose = "住宅";
 			<div class="nhbox zx_box">
 																	<ul class="asklist nhbottom" style="padding-bottom:5px;" id="xfptxq_B08_02">
 																						<li>
-							<span class="fl"><img class="reward_ico" src="http://img1.soufun.com/house/detail_php/images/alf.gif" style='display:inline-block'><a target="_blank" href="http://www.fang.com/ask/ask_19289472.html" title="业主已交首付，没拿到钥匙，在给钥匙之前这段时间需要交物业费和取暖费吗">业主已交首付，没拿到钥匙，在给钥匙</a></span>
-							<span class="fr"><a href="http://www.fang.com/ask/ask_19289472.html" target="_blank" class="red">2</a>回复</span>
+							<span class="fl"><img class="reward_ico" src="http://img1.soufun.com/house/detail_php/images/alf.gif" style='display:inline-block'><a target="_blank" href="http://www.fang.com/ask/ask_19305018.html" title="什么是房屋的处分权">什么是房屋的处分权</a></span>
+							<span class="fr"><a href="http://www.fang.com/ask/ask_19305018.html" target="_blank" class="red">1</a>回复</span>
 						</li>
 												<li>
-							<span class="fl"><img class="reward_ico" src="http://img1.soufun.com/house/detail_php/images/alf.gif" style='display:inline-block'><a target="_blank" href="http://www.fang.com/ask/ask_19289466.html" title="棚户区改造的房子可以买吗？要注意什么问题？">棚户区改造的房子可以买吗？要注意什</a></span>
-							<span class="fr"><a href="http://www.fang.com/ask/ask_19289466.html" target="_blank" class="red">0</a>回复</span>
+							<span class="fl"><img class="reward_ico" src="http://img1.soufun.com/house/detail_php/images/alf.gif" style='display:inline-block'><a target="_blank" href="http://www.fang.com/ask/ask_19305003.html" title="已抵押的房产，一段时间后房产增值但未还清贷款，购房人是否可以追加贷款？">已抵押的房产，一段时间后房产增值但</a></span>
+							<span class="fr"><a href="http://www.fang.com/ask/ask_19305003.html" target="_blank" class="red">1</a>回复</span>
 						</li>
 												<li>
-							<span class="fl"><img class="reward_ico" src="http://img1.soufun.com/house/detail_php/images/alf.gif" style='display:inline-block'><a target="_blank" href="http://www.fang.com/ask/ask_19289420.html" title="没有房屋预售证可以放心购买吗？">没有房屋预售证可以放心购买吗？</a></span>
-							<span class="fr"><a href="http://www.fang.com/ask/ask_19289420.html" target="_blank" class="red">4</a>回复</span>
+							<span class="fl"><img class="reward_ico" src="http://img1.soufun.com/house/detail_php/images/alf.gif" style='display:inline-block'><a target="_blank" href="http://www.fang.com/ask/ask_19304983.html" title="住宅的使用年限从什么时间计起">住宅的使用年限从什么时间计起</a></span>
+							<span class="fr"><a href="http://www.fang.com/ask/ask_19304983.html" target="_blank" class="red">1</a>回复</span>
 						</li>
 												<li>
-							<span class="fl"><img class="ask_ico" src="http://img1.soufun.com/house/detail_php/images/alf.gif" style='display:inline-block'><a target="_blank" href="http://www.fang.com/ask/ask_19303666.html" title="开发商把房子抵押给银行怎么办">开发商把房子抵押给银行怎么办</a></span>
-							<span class="fr"><a href="http://www.fang.com/ask/ask_19303666.html" target="_blank" class="red">2</a>回复</span>
+							<span class="fl"><img class="ask_ico" src="http://img1.soufun.com/house/detail_php/images/alf.gif" style='display:inline-block'><a target="_blank" href="http://www.fang.com/ask/ask_19304889.html" title="之前买过房有过房贷记录，现在已经还清，而且名下房产已经过户。如果我现在要再买房的话，也需要50%首付吗？">之前买过房有过房贷记录，现在已经还</a></span>
+							<span class="fr"><a href="http://www.fang.com/ask/ask_19304889.html" target="_blank" class="red">7</a>回复</span>
 						</li>
 															</ul>
 				<div class="ask_box" id="xfptxq_B08_03" >
@@ -3303,6 +3317,12 @@ var maima_projname = "K2·京南狮子城";
 		<div class="skills-cont">
 			<ul class='skills-list'>
 													<li>
+						<a href="http://zhishi.fang.com/xf/qg_210104.html"  title="挑选楼层应该注意这些 几楼未必是最重要的" target="_blank">挑选楼层应该注意这些 几楼未必是最重要的</a>
+					</li>	
+									<li>
+						<a href="http://zhishi.fang.com/xf/qg_209871.html"  title="房屋内部朝向如何取舍？哪个房间最该朝南" target="_blank">房屋内部朝向如何取舍？哪个房间最该朝南</a>
+					</li>	
+									<li>
 						<a href="http://zhishi.fang.com/xf/qg_209590.html"  title="冬季看房记：房屋的这些缺点会被“冻”出来" target="_blank">冬季看房记：房屋的这些缺点会被“冻”出来</a>
 					</li>	
 									<li>
@@ -3317,12 +3337,6 @@ var maima_projname = "K2·京南狮子城";
 									<li>
 						<a href="http://zhishi.fang.com/xf/qg_208293.html"  title="买房选户型：户型中的小细节之设备平台" target="_blank">买房选户型：户型中的小细节之设备平台</a>
 					</li>	
-									<li>
-						<a href="http://zhishi.fang.com/xf/qg_208199.html"  title="好户型就是重细节 您家的厨卫“及格”吗？" target="_blank">好户型就是重细节 您家的厨卫“及格”吗？</a>
-					</li>	
-									<li>
-						<a href="http://zhishi.fang.com/xf/qg_205710.html"  title="房屋建筑类型可分哪几类?低、多、小高、高层?" target="_blank">房屋建筑类型可分哪几类?低、多、小高、高层</a>
-					</li>	
 											</ul>
 		</div>
 	</div>
@@ -3336,7 +3350,7 @@ var maima_projname = "K2·京南狮子城";
 		<div class="lpf_phblic_rt_no fr" id="xfptxq_B11_02">
 												<a href="http://shizichengk20316.fang.com/photo/list_900_1319731595.htm" title="K2·京南狮子城户型图" target="_blank">户型图(11)</a><span class="spe">|</span>
 												<a href="http://shizichengk20316.fang.com/photo/list_901_1319731595.htm" title="K2·京南狮子城交通图" target="_blank">交通图(2)</a><span class="spe">|</span>
-																		<a href="http://shizichengk20316.fang.com/photo/list_903_1319731595.htm" title="K2·京南狮子城实景图" target="_blank">实景图(84)</a><span class="spe">|</span>
+												<a href="http://shizichengk20316.fang.com/photo/list_903_1319731595.htm" title="K2·京南狮子城实景图" target="_blank">实景图(84)</a><span class="spe">|</span>
 												<a href="http://shizichengk20316.fang.com/photo/list_904_1319731595.htm" title="K2·京南狮子城效果图" target="_blank">效果图(11)</a><span class="spe">|</span>
 												<a href="http://shizichengk20316.fang.com/photo/list_905_1319731595.htm" title="K2·京南狮子城样板间" target="_blank">样板间(36)</a><span class="spe">|</span>
 												<a href="http://shizichengk20316.fang.com/photo/list_906_1319731595.htm" title="K2·京南狮子城活动现场" target="_blank">活动现场(154)</a><span class="spe">|</span>
@@ -3351,11 +3365,13 @@ var maima_projname = "K2·京南狮子城";
 	<!--相册 begin -->
 	<div class="huxing_cont" style=" margin-bottom:0px;" id="xfptxq_B11_03">
 		<ul class="photo_album" id="xfxq_B02_33">
-																															<li >
+									
+								
+			<li class='photo_album_li'>
 				<div class="map_comment">
 					<div class="dh_c_alone_img">
 						<p>							<a href="http://shizichengk20316.fang.com/photo/d_other_120300141.htm" target="_blank">
-								<img class="imgts" alt="K2·京南狮子城水岸风情酒吧街效果图" border="0" src="http://img.soufun.com/viewimage/house/2012_11/22/langfang/1353572695457_000/228x148c.jpg" width="222" height="148"></a>
+								<img class="imgts" alt="K2·京南狮子城水岸风情酒吧街效果图" border="0" src="http://img.soufun.com/viewimage/house/2012_11/22/langfang/1353572695457_000/214x160.jpg" width="222" height="148"></a>
 													</p>
 					</div>						
 				</div>
@@ -3365,11 +3381,29 @@ var maima_projname = "K2·京南狮子城";
 					</span>
 									</div>
 			</li>
-												<li >
+															
+								
+			<li class='photo_album_li'>
+				<div class="map_comment">
+					<div class="dh_c_alone_img">
+						<p>							<a href="http://shizichengk20316.fang.com/photo/d_other_179135810.htm" target="_blank">
+								<img class="imgts" alt="K2·京南狮子城电子地图" border="0" src="http://imgs.soufun.com/viewimage/house/2016_09/07/langfang/1473240767922_000/214x160.jpg" width="222" height="148"></a>
+													</p>
+					</div>						
+				</div>
+				<div class="photo_album_txt f14">
+										<span class="photo_album_txt_p"  style="width: 222px;">
+						<a title="K2·京南狮子城电子地图" href="http://shizichengk20316.fang.com/photo/d_other_179135810.htm" target="_blank">K2·京南狮子城电子地图</a>
+					</span>
+									</div>
+			</li>
+															
+								
+			<li class='photo_album_li'>
 				<div class="map_comment">
 					<div class="dh_c_alone_img">
 						<p>							<a href="http://shizichengk20316.fang.com/photo/d_other_180688714.htm" target="_blank">
-								<img class="imgts" alt="K2·京南狮子城小区实景图" border="0" src="http://img6n.soufunimg.com/viewimage/house/2016_10/27/M09/0C/5E/wKgEUFgRx4aIFYPOAAKgmIMgFBQAATU4gG3f34AAqCw821/228x148c.jpg" width="222" height="148"></a>
+								<img class="imgts" alt="K2·京南狮子城小区实景图" border="0" src="http://img6n.soufunimg.com/viewimage/house/2016_10/27/M09/0C/5E/wKgEUFgRx4aIFYPOAAKgmIMgFBQAATU4gG3f34AAqCw821/214x160.jpg" width="222" height="148"></a>
 													</p>
 					</div>						
 				</div>
@@ -3379,49 +3413,39 @@ var maima_projname = "K2·京南狮子城";
 					</span>
 									</div>
 			</li>
-												<li >
+															
+								
+			<li class='photo_album_li'>
 				<div class="map_comment">
 					<div class="dh_c_alone_img">
-						<p>							<a href="http://shizichengk20316.fang.com/photo/d_other_180688716.htm" target="_blank">
-								<img class="imgts" alt="K2·京南狮子城小区实景图" border="0" src="http://img6n.soufunimg.com/viewimage/house/2016_10/27/M03/0C/5E/wKgEUFgRx4eIXhZ8AALFEzNm0xUAATU4QHo6sUAAsUr558/228x148c.jpg" width="222" height="148"></a>
+						<p>							<a href="http://shizichengk20316.fang.com/photo/d_other_167088801.htm" target="_blank">
+								<img class="imgts" alt="K2·京南狮子城京斗云公寓G户型93.16㎡样板间书房" border="0" src="http://imgs.soufun.com/viewimage/house/2015_10/23/langfang/1445569302626_000/214x160.jpg" width="222" height="148"></a>
 													</p>
 					</div>						
 				</div>
 				<div class="photo_album_txt f14">
 										<span class="photo_album_txt_p"  style="width: 222px;">
-						<a title="K2·京南狮子城小区实景图" href="http://shizichengk20316.fang.com/photo/d_other_180688716.htm" target="_blank">K2·京南狮子城小区实景图</a>
+						<a title="K2·京南狮子城京斗云公寓G户型93.16㎡样板间书房" href="http://shizichengk20316.fang.com/photo/d_other_167088801.htm" target="_blank">K2·京南狮子城京斗云公寓G户型93.16㎡样板间书...</a>
 					</span>
 									</div>
 			</li>
-												<li >
+															
+								
+			<li class='photo_album_li'>
 				<div class="map_comment">
 					<div class="dh_c_alone_img">
-						<p>							<a href="http://shizichengk20316.fang.com/photo/d_other_180688713.htm" target="_blank">
-								<img class="imgts" alt="K2·京南狮子城小区实景图" border="0" src="http://img6n.soufunimg.com/viewimage/house/2016_10/27/M00/0C/5E/wKgEUVgRx4WIER4fAAH6TbFcdzwAATU1QKJU5wAAfpl615/228x148c.jpg" width="222" height="148"></a>
+						<p>							<a href="http://shizichengk20316.fang.com/photo/d_other_174680444.htm" target="_blank">
+								<img class="imgts" alt="K2·京南狮子城周边配套红星美凯龙" border="0" src="http://imgs.soufun.com/viewimage/house/2016_06/13/langfang/1465787308514_000/214x160.jpg" width="222" height="148"></a>
 													</p>
 					</div>						
 				</div>
 				<div class="photo_album_txt f14">
 										<span class="photo_album_txt_p"  style="width: 222px;">
-						<a title="K2·京南狮子城小区实景图" href="http://shizichengk20316.fang.com/photo/d_other_180688713.htm" target="_blank">K2·京南狮子城小区实景图</a>
+						<a title="K2·京南狮子城周边配套红星美凯龙" href="http://shizichengk20316.fang.com/photo/d_other_174680444.htm" target="_blank">K2·京南狮子城周边配套红星美凯龙</a>
 					</span>
 									</div>
 			</li>
-												<li style="margin-right: 0px;">
-				<div class="map_comment">
-					<div class="dh_c_alone_img">
-						<p>							<a href="http://shizichengk20316.fang.com/photo/d_other_180688675.htm" target="_blank">
-								<img class="imgts" alt="K2·京南狮子城工程进度" border="0" src="http://img6n.soufunimg.com/viewimage/house/2016_10/27/M00/0C/5E/wKgEUFgRx1yII0n5AAJK4XBo_V8AATU1QIv_uEAAkr5241/228x148c.jpg" width="222" height="148"></a>
-													</p>
-					</div>						
-				</div>
-				<div class="photo_album_txt f14">
-										<span class="photo_album_txt_p"  style="width: 222px;">
-						<a title="K2·京南狮子城工程进度" href="http://shizichengk20316.fang.com/photo/d_other_180688675.htm" target="_blank">K2·京南狮子城工程进度</a>
-					</span>
-									</div>
-			</li>
-							
+										
 		</ul>
 	</div>
 	<!--相册 end -->
@@ -3545,7 +3569,7 @@ var maima_projname = "K2·京南狮子城";
 								<div style="clear:both"></div>
 								<p class="look_hou">
 									<a class="fr ml05" target="_blank" href="http://shizichengk20316.fang.com/dianping/#o0_t2835131">回复（0）</a><!-- onclick="delAgree(2835131);" -->
-									<span class="zanA fr prnew" id="zanbox_2835131"><a class="mr05" id="agree_2835131" href="http://shizichengk20316.fang.com/dianping/" target="_blank"><img class="most" src="http://img1.soufun.com/house/images/dianping_zan.png" width="12" height="12"></a>（1）</span>
+									<span class="zanA fr prnew" id="zanbox_2835131"><a class="mr05" id="agree_2835131" href="http://shizichengk20316.fang.com/dianping/" target="_blank"><img class="most" src="http://img1.soufun.com/house/images/dianping_zan.png" width="12" height="12"></a>（2）</span>
 									<em><span style="color:#999;font-family: '微软雅黑';">天涯听海&nbsp;2016-11-26 16:29:32&nbsp;来自 iPhone客户端</span></em>
 								</p>
 															</div>
@@ -3655,11 +3679,11 @@ var maima_projname = "K2·京南狮子城";
                                 </li>
 																							                                <li>
                                 	<a class="fr" href="http://newhouse.lf.fang.com/house/s/yongqing/" target="_blank">[永清]</a>
-                                    <div class="lpchoose"><input class="vm" name="toCompare"  value="1319752491" type="checkbox"> <label class="vm"><a target="_blank" href="http://newhouse.lf.fang.com/duibi/1319731595_1319752491.htm" >国瑞生态城</a></label></div>
+                                    <div class="lpchoose"><input class="vm" name="toCompare"  value="1319816109" type="checkbox"> <label class="vm"><a target="_blank" href="http://newhouse.lf.fang.com/duibi/1319731595_1319816109.htm" >森林新都孔雀城</a></label></div>
                                 </li>
 																							                                <li>
                                 	<a class="fr" href="http://newhouse.lf.fang.com/house/s/yongqing/" target="_blank">[永清]</a>
-                                    <div class="lpchoose"><input class="vm" name="toCompare"  value="1319816109" type="checkbox"> <label class="vm"><a target="_blank" href="http://newhouse.lf.fang.com/duibi/1319731595_1319816109.htm" >森林新都孔雀城</a></label></div>
+                                    <div class="lpchoose"><input class="vm" name="toCompare"  value="1319752491" type="checkbox"> <label class="vm"><a target="_blank" href="http://newhouse.lf.fang.com/duibi/1319731595_1319752491.htm" >国瑞生态城</a></label></div>
                                 </li>
 																                            </ul>
                             <ul>
@@ -3734,22 +3758,6 @@ var imgHtml="";
 					<li style="">
                         <div class="map_comment">
                             <div class="dh_c_alone_img">
-                                <p><a href="http://kongquechengslxd.fang.com/" target="_blank" title="森林新都孔雀城"><img class="imgts" alt="森林新都孔雀城" src="http://imgs.soufun.com/viewimage/house/2015_10/09/langfang/1444380956950_000/220x148.jpg" border="0" width='220'></a></p>
-                            </div>
-                        </div>
-						<div class="photo_album_txt f14"> 
-							<span class="photo_album_txt_p">
-								<a href="http://kongquechengslxd.fang.com/" target="_blank" title="森林新都孔雀城"><strong>森林新都孔雀城</strong></a>
-							</span>
-							<span class="cl_999 f12" style="width:90px; float:right; text-align:right;">[<a href="http://kongquechengslxd.fang.com/bbs/" target="_blank" title="森林新都孔雀城业主论坛">论坛</a>]</span>
-							<span style=" width:222px;"> 20000元/平方米</span>
-							<span style=" width:222px;">高新区京台高速出口</span>
-						</div>
-                    </li>
-																
-					<li style="">
-                        <div class="map_comment">
-                            <div class="dh_c_alone_img">
                                 <p><a href="http://guoruishengtaicheng0316.fang.com/" target="_blank" title="国瑞生态城"><img class="imgts" alt="国瑞生态城" src="http://imgs.soufun.com/viewimage/house/2015_06/29/langfang/1435553318631_000/220x148.jpg" border="0" width='220'></a></p>
                             </div>
                         </div>
@@ -3760,6 +3768,22 @@ var imgHtml="";
 							<span class="cl_999 f12" style="width:90px; float:right; text-align:right;">[<a href="http://guoruishengtaicheng0316.fang.com/bbs/" target="_blank" title="国瑞生态城业主论坛">论坛</a>]</span>
 							<span style=" width:222px;"> 20000元/平方米</span>
 							<span style=" width:222px;">开发区京台高速永清出口,273省道东侧1.5公里</span>
+						</div>
+                    </li>
+																
+					<li style="">
+                        <div class="map_comment">
+                            <div class="dh_c_alone_img">
+                                <p><a href="http://kongquechengslxd.fang.com/" target="_blank" title="森林新都孔雀城"><img class="imgts" alt="森林新都孔雀城" src="http://imgs.soufun.com/viewimage/house/2015_10/09/langfang/1444380956950_000/220x148.jpg" border="0" width='220'></a></p>
+                            </div>
+                        </div>
+						<div class="photo_album_txt f14"> 
+							<span class="photo_album_txt_p">
+								<a href="http://kongquechengslxd.fang.com/" target="_blank" title="森林新都孔雀城"><strong>森林新都孔雀城</strong></a>
+							</span>
+							<span class="cl_999 f12" style="width:90px; float:right; text-align:right;">[<a href="http://kongquechengslxd.fang.com/bbs/" target="_blank" title="森林新都孔雀城业主论坛">论坛</a>]</span>
+							<span style=" width:222px;"> 20000元/平方米</span>
+							<span style=" width:222px;">高新区京台高速出口</span>
 						</div>
                     </li>
 																
@@ -3867,24 +3891,6 @@ var imgHtml="";
 				   													<tr>
 							<td class="lftd row_td">
 							<span class="pm">1</span>
-								<a href="http://lixianglanwanhk.fang.com/" target="_blank" title="鸿坤·理想澜湾">鸿坤·理想澜湾</a>
-							</td>
-							<td class="row_td">
-								<a href="http://newhouse.lf.fang.com/house/s/anci/" target="_blank" rel="nofollow">安次</a>
-							</td>
-							<td class="row_td">
-								<span class="cl_c00">
-									--								</span>
-							</td>
-							<td class="row_td">
-								<a href="http://lixianglanwanhk.fang.com/bbs/" target="_blank" title="鸿坤·理想澜湾业主论坛">BBS</a>							</td>
-							<td class="row_td">
-								<a class="an_02" title="鸿坤·理想澜湾怎么样？" href="http://newhouse.lf.fang.com/duibi/1319793687_1319731595.htm" target="_blank" id="xfxq_B06_21"> </a>
-							</td>
-						</tr>
-						                   												<tr>
-							<td class="lftd row_td">
-							<span class="pm">2</span>
 								<a href="http://aekdyhycrs.fang.com/" target="_blank" title="荣盛阿尔卡迪亚廊坊花语城">荣盛阿尔卡迪亚廊</a>
 							</td>
 							<td class="row_td">
@@ -3898,6 +3904,24 @@ var imgHtml="";
 								<a href="http://aekdyhycrs.fang.com/bbs/" target="_blank" title="荣盛阿尔卡迪亚廊坊花语城业主论坛">BBS</a>							</td>
 							<td class="row_td">
 								<a class="an_02" title="荣盛阿尔卡迪亚廊坊花语城怎么样？" href="http://newhouse.lf.fang.com/duibi/1319794913_1319731595.htm" target="_blank" id="xfxq_B06_21"> </a>
+							</td>
+						</tr>
+						                   												<tr>
+							<td class="lftd row_td">
+							<span class="pm">2</span>
+								<a href="http://lixianglanwanhk.fang.com/" target="_blank" title="鸿坤·理想澜湾">鸿坤·理想澜湾</a>
+							</td>
+							<td class="row_td">
+								<a href="http://newhouse.lf.fang.com/house/s/anci/" target="_blank" rel="nofollow">安次</a>
+							</td>
+							<td class="row_td">
+								<span class="cl_c00">
+									--								</span>
+							</td>
+							<td class="row_td">
+								<a href="http://lixianglanwanhk.fang.com/bbs/" target="_blank" title="鸿坤·理想澜湾业主论坛">BBS</a>							</td>
+							<td class="row_td">
+								<a class="an_02" title="鸿坤·理想澜湾怎么样？" href="http://newhouse.lf.fang.com/duibi/1319793687_1319731595.htm" target="_blank" id="xfxq_B06_21"> </a>
 							</td>
 						</tr>
 						                   												<tr>
@@ -3982,7 +4006,7 @@ var imgHtml="";
 							</td>
 							<td class="row_td">
 								<span class="cl_c00">
-									15000元/㎡								</span>
+									15500元/㎡								</span>
 							</td>
 							<td class="row_td">
 								<a href="http://aekdyyqhycrs.fang.com/bbs/" target="_blank" title="荣盛阿尔卡迪亚永清花语城业主论坛">BBS</a>							</td>
@@ -4065,6 +4089,27 @@ var imgHtml="";
 					<tr>
 						<td class="lftd row_td">
 							<span class="pm">1</span>
+							<a href="http://wenquanjiayuansy.fang.com/" target="_blank" title="世源温泉家园">世源温泉家园</a>
+						</td>
+						<td class="row_td">
+							<a rel="nofollow" href="http://newhouse.lf.fang.com/house/s/bazhou/" target="_blank">霸州</a>
+						</td>
+						<td class="row_td">
+							<span class="cl_c00">
+								3800元/㎡							</span>
+						</td>
+						<td class="row_td">
+							--						</td>
+						<td class="row_td">
+							<a class="an_02" title="世源温泉家园怎么样？" href="http://newhouse.lf.fang.com/duibi/1319198495_1319731595.htm"
+								target="_blank" id="xfxq_B06_21">
+							</a>
+						</td>
+					</tr>
+															
+					<tr>
+						<td class="lftd row_td">
+							<span class="pm">2</span>
 							<a href="http://lantingyaju0316.fang.com/" target="_blank" title="兰亭雅居">兰亭雅居</a>
 						</td>
 						<td class="row_td">
@@ -4085,7 +4130,7 @@ var imgHtml="";
 															
 					<tr>
 						<td class="lftd row_td">
-							<span class="pm">2</span>
+							<span class="pm">3</span>
 							<a href="http://senlinyicheng.fang.com/" target="_blank" title="森林逸城">森林逸城</a>
 						</td>
 						<td class="row_td">
@@ -4106,7 +4151,7 @@ var imgHtml="";
 															
 					<tr>
 						<td class="lftd row_td">
-							<span class="pm">3</span>
+							<span class="pm2">4</span>
 							<a href="http://aekdygtxgxdpyjrs.fang.com/" target="_blank" title="荣盛·阿尔卡迪亚·高铁新干线帝品御居">荣盛·阿尔卡迪亚</a>
 						</td>
 						<td class="row_td">
@@ -4127,7 +4172,7 @@ var imgHtml="";
 															
 					<tr>
 						<td class="lftd row_td">
-							<span class="pm2">4</span>
+							<span class="pm2">5</span>
 							<a href="http://198485.fang.com/" target="_blank" title="瑞泽家园">瑞泽家园</a>
 						</td>
 						<td class="row_td">
@@ -4148,7 +4193,7 @@ var imgHtml="";
 															
 					<tr>
 						<td class="lftd row_td">
-							<span class="pm2">5</span>
+							<span class="pm2">6</span>
 							<a href="http://heyuegongjizj.fang.com/" target="_blank" title="中建·和悦国际">中建·和悦国际</a>
 						</td>
 						<td class="row_td">
@@ -4169,7 +4214,7 @@ var imgHtml="";
 															
 					<tr>
 						<td class="lftd row_td">
-							<span class="pm2">6</span>
+							<span class="pm2">7</span>
 							<a href="http://198481.fang.com/" target="_blank" title="太阳城·五彩石">太阳城·五彩石</a>
 						</td>
 						<td class="row_td">
@@ -4190,7 +4235,7 @@ var imgHtml="";
 															
 					<tr>
 						<td class="lftd row_td">
-							<span class="pm2">7</span>
+							<span class="pm2">8</span>
 							<a href="http://shangchenghuadu.fang.com/" target="_blank" title="尚城华都">尚城华都</a>
 						</td>
 						<td class="row_td">
@@ -4211,7 +4256,7 @@ var imgHtml="";
 															
 					<tr>
 						<td class="lftd row_td">
-							<span class="pm2">8</span>
+							<span class="pm2">9</span>
 							<a href="http://198477.fang.com/" target="_blank" title="美利山">美利山</a>
 						</td>
 						<td class="row_td">
@@ -4225,27 +4270,6 @@ var imgHtml="";
 							--						</td>
 						<td class="row_td">
 							<a class="an_02" title="美利山怎么样？" href="http://newhouse.lf.fang.com/duibi/1319198477_1319731595.htm"
-								target="_blank" id="xfxq_B06_21">
-							</a>
-						</td>
-					</tr>
-															
-					<tr>
-						<td class="lftd row_td">
-							<span class="pm2">9</span>
-							<a href="http://cuihulanting.fang.com/" target="_blank" title="翠湖澜庭">翠湖澜庭</a>
-						</td>
-						<td class="row_td">
-							<a rel="nofollow" href="http://newhouse.lf.fang.com/house/s/wenan/" target="_blank">文安</a>
-						</td>
-						<td class="row_td">
-							<span class="cl_c00">
-								6500元/㎡							</span>
-						</td>
-						<td class="row_td">
-							<a href="http://cuihulanting.fang.com/bbs/" target="_blank" title="翠湖澜庭业主论坛">BBS</a>						</td>
-						<td class="row_td">
-							<a class="an_02" title="翠湖澜庭怎么样？" href="http://newhouse.lf.fang.com/duibi/1319198475_1319731595.htm"
 								target="_blank" id="xfxq_B06_21">
 							</a>
 						</td>
@@ -4325,6 +4349,24 @@ var imgHtml="";
 																																<tr>
 								<td class="lftd row_td">
 									<span class="pm">3</span>
+									<a target="_blank" title="珑湾翡翠城" href="http://feicuichenglw.fang.com/">珑湾翡翠城</a>
+								</td>
+								<td class="row_td">
+									<a target="_blank"  rel="nofollow" href="http://newhouse.lf.fang.com/house/s/guangyang/">广阳</a>
+								</td>
+								<td class="row_td">
+									<span class="cl_c00">
+										--									</span>
+								</td>
+								<td class="row_td">
+									<a target="_blank" href="http://feicuichenglw.fang.com/bbs/">BBS</a>								</td>
+								<td class="row_td">
+									<a class="an_02" title="珑湾翡翠城怎么样？" href="http://newhouse.lf.fang.com/duibi/1319198411_1319731595.htm" target="_blank" id="xfxq_B06_23"> </a>
+								</td>
+							</tr>
+																																<tr>
+								<td class="lftd row_td">
+									<span class="pm2">4</span>
 									<a target="_blank" title="国瑞生态城" href="http://guoruishengtaicheng0316.fang.com/">国瑞生态城</a>
 								</td>
 								<td class="row_td">
@@ -4338,24 +4380,6 @@ var imgHtml="";
 									<a target="_blank" href="http://guoruishengtaicheng0316.fang.com/bbs/">BBS</a>								</td>
 								<td class="row_td">
 									<a class="an_02" title="国瑞生态城怎么样？" href="http://newhouse.lf.fang.com/duibi/1319752491_1319731595.htm" target="_blank" id="xfxq_B06_23"> </a>
-								</td>
-							</tr>
-																																<tr>
-								<td class="lftd row_td">
-									<span class="pm2">4</span>
-									<a target="_blank" title="尚城国际" href="http://shangchengguoji0316.fang.com/">尚城国际</a>
-								</td>
-								<td class="row_td">
-									<a target="_blank"  rel="nofollow" href="http://newhouse.lf.fang.com/house/s/guan/">固安</a>
-								</td>
-								<td class="row_td">
-									<span class="cl_c00">
-										16800元/㎡									</span>
-								</td>
-								<td class="row_td">
-									<a target="_blank" href="http://shangchengguoji0316.fang.com/bbs/">BBS</a>								</td>
-								<td class="row_td">
-									<a class="an_02" title="尚城国际怎么样？" href="http://newhouse.lf.fang.com/duibi/1319775141_1319731595.htm" target="_blank" id="xfxq_B06_23"> </a>
 								</td>
 							</tr>
 																																<tr>
@@ -4379,6 +4403,42 @@ var imgHtml="";
 																																<tr>
 								<td class="lftd row_td">
 									<span class="pm2">6</span>
+									<a target="_blank" title="尚城国际" href="http://shangchengguoji0316.fang.com/">尚城国际</a>
+								</td>
+								<td class="row_td">
+									<a target="_blank"  rel="nofollow" href="http://newhouse.lf.fang.com/house/s/guan/">固安</a>
+								</td>
+								<td class="row_td">
+									<span class="cl_c00">
+										16800元/㎡									</span>
+								</td>
+								<td class="row_td">
+									<a target="_blank" href="http://shangchengguoji0316.fang.com/bbs/">BBS</a>								</td>
+								<td class="row_td">
+									<a class="an_02" title="尚城国际怎么样？" href="http://newhouse.lf.fang.com/duibi/1319775141_1319731595.htm" target="_blank" id="xfxq_B06_23"> </a>
+								</td>
+							</tr>
+																																<tr>
+								<td class="lftd row_td">
+									<span class="pm2">7</span>
+									<a target="_blank" title="跃界" href="http://yuejie.fang.com/">跃界</a>
+								</td>
+								<td class="row_td">
+									<a target="_blank"  rel="nofollow" href="http://newhouse.lf.fang.com/house/s/kaifaqu/">开发区</a>
+								</td>
+								<td class="row_td">
+									<span class="cl_c00">
+										--									</span>
+								</td>
+								<td class="row_td">
+									<a target="_blank" href="http://yuejie.fang.com/bbs/">BBS</a>								</td>
+								<td class="row_td">
+									<a class="an_02" title="跃界怎么样？" href="http://newhouse.lf.fang.com/duibi/1319723841_1319731595.htm" target="_blank" id="xfxq_B06_23"> </a>
+								</td>
+							</tr>
+																																<tr>
+								<td class="lftd row_td">
+									<span class="pm2">8</span>
 									<a target="_blank" title="盛世尚水城" href="http://shengshishangshuicheng.fang.com/">盛世尚水城</a>
 								</td>
 								<td class="row_td">
@@ -4396,7 +4456,7 @@ var imgHtml="";
 							</tr>
 																																<tr>
 								<td class="lftd row_td">
-									<span class="pm2">7</span>
+									<span class="pm2">9</span>
 									<a target="_blank" title="鸿坤·理想澜湾" href="http://lixianglanwanhk.fang.com/">鸿坤·理想澜湾</a>
 								</td>
 								<td class="row_td">
@@ -4410,42 +4470,6 @@ var imgHtml="";
 									<a target="_blank" href="http://lixianglanwanhk.fang.com/bbs/">BBS</a>								</td>
 								<td class="row_td">
 									<a class="an_02" title="鸿坤·理想澜湾怎么样？" href="http://newhouse.lf.fang.com/duibi/1319793687_1319731595.htm" target="_blank" id="xfxq_B06_23"> </a>
-								</td>
-							</tr>
-																																<tr>
-								<td class="lftd row_td">
-									<span class="pm2">8</span>
-									<a target="_blank" title="上善颐园" href="http://shangshanyiyuan.fang.com/">上善颐园</a>
-								</td>
-								<td class="row_td">
-									<a target="_blank"  rel="nofollow" href="http://newhouse.lf.fang.com/house/s/guangyang/">广阳</a>
-								</td>
-								<td class="row_td">
-									<span class="cl_c00">
-										--									</span>
-								</td>
-								<td class="row_td">
-									<a target="_blank" href="http://shangshanyiyuan.fang.com/bbs/">BBS</a>								</td>
-								<td class="row_td">
-									<a class="an_02" title="上善颐园怎么样？" href="http://newhouse.lf.fang.com/duibi/1319790195_1319731595.htm" target="_blank" id="xfxq_B06_23"> </a>
-								</td>
-							</tr>
-																																<tr>
-								<td class="lftd row_td">
-									<span class="pm2">9</span>
-									<a target="_blank" title="珑湾翡翠城" href="http://feicuichenglw.fang.com/">珑湾翡翠城</a>
-								</td>
-								<td class="row_td">
-									<a target="_blank"  rel="nofollow" href="http://newhouse.lf.fang.com/house/s/guangyang/">广阳</a>
-								</td>
-								<td class="row_td">
-									<span class="cl_c00">
-										--									</span>
-								</td>
-								<td class="row_td">
-									<a target="_blank" href="http://feicuichenglw.fang.com/bbs/">BBS</a>								</td>
-								<td class="row_td">
-									<a class="an_02" title="珑湾翡翠城怎么样？" href="http://newhouse.lf.fang.com/duibi/1319198411_1319731595.htm" target="_blank" id="xfxq_B06_23"> </a>
 								</td>
 							</tr>
 																			</tbody>
@@ -4849,7 +4873,7 @@ var imgHtml="";
 <!-- top10专题实现在线下单-->
 <script id="__vb" src="http://js.ub.fang.com/_vb.js?c=nhpage" type="text/javascript"></script>
 <!-- js compress begin --><script src='http://newhouse.js.soufunimg.com/??newhouse/js/adverLb_fang.js,newhouse/js/SoufunCookie.js,newhouse/js/searchbox.js,newhouse/js/MobileSendCode.js,newhouse/js/setHouseCookie.js,newhouse/js/newhouse_shadow400_land.js,newhouse/js/v2/detail_fixnav.js?v=20161122,newhouse/js/v2/adXml.js,homepage/new/fang905bj/new/js/jquery-1.8.3.min.js,homepage/new/fang905bj/newsV3/js/barrageV14.js,homepage/new/fang905bj/newsV3/js/danmu_adaptive.js,newhouse/js/local.js,newhouse/js/logindiv.js?v=004,newhouse/js/jsold/house/detail_new/js/Root.Xml.js,newhouse/js/newhouse_login.js?v=004,newhouse/js/v2/SouFunSearch.js?v=20160524,newhouse/js/v2/error_recovery.js,newhouse/js/jquery.SuperSlide.2.1.1.js,newhouse/js/2013/houseFavorite_viewHouse.js?v=2,newhouse/js/v2/detail_head_201606.js'></script>
-<script src='http://newhouse.js.soufunimg.com/??newhouse/js/miaosha.js,newhouse/js/ds_youhuiquan.js,newhouse/js/v2/isBindMobile.js,newhouse/js/v2/getUserInfo.js,newhouse/js/MobileSendCode.js,newhouse/js/detail_sfhongbao201509.js?v=20160512,newhouse/js/highcharts.js,newhouse/js/v2/detail_priceTrend.js,newhouse/js/v2/detail_counter.js?,newhouse/js/v2/detail_bodyright.js?v=20161114,newhouse/js/newhouse_shadow400_change.js,newhouse/js/v2/detail_bodyrightjr.js,newhouse/js/v2/huodongtotal.js?v=201610241,newhouse/js/v2/detail_body.js?v=20161115,newhouse/js/v2/detail_information.js?v=20160831,newhouse/js/mapdrag_201410.js?v=20160111,newhouse/js/v2/detail_showDong.js,newhouse/js/v2/loudong_select_201606.js?v=20160829,newhouse/js/v2/housedetail_dp201606.js,newhouse/js/jsold/house/detail_new/js/Root.Xml.js'></script>
+<script src='http://newhouse.js.soufunimg.com/??newhouse/js/miaosha.js,newhouse/js/ds_youhuiquan.js,newhouse/js/v2/isBindMobile.js,newhouse/js/v2/getUserInfo.js,newhouse/js/MobileSendCode.js,newhouse/js/detail_sfhongbao201509.js?v=20160512,newhouse/js/highcharts.js,newhouse/js/v2/detail_priceTrend.js,newhouse/js/v2/detail_counter.js?,newhouse/js/v2/detail_bodyright.js?v=20161114,newhouse/js/newhouse_shadow400_change.js,newhouse/js/v2/detail_bodyrightjr.js,newhouse/js/v2/huodongtotal.js?v=201610241,newhouse/js/v2/detail_body.js?v=20161208,newhouse/js/v2/detail_information.js?v=20160831,newhouse/js/mapdrag_201410.js?v=20160111,newhouse/js/v2/detail_showDong.js,newhouse/js/v2/loudong_select_201606.js?v=20160829,newhouse/js/v2/housedetail_dp201606.js,newhouse/js/jsold/house/detail_new/js/Root.Xml.js'></script>
 <script src='http://newhouse.js.soufunimg.com/??newhouse/js/v2/housedetail_mayinterest.js?v=20160727,newhouse/js/kaipanrili201411.js,newhouse/js/jsold/house/detail_new/js/changad.js,newhouse/js/jsold/house/detail_new/js/Root.Xml.js,newhouse/js/jquery.SuperSlide.2.1.1.js'></script>
 </body>
 </html>

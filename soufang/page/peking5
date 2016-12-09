@@ -477,7 +477,7 @@ var city = "北京";
 <!-- 新导航0903 end  --><!--2011-8-8 18:32:22 update : -->
 	<script>
 var sign_zx = 'zx';
-var strtest = 'a';
+var strtest = 'b';
 
 if(sign_zx == 'zx'){
 
@@ -877,7 +877,7 @@ var EB_BehaviorID = 'SFHB0006';
 <div class="breadcrumb"  id="xfxq_C01_05">
 	<div class="br_right fr pr" id="xfzxxqy_B02_07">
 		<ul class="tf f12">
-			<li>2016年12月01日&nbsp;&nbsp;</li>
+			<li>2016年12月08日&nbsp;&nbsp;</li>
 			<li class="mr05"><a href="javascript:void(0);" id="jiucuoLink" onclick="$('#jiucuoBox').toggle();">纠错</a>
 				<!--我要纠错弹出层 sta-->
 				 <!--我要纠错弹出层 sta-->
@@ -1113,6 +1113,15 @@ $(function(){
 					                            <li class="bannerbg" >
                                 <div class="bannerbg_pos">
                                     <div class="bannerbg_main" style = "text-align:center;background-color:white;">
+																			<a href="http://833405.fang.com/photo/list_900_1010833405.htm" target="_blank" title="学府锦园户型图">
+											<img src="http://img6n.soufunimg.com/viewimage/house/2016_08/08/M04/09/0D/wKgEUFeoSKmIfm0aAAPeCoPFbmsAAOJIwNGZk0AA94i238/480x320.jpg" alt="学府锦园户型图" />
+										</a>	
+																																				</div>
+                                </div>
+                            </li>						
+					                            <li class="bannerbg" >
+                                <div class="bannerbg_pos">
+                                    <div class="bannerbg_main" style = "text-align:center;background-color:white;">
 																			<a href="http://833405.fang.com/photo/list_905_1010833405.htm" target="_blank" title="学府锦园样板间">
 											<img src="http://img6n.soufunimg.com/viewimage/house/2016_11/17/M07/0D/4A/wKgEUVgtVDuIDe96AAJaXot_IHgAAUxPgOz79UAAlp2149/480x320.jpg" alt="学府锦园样板间" />
 										</a>	
@@ -1124,15 +1133,6 @@ $(function(){
                                     <div class="bannerbg_main" style = "text-align:center;background-color:white;">
 																			<a href="http://833405.fang.com/photo/list_907_1010833405.htm" target="_blank" title="学府锦园周边配套图">
 											<img src="http://img6n.soufunimg.com/viewimage/house/2016_11/17/M01/0D/4A/wKgEUFgtU2yIHPDIAAMSy8i6gt8AAUxPQGKSHgAAxLj772/480x320.jpg" alt="学府锦园周边配套图" />
-										</a>	
-																																				</div>
-                                </div>
-                            </li>						
-					                            <li class="bannerbg" >
-                                <div class="bannerbg_pos">
-                                    <div class="bannerbg_main" style = "text-align:center;background-color:white;">
-																			<a href="http://833405.fang.com/photo/list_900_1010833405.htm" target="_blank" title="学府锦园户型图">
-											<img src="http://img6n.soufunimg.com/viewimage/house/2016_08/08/M04/09/0D/wKgEUFeoSKmIfm0aAAPeCoPFbmsAAOJIwNGZk0AA94i238/480x320.jpg" alt="学府锦园户型图" />
 										</a>	
 																																				</div>
                                 </div>
@@ -1174,6 +1174,11 @@ $(function(){
                                     <img class="imgts" src="http://img6n.soufunimg.com/viewimage/house/2016_11/18/M01/0D/56/wKgEUFguo-yIeBJtAAkJkV7GlIAAAU1rwMXURYACQmp205/90x60.jpg" alt="实景图">
                                 </li>								 
 							                                <li  style="background-color:#fff" >
+                                    <p class="scroll_tit" ><a href="http://833405.fang.com/photo/list_900_1010833405.htm" title="户型图" target="_blank">户型图</a></p>
+                                    <em style="left:0px;"></em>
+                                    <img class="imgts" src="http://img6n.soufunimg.com/viewimage/house/2016_08/08/M04/09/0D/wKgEUFeoSKmIfm0aAAPeCoPFbmsAAOJIwNGZk0AA94i238/90x60.jpg" alt="户型图">
+                                </li>								 
+							                                <li  style="background-color:#fff" >
                                     <p class="scroll_tit" ><a href="http://833405.fang.com/photo/list_905_1010833405.htm" title="样板间" target="_blank">样板间</a></p>
                                     <em style="left:0px;"></em>
                                     <img class="imgts" src="http://img6n.soufunimg.com/viewimage/house/2016_11/17/M07/0D/4A/wKgEUVgtVDuIDe96AAJaXot_IHgAAUxPgOz79UAAlp2149/90x60.jpg" alt="样板间">
@@ -1182,11 +1187,6 @@ $(function(){
                                     <p class="scroll_tit" ><a href="http://833405.fang.com/photo/list_907_1010833405.htm" title="周边配套图" target="_blank">周边配套图</a></p>
                                     <em style="left:0px;"></em>
                                     <img class="imgts" src="http://img6n.soufunimg.com/viewimage/house/2016_11/17/M01/0D/4A/wKgEUFgtU2yIHPDIAAMSy8i6gt8AAUxPQGKSHgAAxLj772/90x60.jpg" alt="周边配套图">
-                                </li>								 
-							                                <li  style="background-color:#fff" >
-                                    <p class="scroll_tit" ><a href="http://833405.fang.com/photo/list_900_1010833405.htm" title="户型图" target="_blank">户型图</a></p>
-                                    <em style="left:0px;"></em>
-                                    <img class="imgts" src="http://img6n.soufunimg.com/viewimage/house/2016_08/08/M04/09/0D/wKgEUFeoSKmIfm0aAAPeCoPFbmsAAOJIwNGZk0AA94i238/90x60.jpg" alt="户型图">
                                 </li>								 
 							                                
                             </ul>
@@ -2151,7 +2151,7 @@ msgRes['uinfo'] = Array();
 	msgRes['info']['discountBTime'] = '2016.11.07';
 	msgRes['info']['discountETime'] = '2016.12.31';
 	msgRes['info']['Discount'] = '';
-	msgRes['info']['signCount'] = '42';
+	msgRes['info']['signCount'] = '44';
 	msgRes['info']['SignRoomCount'] = '200';
 	msgRes['info']['returnMoneySum'] = '0';
 	msgRes['info']['RenGouMoney'] = '0';
@@ -2199,7 +2199,7 @@ msgRes['uinfo'] = Array();
 	msgRes['info']['discountBTimeform'] = '2016-11-07';
 	msgRes['info']['discountETimeform'] = '2016-12-31';
 	msgRes['info']['discountEndTime'] = '2016-12-31 23:59:59';
-	msgRes['info']['daojishi'] = '2051858';
+	msgRes['info']['daojishi'] = '1970719';
 	msgRes['info']['islogin'] = '';
 	msgRes['info']['PcTitle'] = '5号楼在售 主力户型92㎡&nbsp;96㎡两居';
 	msgRes['userinfo']['isonline'] = '1';
@@ -2221,7 +2221,7 @@ msgRes['uinfo']['bindMobile'] = bindMobile;
 	var resWidth = parseInt($("#qdds_res").css("width").replace("px", ""));
 	$("#qdds_form").css("top", "100px").css("margin-left", (0-formWidth)/2);
 	$("#qdds_res").css("top", "100px").css("margin-left", (0-resWidth)/2);
-	showQddsDaoJishi(2051858);
+	showQddsDaoJishi(1970719);
 	//initQdds0();
 	// 渠道电商js
 var qddsData4Newcode;
@@ -3890,7 +3890,7 @@ function huodongtotalUbCode(telephone,name,type_b)
                 <dd>
                 	<h2><a href="http://833405.fang.com/photo/d_house_180502678.htm" target="_blank" id="xfzxxqy_B07_01">2室2厅1厨1卫&nbsp;&nbsp;91.89平方米</a></h2>
                     <p>户型解读：<a href='javascript:void(0)' title='' style='color:#333;cursor:default'></a></p>
-                    <p class="stag mt15"><a href="http://newhouse.fang.com/house/s/b81-c4126-c7y/" target="_blank" id="xfzxxqy_B07_01" >全明格局</a><a href="http://newhouse.fang.com/house/s/c7y/" target="_blank" id="xfzxxqy_B07_01" class='no2'>明厨明卫</a><a href="http://newhouse.fang.com/house/s/b81-c4122-c7y/" target="_blank" id="xfzxxqy_B07_01" class='no3'>主卧朝南</a><a href="http://newhouse.fang.com/house/s/b81-c4117-c7y/" target="_blank" id="xfzxxqy_B07_01" class='no4'>双阳台</a></p>
+                    <p class="stag mt15"><a href="http://newhouse.fang.com/house/s/c7y/" target="_blank" id="xfzxxqy_B07_01" >明厨明卫</a><a href="http://newhouse.fang.com/house/s/b81-c4126-c7y/" target="_blank" id="xfzxxqy_B07_01" class='no2'>全明格局</a><a href="http://newhouse.fang.com/house/s/b81-c4122-c7y/" target="_blank" id="xfzxxqy_B07_01" class='no3'>主卧朝南</a><a href="http://newhouse.fang.com/house/s/b81-c4117-c7y/" target="_blank" id="xfzxxqy_B07_01" class='no4'>双阳台</a></p>
                     <div class="onxf"><span>163.47万元起</span><span id='btn_180502678'><a href="http://833405.fang.com/xuanfang/180502678/" target='_blank' class="btn01" id="xfzxxqy_B07_02">在线选房</a></span><em id='saling_180502678'></em></div>
                 </dd>
             </dl>
@@ -3899,7 +3899,7 @@ function huodongtotalUbCode(telephone,name,type_b)
                 <dd>
                 	<h2><a href="http://833405.fang.com/photo/d_house_180502479.htm" target="_blank" id="xfzxxqy_B07_01">2室2厅1厨1卫&nbsp;&nbsp;95.90平方米</a></h2>
                     <p>户型解读：<a href='javascript:void(0)' title='' style='color:#333;cursor:default'></a></p>
-                    <p class="stag mt15"><a href="http://newhouse.fang.com/house/s/b81-c4117-c7y/" target="_blank" id="xfzxxqy_B07_01" >双阳台</a><a href="http://newhouse.fang.com/house/s/c7y/" target="_blank" id="xfzxxqy_B07_01" class='no2'>明厨明卫</a><a href="http://newhouse.fang.com/house/s/b81-c4122-c7y/" target="_blank" id="xfzxxqy_B07_01" class='no3'>主卧朝南</a><a href="http://newhouse.fang.com/house/s/b81-c4126-c7y/" target="_blank" id="xfzxxqy_B07_01" class='no4'>全明格局</a></p>
+                    <p class="stag mt15"><a href="http://newhouse.fang.com/house/s/b81-c4122-c7y/" target="_blank" id="xfzxxqy_B07_01" >主卧朝南</a><a href="http://newhouse.fang.com/house/s/b81-c4126-c7y/" target="_blank" id="xfzxxqy_B07_01" class='no2'>全明格局</a><a href="http://newhouse.fang.com/house/s/c7y/" target="_blank" id="xfzxxqy_B07_01" class='no3'>明厨明卫</a><a href="http://newhouse.fang.com/house/s/b81-c4117-c7y/" target="_blank" id="xfzxxqy_B07_01" class='no4'>双阳台</a></p>
                     <div class="onxf"><span>168.89万元起</span><span id='btn_180502479'><a href="http://833405.fang.com/xuanfang/180502479/" target='_blank' class="btn01" id="xfzxxqy_B07_02">在线选房</a></span><em id='saling_180502479'></em></div>
                 </dd>
             </dl>
@@ -4477,7 +4477,7 @@ var pidsArr =["177382720"];
 var fenqiShow = false;
 var domain_this = "http://833405.fang.com/";
 
-//var dongdata ={"179712":{"dongInfo":[{"id":"1128981","newcode":"1010833405","holdpic_id":"179712","dong_id":"153484","add_time":"2016-11-18 13:17:27","dong_name":"3#","type":"hxpic","source":"","user_name":"","taonum":0}],"image_url":"http:\/\/img6n.soufunimg.com\/viewimage\/house\/2016_11\/17\/M07\/0D\/4B\/wKgE2VgtWKKIPTvyAAIcv7r49O8AAUxWgFsNpMAAhzX561\/68x68.jpg"},"177907":{"dongInfo":[{"id":"1061040","newcode":"1010833405","holdpic_id":"177907","dong_id":"0","add_time":"2016-10-21 15:06:35","dong_name":"","type":"hxpic","source":"","user_name":"","taonum":false}],"image_url":"http:\/\/img6n.soufunimg.com\/viewimage\/house\/2016_08\/08\/M01\/09\/0D\/wKgEUFeoSFeIXiaYAAOKH6EwdEgAAOJKQBYWwwAA4o3893\/68x68.jpg"},"179713":{"dongInfo":[{"id":"1128998","newcode":"1010833405","holdpic_id":"179713","dong_id":"153484","add_time":"2016-11-18 13:19:38","dong_name":"3#","type":"hxpic","source":"","user_name":"","taonum":"0"}],"image_url":"http:\/\/img6n.soufunimg.com\/viewimage\/house\/2016_11\/17\/M06\/0D\/4B\/wKgEUFgtWKKIcj4wAAI1Nbg8hGcAAUxXQIv0koAAjVN505\/68x68.jpg"}};
+//var dongdata ={"179712":{"dongInfo":[{"id":"1128981","newcode":"1010833405","holdpic_id":"179712","dong_id":"153484","add_time":"2016-11-18 13:17:27","dong_name":"3#","type":"hxpic","source":"","user_name":"","taonum":0}],"image_url":"http:\/\/img6n.soufunimg.com\/viewimage\/house\/2016_11\/17\/M07\/0D\/4B\/wKgE2VgtWKKIPTvyAAIcv7r49O8AAUxWgFsNpMAAhzX561\/68x68.jpg"},"177907":{"dongInfo":[{"id":"1061040","newcode":"1010833405","holdpic_id":"177907","dong_id":"0","add_time":"2016-10-21 15:06:35","dong_name":"","type":"hxpic","source":"","user_name":"","taonum":false}],"image_url":"http:\/\/img6n.soufunimg.com\/viewimage\/house\/2016_08\/08\/M01\/09\/0D\/wKgEUFeoSFeIXiaYAAOKH6EwdEgAAOJKQBYWwwAA4o3893\/68x68.jpg"},"177908":{"dongInfo":[{"id":"1061041","newcode":"1010833405","holdpic_id":"177908","dong_id":"0","add_time":"2016-10-21 15:06:52","dong_name":"","type":"hxpic","source":"","user_name":"","taonum":false}],"image_url":"http:\/\/img6n.soufunimg.com\/viewimage\/house\/2016_08\/08\/M04\/09\/0D\/wKgEUFeoSHqICpWeAAQ1dq9SfAwAAOJIwMQwFMABDWO084\/68x68.jpg"},"177909":{"dongInfo":[{"id":"1061039","newcode":"1010833405","holdpic_id":"177909","dong_id":"0","add_time":"2016-10-21 15:06:22","dong_name":"","type":"hxpic","source":"","user_name":"","taonum":false}],"image_url":"http:\/\/img6n.soufunimg.com\/viewimage\/house\/2016_08\/08\/M04\/09\/0D\/wKgEUFeoSKmIfm0aAAPeCoPFbmsAAOJIwNGZk0AA94i238\/68x68.jpg"},"177918":{"dongInfo":[{"id":"1061046","newcode":"1010833405","holdpic_id":"177918","dong_id":"0","add_time":"2016-10-21 15:08:08","dong_name":"","type":"hxpic","source":"","user_name":"","taonum":false}],"image_url":"http:\/\/img6n.soufunimg.com\/viewimage\/house\/2016_08\/09\/M02\/09\/10\/wKgEUVepN3eILK20AANxDiGc3uIAAOKaQB8yYQAA3Em894\/68x68.jpg"},"177919":{"dongInfo":[{"id":"1061045","newcode":"1010833405","holdpic_id":"177919","dong_id":"0","add_time":"2016-10-21 15:07:54","dong_name":"","type":"hxpic","source":"","user_name":"","taonum":false}],"image_url":"http:\/\/img6n.soufunimg.com\/viewimage\/house\/2016_08\/09\/M09\/09\/10\/wKgEUVepN5uIZ86uAAQ7WoRIXEEAAOKYwOxaGgABDty537\/68x68.jpg"},"177920":{"dongInfo":[{"id":"1061043","newcode":"1010833405","holdpic_id":"177920","dong_id":"0","add_time":"2016-10-21 15:07:37","dong_name":"","type":"hxpic","source":"","user_name":"","taonum":false}],"image_url":"http:\/\/img6n.soufunimg.com\/viewimage\/house\/2016_08\/09\/M01\/09\/10\/wKgEUFepN8OIYtrbAAPwJP88WPUAAOKZwIUiuUAA_A8045\/68x68.jpg"},"177921":{"dongInfo":[{"id":"1061042","newcode":"1010833405","holdpic_id":"177921","dong_id":"0","add_time":"2016-10-21 15:07:06","dong_name":"","type":"hxpic","source":"","user_name":"","taonum":false}],"image_url":"http:\/\/img6n.soufunimg.com\/viewimage\/house\/2016_08\/09\/M09\/09\/10\/wKgE2VepN_eIK1QdAAMWrXuOBzwAAOKZADKmJEAAxbF344\/68x68.jpg"},"179290":{"dongInfo":[{"id":"1061203","newcode":"1010833405","holdpic_id":"179290","dong_id":"155209","add_time":"2016-10-21 16:05:40","dong_name":"5#","type":"hxpic","source":"","user_name":"","taonum":6}],"image_url":"http:\/\/img6n.soufunimg.com\/viewimage\/house\/2016_10\/21\/M06\/0C\/1E\/wKgE2VgJzCOIEyeCAAJsVzcoBN8AAS78gFiA2EAAmxv460\/68x68.jpg"},"179291":{"dongInfo":[{"id":"1061208","newcode":"1010833405","holdpic_id":"179291","dong_id":"155209","add_time":"2016-10-21 16:07:28","dong_name":"5#","type":"hxpic","source":"","user_name":"","taonum":"6"}],"image_url":"http:\/\/img6n.soufunimg.com\/viewimage\/house\/2016_10\/21\/M04\/0C\/1E\/wKgEUFgJzLaITpM3AAKY376Y1RkAAS78wJI5WYAApj3223\/68x68.jpg"},"179713":{"dongInfo":[{"id":"1128998","newcode":"1010833405","holdpic_id":"179713","dong_id":"153484","add_time":"2016-11-18 13:19:38","dong_name":"3#","type":"hxpic","source":"","user_name":"","taonum":"0"}],"image_url":"http:\/\/img6n.soufunimg.com\/viewimage\/house\/2016_11\/17\/M06\/0D\/4B\/wKgEUFgtWKKIcj4wAAI1Nbg8hGcAAUxXQIv0koAAjVN505\/68x68.jpg"}};
 //var pre_url = "http://833405.fang.com";
 //var dongNoArr = new Array;
 ////dongNoArr[0] = 153484;
@@ -4624,7 +4624,7 @@ var Feature = (function() {
 						<span>价格：4&nbsp;&nbsp;地段：5&nbsp;&nbsp;交通：4&nbsp;&nbsp;配套：4&nbsp;&nbsp;环境：4</span>
 						</a></div>						
 						<div class="texta mt10"><a href="http://833405.fang.com/dianping/" target='_blank'>项目很不错，交通方便，距离北京大兴很近，距离北京天安门也只有50公里，周边配套很成熟，距离三中附近只有几分钟.价格对比其他项目 也还是比较便宜的。</a></div>
-						<div class="from mt5"><span><a href="http://833405.fang.com/dianping/" target='_blank' class="ding">（0）<a href="http://833405.fang.com/dianping/" target='_blank'>回复（0）</a></a></span>三毛_qq1030&nbsp;2016-12-05 14:44:11&nbsp;来自 PC</div>
+						<div class="from mt5"><span><a href="http://833405.fang.com/dianping/" target='_blank' class="ding">（1）<a href="http://833405.fang.com/dianping/" target='_blank'>回复（0）</a></a></span>三毛_qq1030&nbsp;2016-12-05 14:44:11&nbsp;来自 PC</div>
 					</dd>
 				
 				</dl>
@@ -4660,7 +4660,7 @@ var Feature = (function() {
 						<span>价格：5&nbsp;&nbsp;地段：5&nbsp;&nbsp;交通：5&nbsp;&nbsp;配套：5&nbsp;&nbsp;环境：5</span>
 						</a></div>						
 						<div class="texta mt10"><a href="http://833405.fang.com/dianping/" target='_blank'>项目很不错，交通方便，距离北京大兴很近，距离北京天安门也只有50公里，周边配套很成熟，距离三中附近只有几分钟，所以孩子上学不是问题，户型方正合理居住舒适，总价低，适合居住或投资，想买房的亲们抓紧时间关注，看房！</a></div>
-						<div class="from mt5"><span><a href="http://833405.fang.com/dianping/" target='_blank' class="ding">（1）<a href="http://833405.fang.com/dianping/" target='_blank'>回复（0）</a></a></span>张向云搜房网&nbsp;2016-11-10 14:43:10&nbsp;来自 iPhone客户端</div>
+						<div class="from mt5"><span><a href="http://833405.fang.com/dianping/" target='_blank' class="ding">（2）<a href="http://833405.fang.com/dianping/" target='_blank'>回复（0）</a></a></span>张向云搜房网&nbsp;2016-11-10 14:43:10&nbsp;来自 iPhone客户端</div>
 					</dd>
 				
 				</dl>
@@ -4704,8 +4704,8 @@ function nofind()
 												<li class='h35'><span><a href="http://newhouse.fang.com/house/s/dongcheng/" title='东城' target='_blank'>东城</a></span><a href="http://hualongmeisheng.fang.com/" target='_blank' title='华龙美晟'><i class="no2">5</i>华龙美晟</a></li>
 												<li class='h35'><span><a href="http://newhouse.fang.com/house/s/xianghe2/" title='香河' target='_blank'>香河</a></span><a href="http://zhuguangyijing.fang.com/" target='_blank' title='珠光逸景'><i class="no2">6</i>珠光逸景</a></li>
 												<li class='h35'><span><a href="http://newhouse.fang.com/house/s/changping/" title='昌平' target='_blank'>昌平</a></span><a href="http://beihuafuwk.fang.com/" target='_blank' title='TBD万科天地(住总万科·北华府)'><i class="no2">7</i>TBD万科天地(住总</a></li>
-												<li class='h35'><span><a href="http://newhouse.fang.com/house/s/fangshan/" title='房山' target='_blank'>房山</a></span><a href="http://tianyangguigu.fang.com/" target='_blank' title='房山超级蜂巢'><i class="no2">8</i>房山超级蜂巢</a></li>
-												<li class='h35'><span><a href="http://newhouse.fang.com/house/s/shijingshan/" title='石景山' target='_blank'>石景山</a></span><a href="http://jinzuanjiezh.fang.com/" target='_blank' title='中海金钻街'><i class="no2">9</i>中海金钻街</a></li>
+												<li class='h35'><span><a href="http://newhouse.fang.com/house/s/daxing/" title='大兴' target='_blank'>大兴</a></span><a href="http://weilaichenghd010.fang.com/" target='_blank' title='恒大未来城'><i class="no2">8</i>恒大未来城</a></li>
+												<li class='h35'><span><a href="http://newhouse.fang.com/house/s/fangshan/" title='房山' target='_blank'>房山</a></span><a href="http://tianyangguigu.fang.com/" target='_blank' title='房山超级蜂巢'><i class="no2">9</i>房山超级蜂巢</a></li>
 																																																												    </ul>
     
 </div>
@@ -4891,14 +4891,14 @@ function nofind()
 	</div>
 	<ul class="ul_lp" id="kprl_month_detail">
 					<li  class="h35 nobt"><span><a target="_blank"  rel="nofollow" href="http://newhouse.fang.com/house/s/daxing/">大兴</a></span><a href="http://tianlang.fang.com/" target="_blank"><i >1</i>首开龙湖天琅</a></li>	
-						<li class='h35'><span><a target="_blank"  rel="nofollow" href="http://newhouse.fang.com/house/s/chaoyang/">朝阳</a></span><a href="http://fanhaiguoji010.fang.com/" target="_blank"><i >2</i>泛海国际</a></li>	
-						<li class='h35'><span><a target="_blank"  rel="nofollow" href="http://newhouse.fang.com/house/s/yanqing/">延庆</a></span><a href="http://yuanxiangxiaozhenbdl.fang.com/" target="_blank"><i >3</i>八达岭原乡小镇</a></li>	
-						<li class='h35'><span><a target="_blank"  rel="nofollow" href="http://newhouse.fang.com/house/s/langfang2/">廊坊</a></span><a href="http://langfangkongquecheng.fang.com/" target="_blank"><i class = "no2">4</i>廊坊孔雀城</a></li>	
-						<li class='h35'><span><a target="_blank"  rel="nofollow" href="http://newhouse.fang.com/house/s/fangshan/">房山</a></span><a href="http://yuanxianghuizgtj.fang.com/" target="_blank"><i class = "no2">5</i>中国铁建·原香汇</a></li>	
-						<li class='h35'><span><a target="_blank"  rel="nofollow" href="http://newhouse.fang.com/house/s/xianghe2/">香河</a></span><a href="http://guobao21chengld.fang.com/" target="_blank"><i class = "no2">6</i>绿地国宝21城</a></li>	
-						<li class='h35'><span><a target="_blank"  rel="nofollow" href="http://newhouse.fang.com/house/s/chaoyang/">朝阳</a></span><a href="http://jinglinyuanzhu.fang.com/" target="_blank"><i class = "no2">7</i>景粼原著</a></li>	
-						<li class='h35'><span><a target="_blank"  rel="nofollow" href="http://newhouse.fang.com/house/s/fangshan/">房山</a></span><a href="http://shijiechengfengdanjunhj.fang.com/" target="_blank"><i class = "no2">8</i>汇金·世界城枫丹</a></li>	
-						<li class='h35'><span><a target="_blank"  rel="nofollow" href="http://newhouse.fang.com/house/s/chaoyang/">朝阳</a></span><a href="http://ziyushanzhuang010.fang.com/" target="_blank"><i class = "no2">9</i>紫玉山庄</a></li>	
+						<li class='h35'><span><a target="_blank"  rel="nofollow" href="http://newhouse.fang.com/house/s/tongzhou/">通州</a></span><a href="http://sijiyuechengzj.fang.com/" target="_blank"><i >2</i>珠江四季悦城</a></li>	
+						<li class='h35'><span><a target="_blank"  rel="nofollow" href="http://newhouse.fang.com/house/s/chaoyang/">朝阳</a></span><a href="http://fanhaiguoji010.fang.com/" target="_blank"><i >3</i>泛海国际</a></li>	
+						<li class='h35'><span><a target="_blank"  rel="nofollow" href="http://newhouse.fang.com/house/s/yanqing/">延庆</a></span><a href="http://yuanxiangxiaozhenbdl.fang.com/" target="_blank"><i class = "no2">4</i>八达岭原乡小镇</a></li>	
+						<li class='h35'><span><a target="_blank"  rel="nofollow" href="http://newhouse.fang.com/house/s/langfang2/">廊坊</a></span><a href="http://langfangkongquecheng.fang.com/" target="_blank"><i class = "no2">5</i>廊坊孔雀城</a></li>	
+						<li class='h35'><span><a target="_blank"  rel="nofollow" href="http://newhouse.fang.com/house/s/chaoyang/">朝阳</a></span><a href="http://jinglinyuanzhu.fang.com/" target="_blank"><i class = "no2">6</i>景粼原著</a></li>	
+						<li class='h35'><span><a target="_blank"  rel="nofollow" href="http://newhouse.fang.com/house/s/fangshan/">房山</a></span><a href="http://yuanxianghuizgtj.fang.com/" target="_blank"><i class = "no2">7</i>中国铁建·原香汇</a></li>	
+						<li class='h35'><span><a target="_blank"  rel="nofollow" href="http://newhouse.fang.com/house/s/xianghe2/">香河</a></span><a href="http://guobao21chengld.fang.com/" target="_blank"><i class = "no2">8</i>绿地国宝21城</a></li>	
+						<li class='h35'><span><a target="_blank"  rel="nofollow" href="http://newhouse.fang.com/house/s/fangshan/">房山</a></span><a href="http://shijiechengfengdanjunhj.fang.com/" target="_blank"><i class = "no2">9</i>汇金·世界城枫丹</a></li>	
 			</ul>   
 </div>	
 <script language="javascript">
